@@ -13,6 +13,9 @@ COPY addons ${ODOO_DIR}/odoo-addons
 RUN mv ${ODOO_DIR}/odoo/addons/* ${ODOO_DIR}/odoo-addons/ && \
     mv -f ${ODOO_DIR}/odoo-addons/* ${ODOO_DIR}/odoo/addons
 
+# Freeze pip and wheel
+RUN pip3 install pip==9.0.1 wheel==0.30.0
+
 # Install test requirements
 COPY .docker_files/requirements.txt /
 RUN pip3 install -r /requirements.txt && rm /requirements.txt
