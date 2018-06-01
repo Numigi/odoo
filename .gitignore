@@ -8,6 +8,7 @@ _build/
 !.docker_files
 !.dockerignore
 !.circleci
+!.coveragerc
 # compiled python files
 *.py[co]
 __pycache__/
