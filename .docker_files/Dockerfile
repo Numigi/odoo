@@ -24,9 +24,6 @@ RUN pip3 install -r /requirements.txt && rm /requirements.txt
 COPY .docker_files/run_pytest.sh /usr/local/bin/
 RUN chmod +x /usr/local/bin/run_pytest.sh
 
-# Configuration of the coverage report
-COPY .docker_files/.coveragerc .
-
 # Odoo configuration files
 COPY .docker_files/main /mnt/extra-addons/main
 COPY .docker_files/odoo.conf .docker_files/odoo_specific.conf /etc/odoo/
