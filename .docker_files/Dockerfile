@@ -16,20 +16,9 @@ RUN mv ${ODOO_DIR}/odoo/addons/* ${ODOO_DIR}/odoo-addons/ && \
 # Freeze pip and wheel
 RUN pip3 install pip==9.0.1 wheel==0.30.0
 
-# Install test requirements
-COPY .docker_files/requirements.txt /
-RUN pip3 install -r /requirements.txt && rm /requirements.txt
-
-# File to run the tests with pytest-odoo
-COPY .docker_files/run_pytest.sh /usr/local/bin/
-RUN chmod +x /usr/local/bin/run_pytest.sh
-
 # Odoo configuration files
 COPY .docker_files/main /mnt/extra-addons/main
 COPY .docker_files/odoo.conf .docker_files/odoo_specific.conf /etc/odoo/
-
-# required for pytest-odoo
-ENV OPENERP_SERVER "${ODOO_RC}"
 
 COPY .docker_files/extended_entrypoint.sh /
 RUN chmod +x /extended_entrypoint.sh
