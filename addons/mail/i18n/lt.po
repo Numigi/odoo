@@ -121,6 +121,92 @@ msgid ""
 "</p>\n"
 "</div>"
 msgstr ""
+"\n"
+"% set company = ctx.get('company', user.company_id)\n"
+"<div>\n"
+"% if ctx.get('has_button_access'):\n"
+"<div itemscope itemtype=\"http://schema.org/EmailMessage\">\n"
+"    <div itemprop=\"potentialAction\" itemscope itemtype=\"http://schema.org/ViewAction\">\n"
+"        <link itemprop=\"target\" href=\"${ctx['button_access']['url']}\"/>\n"
+"        <link itemprop=\"url\" href=\"${ctx['button_access']['url']}\"/>\n"
+"        <meta itemprop=\"name\" content=\"View ${ctx['model_name']}\"/>\n"
+"    </div>\n"
+"</div>\n"
+"% endif\n"
+"% if not ctx['is_discussion'] or not len(ctx['actions']) == 0 or ctx.get('has_button_access'):\n"
+"<div summary=\"o_mail_notification\" style=\"padding: 0px; width:600px;\">\n"
+"<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" style=\"width: 600px; margin-top: 5px;\">\n"
+"<tbody><tr>\n"
+"    <td valign=\"center\">\n"
+"        % if ctx.get('has_button_access'):\n"
+"        <a href=\"${ctx['button_access']['url']}\" style=\"padding: 8px 12px; font-size: 12px; color: #FFFFFF; text-decoration: none !important; font-weight: 400; background-color: #875A7B; border: 0px solid #875A7B; border-radius:3px\">${ctx['button_access']['title']}</a>\n"
+"        % endif\n"
+"\n"
+"        % if ctx.get('has_button_follow'):\n"
+"        % if ctx.get('has_button_access'):\n"
+"           |\n"
+"        % endif\n"
+"        <a href=\"${ctx['button_follow']['url']}\" style=\"color: #875A7B; text-decoration: none !important;\">${ctx['button_follow']['title']}</a>\n"
+"        % elif ctx.get('has_button_unfollow'):\n"
+"        % if ctx.get('has_button_access'):\n"
+"           |\n"
+"        % endif\n"
+"        <a href=\"${ctx['button_unfollow']['url']}\" style=\"color: #875A7B; text-decoration: none !important;\">${ctx['button_unfollow']['title']}</a>\n"
+"        % endif\n"
+"\n"
+"        % if ctx.get('actions'):\n"
+"        % for action in ctx['actions']:\n"
+"        |\n"
+"        <a href=\"${action['url']}\" style=\"color: #875A7B; text-decoration:none !important;\">${action['title']}</a>\n"
+"        % endfor\n"
+"        % endif\n"
+"    </td>\n"
+"    <td valign=\"center\" align=\"right\">\n"
+"        <img src=\"/logo.png?company=${company.id}\" style=\"padding: 0px; margin: 0px; height: auto; max-width: 80px; max-height: 40px;\" alt=\"${company.name}\">\n"
+"    </td>\n"
+"</tr>\n"
+"<tr>\n"
+"    <td colspan=\"2\" style=\"text-align:center;\">\n"
+"        <hr width=\"100%\"\n"
+"            style=\"background-color:rgb(204,204,204);border:medium none;clear:both;display:block;font-size:0px;min-height:1px;line-height:0; margin:10px 0;\">\n"
+"        % if ctx.get('subtype') and ctx.get('subtype').internal:\n"
+"        <p style=\"background-color: #f2dede; padding: 5px; margin-bottom: 16px;\">\n"
+"            <strong>Vidinė komunikacija</strong>: Atsakymas paskelbs vidinę pastabą. Sekėjai negaus jokio pranešimo paštu.\n"
+"        </p>\n"
+"        % endif\n"
+"    </td>\n"
+"</tr>\n"
+"</tbody></table>\n"
+"</div>\n"
+"% endif\n"
+"<div>\n"
+"    ${object.body | safe}\n"
+"</div>\n"
+"% if ctx.get('tracking'):\n"
+"    <ul>\n"
+"    % for tracking in ctx['tracking']\n"
+"        <li>${tracking[0]} : ${tracking[1]} -&gt; ${tracking[2]}</li>\n"
+"    % endfor\n"
+"    </ul>\n"
+"% endif\n"
+"\n"
+"% if ctx.get('signature'):\n"
+"    ${ctx['signature'] | safe}\n"
+"% endif\n"
+"<br/>\n"
+"<p style=\"color: #555555;\">\n"
+"    Išsiųsta\n"
+"    % if ctx.get('website_url'):\n"
+"    <a href=\"${ctx['website_url']}\" style=\"text-decoration:none; color: #875A7B;\">\n"
+"    % endif\n"
+"    ${ctx.get('company_name')}\n"
+"    % if ctx.get('website_url'):\n"
+"    </a>\n"
+"    % endif\n"
+"    naudojant\n"
+"    <a target=\"_blank\" href=\"https://www.odoo.com\" style=\"text-decoration:none; color: #875A7B;\">\"Odoo\"</a>.\n"
+"</p>\n"
+"</div>"
 
 #. module: mail
 #: code:addons/mail/models/mail_channel.py:674
@@ -804,6 +890,8 @@ msgid ""
 "Attachments are linked to a document through model / res_id and to the "
 "message through this field."
 msgstr ""
+"Prisegtukai yra susieti su dokumentu per model / res_id ir su žinute per šį "
+"lauką."
 
 #. module: mail
 #: selection:mail.alias,alias_contact:0
@@ -1171,7 +1259,7 @@ msgstr "Turinys"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner_fold_state
 msgid "Conversation Fold State"
-msgstr ""
+msgstr "Pokalbio sutraukimo būsena"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_channel_partner_is_minimized
@@ -1381,6 +1469,9 @@ msgid ""
 "- partner (using id on a partner or the partner_id field) OR\n"
 "- email (using email_from or email field)"
 msgstr ""
+"Numatytieji įrašo gavėjai:\n"
+"- partneris (naudojant iD partner ar partner_id lauką) ARBA\n"
+"- el. paštas (naudojant email_from aba email lauką)"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_auto_delete
@@ -1568,7 +1659,7 @@ msgstr "Terminas - %d dienų"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.email_template_form
 msgid "Dynamic Placeholder Generator"
-msgstr ""
+msgstr "Dinaminio vietos rezervavimo ženklo generatorius"
 
 #. module: mail
 #. openerp-web
@@ -1803,7 +1894,7 @@ msgstr "Laukas"
 #: code:addons/mail/models/ir_model.py:24
 #, python-format
 msgid "Field \"Mail Thread\" cannot be changed to \"False\"."
-msgstr ""
+msgstr "Laukas \"Laiškų gija\" negali būti pakeistas į neigiamą."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_tracking_value_field_desc
@@ -1837,7 +1928,7 @@ msgstr "Laukai"
 msgid ""
 "Final placeholder expression, to be copy-pasted in the desired template "
 "field."
-msgstr ""
+msgstr "Galutinė vietos ženklo išraiška, kopijuojama į norimą šablono lauką."
 
 #. module: mail
 #: selection:mail.channel.partner,fold_state:0
@@ -2092,7 +2183,7 @@ msgstr "Nuo"
 #: code:addons/mail/static/src/xml/systray.xml:77
 #, python-format
 msgid "Future"
-msgstr "Ateitis"
+msgstr "Būsimi"
 
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.mail_activity_view_search
@@ -2103,7 +2194,7 @@ msgstr "Ateities veiklos"
 #. module: mail
 #: model:ir.ui.view,arch_db:mail.view_message_form
 msgid "Gateway"
-msgstr "Prenumeratoriaus nustatymuose paslėpti potipį"
+msgstr "Sietuvas"
 
 #. module: mail
 #: code:addons/mail/models/res_users.py:54
@@ -2220,7 +2311,7 @@ msgstr "Prenumeruojamo išteklio ID"
 #: code:addons/mail/static/src/xml/client_action.xml:203
 #, python-format
 msgid "Idle"
-msgstr ""
+msgstr "Pasyvus"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_account_analytic_account_message_unread
@@ -2397,6 +2488,9 @@ msgid ""
 "If set, the queue manager will send the email after the date. If not set, "
 "the email will be send as soon as possible. Jinja2 placeholders may be used."
 msgstr ""
+"Jei nustatyta, eilės valdiklis nusiųs laišką po datos. Jei nenustatyta, "
+"laiškas bus išsiunčiamas kaip įmanoma greičiau. Jinja2 vietos ženklai gali "
+"būti naudojami."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_res_config_settings_alias_domain
@@ -2404,6 +2498,8 @@ msgid ""
 "If you have setup a catch-all email domain redirected to the Odoo server, "
 "enter the domain name here."
 msgstr ""
+"Jei nustatėte visų laiškų gavimo domeną, nukreiptą į \"Odoo\" serverį, "
+"įveskite to domeno pavadinimą čia."
 
 #. module: mail
 #: code:addons/mail/models/mail_alias.py:141
@@ -2447,6 +2543,8 @@ msgid ""
 "Invalid expression, it must be a literal python dictionary definition e.g. "
 "\"{'field': 'value'}\""
 msgstr ""
+"Negalima išraiška, tai turi būti raidinė Python žodyno reikšmė, pvz.  "
+"\"{'field': 'value'}\""
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:1792
@@ -2455,12 +2553,14 @@ msgid ""
 "Invalid record set: should be called as model (without records) or on "
 "single-record recordset"
 msgstr ""
+"Nustatytas negalimas įrašas: turėtų būti pavadintas kaip modelis (be įrašų) "
+"arba vieno įrašo rinkinyje"
 
 #. module: mail
 #: code:addons/mail/controllers/main.py:41
 #, python-format
 msgid "Invalid token in route %s"
-msgstr ""
+msgstr "Neteisingas prieigos raktas maršrute %s"
 
 #. module: mail
 #. openerp-web
@@ -3221,7 +3321,7 @@ msgstr "Prenumeruojamų išteklių modelis"
 msgid ""
 "Model the subtype applies to. If False, this subtype applies to all models."
 msgstr ""
-"Modelis, kuriam taikomas šis potipis. Jei False, šis potipis taikomas "
+"Modelis, kuriam taikomas šis potipis. Jei neigiamas, šis potipis taikomas "
 "visiems modeliams."
 
 #. module: mail
@@ -3271,6 +3371,8 @@ msgid ""
 "Name to use for the generated report file (may contain placeholders)\n"
 "The extension can be omitted and will then come from the report type."
 msgstr ""
+"Pavadinimas, naudojamas sugeneruotam ataskaitos failui (gali turėti vietos ženklų)\n"
+"Plėtinys gali būti neįtrauktas ir tokiu atveju ateis iš ataskaitos tipo."
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_compose_message_needaction
@@ -3925,6 +4027,10 @@ msgid ""
 "a placeholder expression that provides the appropriate language, e.g. "
 "${object.partner_id.lang}."
 msgstr ""
+"Papildoma vertimo kalba (ISO kodas), pasirenkama išsiunčiant laišką. Jei "
+"nenustatyta, bus naudojama angliška versija. Įprastai tai turėtų būti vietos"
+" ženklo reikšmė, kuri suteikia tinkamą kalbą, pvz., "
+"${object.partner_id.lang}."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_null_value
@@ -4034,6 +4140,9 @@ msgid ""
 " necessarily the model given by alias_model_id (example: project "
 "(parent_model) and task (model))"
 msgstr ""
+"Tėvinis modelis, turintis pseudonimą. Modelis turintis pseudonimo nurodą "
+"nebūtinai yra modelis, suteiktas alias_model_id (pvz.: projektas "
+"(parent_model) ir užduotis (model))"
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_mail_message_subtype_parent_id
@@ -4306,7 +4415,7 @@ msgstr "Įrašo temos ID"
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_mail_references
 msgid "References"
-msgstr "Susiejimai"
+msgstr "Nuorodos"
 
 #. module: mail
 #: model:ir.model.fields,field_description:mail.field_mail_activity_res_id
@@ -4517,6 +4626,8 @@ msgid ""
 "Select target field from the related document model.\n"
 "If it is a relationship field you will be able to select a target field at the destination of the relationship."
 msgstr ""
+"Pasirinkite tikslinį lauką iš susijusio dokumento modelio.\n"
+"Jei tai yra santykio laukas, galėsite pasirinkti tikslinį lauką santykio tiksle."
 
 #. module: mail
 #: selection:mail.channel,public:0
@@ -4574,6 +4685,9 @@ msgid ""
 "Sender address (placeholders may be used here). If not set, the default "
 "value will be the author's email alias if configured, or email address."
 msgstr ""
+"Siuntėjo adresas (čia gali būt naudojami vietos ženklai). Jei nenustatyta, "
+"numatytoji reikšmė bus autoriaus el. pašto pseudonimas (jei sukonfigūruotas)"
+" arba el. pašto adresas."
 
 #. module: mail
 #. openerp-web
@@ -4789,7 +4903,7 @@ msgstr "Polaukis"
 #: model:ir.model.fields,field_description:mail.field_email_template_preview_sub_object
 #: model:ir.model.fields,field_description:mail.field_mail_template_sub_object
 msgid "Sub-model"
-msgstr "Sub-modelis"
+msgstr "Submodelis"
 
 #. module: mail
 #. openerp-web
@@ -5422,6 +5536,9 @@ msgid ""
 "When a relationship field is selected as first field, this field lets you "
 "select the target field within the destination document model (sub-model)."
 msgstr ""
+"Kai santykio laukas yra  pasirinktas kaip pirmasis laukas, šis laukas "
+"leidžia jums pasirinkti tikslinį lauką tikslo dokumento modelyje ar "
+"submodelyje."
 
 #. module: mail
 #: model:ir.model.fields,help:mail.field_email_template_preview_sub_object
@@ -5746,7 +5863,7 @@ msgstr "dabar"
 #: model:ir.ui.view,arch_db:mail.view_mail_form
 #, python-format
 msgid "on"
-msgstr "įjungta"
+msgstr "esantis"
 
 #. module: mail
 #: code:addons/mail/models/mail_thread.py:913

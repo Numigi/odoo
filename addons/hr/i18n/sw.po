@@ -739,13 +739,6 @@ msgid "Master or engineer in computer science"
 msgstr ""
 
 #. module: hr
-#: model:hr.job,website_description:hr.job_cto
-#: model:hr.job,website_description:hr.job_developer
-#: model:hr.job,website_description:hr.job_trainee
-msgid "Master or engineer in computer science"
-msgstr ""
-
-#. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_image_medium
 msgid "Medium-sized photo"
 msgstr ""
