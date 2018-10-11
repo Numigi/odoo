@@ -9995,6 +9995,12 @@ msgid "The lock date for advisors is irreversible and can't be removed."
 msgstr ""
 
 #. module: account
+#: code:addons/account/models/company.py:94
+#, python-format
+msgid "The lock date for advisors is irreversible and can't be removed."
+msgstr ""
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_move_line_move_id
 msgid "The move of this entry line."
 msgstr "Miscarea acestei linii a inregistrarii."

@@ -649,4 +649,27 @@ class configmanager(object):
                 self.options['admin_passwd'] = updated_hash
             return True
 
-config = configmanager()
+
+class ConfigManagerWithSpecificConfigFile(configmanager):
+
+    def load(self):
+        """Load the config from a generic and a specific rc file.
+
+        The generic rc file is the standard Odoo rc file.
+        The specific rc file is given through the environment variable SPECIFIC_ODOO_RC.
+
+        The config is first loaded with the generic file, through the call to super.
+
+        If a specific rc file is given, the super method is called a second time
+        but with the rcfile variable pointing to the specific file.
+        """
+        super().load()
+        generic_rcfile = self.rcfile
+        specific_rcfile = os.environ.get('SPECIFIC_ODOO_RC')
+
+        if specific_rcfile:
+            self.rcfile = specific_rcfile
+            super().load()
+            self.rcfile = generic_rcfile
+
+config = ConfigManagerWithSpecificConfigFile()

@@ -21674,6 +21674,11 @@ msgid "TaxCloud and Delivery - Ecommerce"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_website_sale_taxcloud_delivery
+msgid "TaxCloud and Delivery - Ecommerce"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,summary:base.module_account_taxcloud
 msgid "TaxCloud make it easy for business to comply with sales tax law"
 msgstr "TaxCloud 使企業輕鬆遵守營業稅法"

@@ -14,6 +14,7 @@
 # Rolandas <info@paninfo.lt>, 2017
 # Silvija Butko <silvija.butko@gmail.com>, 2017
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2017
+# Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2017
 # Eimantas <eimantas@focusate.eu>, 2018
 msgid ""

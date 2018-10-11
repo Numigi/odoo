@@ -9,6 +9,7 @@
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2017
 # Rolandas <info@paninfo.lt>, 2017
 # Monika Raciunaite <monika.raciunaite@gmail.com>, 2017
+# Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 # Paulius Sladkevičius <paulius@versada.eu>, 2017
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2017
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2017

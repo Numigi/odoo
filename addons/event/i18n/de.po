@@ -930,8 +930,8 @@ msgid ""
 "Are you sure you want to cancel this event? All the linked attendees will be"
 " cancelled as well."
 msgstr ""
-"Sind Sie sicher, dass Sie diese Veranstaltung absagen wollen? Alle "
-"verknüpften Teilnehmer werden ebenfalls gelöscht."
+"Sind Sie sicher, dass Sie diesen Anlass absagen wollen? Alle verknüpften "
+"Teilnehmer werden ebenfalls gelöscht."
 
 #. module: event
 #: model:event.event,description:event.event_0

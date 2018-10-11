@@ -18,6 +18,7 @@
 # ERDENESAIKHAN BATZORIG <esab.orgil@gmail.com>, 2018
 # Puujee S <puujeemtz@gmail.com>, 2018
 # Chinzorita <chinzorig.o@asterisk-tech.mn>, 2018
+# Jacara <baskhuujacara@gmail.com>, 2018
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"

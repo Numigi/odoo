@@ -8,6 +8,7 @@
 # Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2017
 # Arminas Grigonis <arminas@versada.lt>, 2017
+# Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 # Silvija Butko <silvija.butko@gmail.com>, 2017
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2017
 # Naglis Jonaitis, 2017

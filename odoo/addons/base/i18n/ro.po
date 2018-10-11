@@ -5719,6 +5719,11 @@ msgid "Access to Private Addresses"
 msgstr ""
 
 #. module: base
+#: model:res.groups,name:base.group_private_addresses
+msgid "Access to Private Addresses"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_account_analytic_default
 msgid "Account Analytic Defaults"
 msgstr "Conturi Analitice Implicite"

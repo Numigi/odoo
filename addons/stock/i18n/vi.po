@@ -60,7 +60,7 @@ msgstr ""
 #: code:addons/stock/models/stock_move.py:308
 #, python-format
 msgid " (%s reserved)"
-msgstr "(%s đã đặt trước)"
+msgstr " (%s được xí)"
 
 #. module: stock
 #: code:addons/stock/models/stock_move.py:311
@@ -2051,12 +2051,12 @@ msgstr ""
 #: model:ir.ui.view,arch_db:stock.stock_location_path_form
 #: model:ir.ui.view,arch_db:stock.view_procurement_rule_form
 msgid "Delay"
-msgstr "Chậm trễ"
+msgstr "Độ trễ"
 
 #. module: stock
 #: model:ir.model.fields,field_description:stock.field_stock_location_path_delay
 msgid "Delay (days)"
-msgstr "Chậm trễ (ngày)"
+msgstr "Độ trễ (ngày)"
 
 #. module: stock
 #: code:addons/stock/models/product.py:332

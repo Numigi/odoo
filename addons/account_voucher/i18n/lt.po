@@ -9,6 +9,7 @@
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2017
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2017
 # Rolandas <info@paninfo.lt>, 2017
+# Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 11.0\n"

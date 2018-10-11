@@ -5,6 +5,10 @@ _build/
 .*
 !.gitignore
 !.mailmap
+!.docker_files
+!.dockerignore
+!.circleci
+!.coveragerc
 # compiled python files
 *.py[co]
 __pycache__/
