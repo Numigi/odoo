@@ -14,7 +14,7 @@ RUN mv ${ODOO_DIR}/odoo/addons/* ${ODOO_DIR}/odoo-addons/ && \
     mv -f ${ODOO_DIR}/odoo-addons/* ${ODOO_DIR}/odoo/addons
 
 # Freeze pip and wheel
-RUN pip3 install pip==9.0.1 wheel==0.30.0
+RUN pip3 install pip==18.1 wheel==0.32.1
 
 # Odoo configuration files
 COPY .docker_files/main /mnt/extra-addons/main
