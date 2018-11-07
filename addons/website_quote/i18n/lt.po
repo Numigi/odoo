@@ -7,6 +7,7 @@
 # Martin Trigaux, 2017
 # digitouch UAB <digitouchagencyeur@gmail.com>, 2017
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2017
+# Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2017
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2017
 # Rolandas <info@paninfo.lt>, 2017
@@ -1502,7 +1503,7 @@ msgstr "Supraskite tobulėjimo konceptą ir architektūrą;"
 #: model:ir.ui.view,arch_db:website_quote.pricing
 #: model:ir.ui.view,arch_db:website_quote.report_saleorder_validity_date
 msgid "Unit Price"
-msgstr "Kaina"
+msgstr "Vieneto kaina"
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_uom_id

@@ -299,11 +299,6 @@ msgid "Fields"
 msgstr "Felter"
 
 #. module: auth_signup
-#: model:ir.model,name:auth_signup.model_ir_model_fields
-msgid "Fields"
-msgstr "Felter"
-
-#. module: auth_signup
 #: selection:res.config.settings,auth_signup_uninvited:0
 msgid "Free sign up (B2C)"
 msgstr "Gratis tilmelding (B2C)"

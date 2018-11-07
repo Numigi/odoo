@@ -3,7 +3,7 @@
 # * sale_order_dates
 # 
 # Translators:
-# Anatolij, 2017
+# Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 # Martin Trigaux, 2017
 # Silvija Butko <silvija.butko@gmail.com>, 2018
 # Linas Versada <paulius.sladkevicius@gmail.com>, 2018
@@ -54,12 +54,12 @@ msgstr "Data, kai buvo sukurtas pirmas pristatymo užsakymas."
 #. module: sale_order_dates
 #: model:ir.model.fields,field_description:sale_order_dates.field_sale_order_effective_date
 msgid "Effective Date"
-msgstr "Dokumento data"
+msgstr "Įsigaliojimo data"
 
 #. module: sale_order_dates
 #: model:ir.model,name:sale_order_dates.model_sale_order
 msgid "Quotation"
-msgstr "Įkainojimas"
+msgstr "Komercinis pasiūlymas"
 
 #. module: sale_order_dates
 #: model:ir.model.fields,field_description:sale_order_dates.field_sale_order_requested_date
