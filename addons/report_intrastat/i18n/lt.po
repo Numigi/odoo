@@ -8,6 +8,7 @@
 # Audrius Palenskis <audrius.palenskis@gmail.com>, 2017
 # Martin Trigaux, 2017
 # UAB "Draugiški sprendimai" <transifex@draugiskisprendimai.lt>, 2017
+# Linas Versada <paulius.sladkevicius@gmail.com>, 2017
 # Šarūnas Ažna <sarunas.azna@gmail.com>, 2017
 # Rolandas <info@paninfo.lt>, 2017
 # Monika Raciunaite <monika.raciunaite@gmail.com>, 2017
@@ -300,7 +301,7 @@ msgstr "Tipas"
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "Unit Price"
-msgstr "Kaina"
+msgstr "Vieneto kaina"
 
 #. module: report_intrastat
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document

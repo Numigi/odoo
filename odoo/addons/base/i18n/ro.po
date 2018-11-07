@@ -4195,7 +4195,7 @@ msgid ""
 msgstr ""
 "\n"
 "Acest modul va permite sa produceti mai multe produse dintr-o singura comanda de productie.\n"
-" =============================================================================\n"
+"=============================================================================\n"
 " \n"
 "Puteti configura produse secundare in lista de materiale.\n"
 " \n"
@@ -5712,11 +5712,6 @@ msgstr "Reguli de acces"
 #: model:ir.model.fields,field_description:base.field_ir_attachment_access_token
 msgid "Access Token"
 msgstr "Access Token"
-
-#. module: base
-#: model:res.groups,name:base.group_private_addresses
-msgid "Access to Private Addresses"
-msgstr ""
 
 #. module: base
 #: model:res.groups,name:base.group_private_addresses
