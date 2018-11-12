@@ -2,12 +2,19 @@
 # This file contains the translation of the following modules:
 # * web_editor
 # 
+# Translators:
+# Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# Martin Trigaux, 2018
+# krnkris, 2018
+# gezza <geza.nagy@oregional.hu>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:06+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
+"Last-Translator: gezza <geza.nagy@oregional.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -57,7 +64,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1028
 #, python-format
 msgid "(YouTube, Vimeo, Vine, Instagram, DailyMotion or Youku)"
-msgstr ""
+msgstr "(YouTube, Vimeo, Vine, Instagram, DailyMotion vagy Youku)"
 
 #. module: web_editor
 #: model_terms:ir.ui.view,arch_db:web_editor.snippets
@@ -85,14 +92,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1078
 #, python-format
 msgid "Action"
-msgstr ""
+msgstr "Akció"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/editor.xml:112
 #, python-format
 msgid "Add"
-msgstr ""
+msgstr "Hozzáadás"
 
 #. module: web_editor
 #. openerp-web
@@ -125,7 +132,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1064
 #, python-format
 msgid "Align right"
-msgstr ""
+msgstr "Jobbra igazít"
 
 #. module: web_editor
 #. openerp-web
@@ -151,11 +158,18 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_attachment
 msgid "Attachment"
-msgstr ""
+msgstr "Melléklet"
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_ir_attachment__local_url
 msgid "Attachment URL"
+msgstr ""
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/xml/editor.xml:197
+#, python-format
+msgid "Attention"
 msgstr ""
 
 #. module: web_editor
@@ -340,12 +354,12 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Létrehozta"
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Létrehozva"
 
 #. module: web_editor
 #. openerp-web
@@ -360,6 +374,13 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:366
 #, python-format
 msgid "Custom"
+msgstr ""
+
+#. module: web_editor
+#. openerp-web
+#: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1068
+#, python-format
+msgid "Custom Color"
 msgstr ""
 
 #. module: web_editor
@@ -404,7 +425,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:35
 #, python-format
 msgid "Description"
-msgstr ""
+msgstr "Leírás"
 
 #. module: web_editor
 #. openerp-web
@@ -470,7 +491,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1018
 #, python-format
 msgid "Edit"
-msgstr ""
+msgstr "Szerkesztés"
 
 #. module: web_editor
 #. openerp-web
@@ -491,7 +512,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:273
 #, python-format
 msgid "Flat"
-msgstr ""
+msgstr "Átalány áras"
 
 #. module: web_editor
 #. openerp-web
@@ -568,14 +589,14 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1055
 #, python-format
 msgid "Full Screen"
-msgstr ""
+msgstr "Teljes képernyő"
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/xml/backend.xml:21
 #, python-format
 msgid "Fullscreen"
-msgstr ""
+msgstr "Teljes képernyő"
 
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_http
@@ -683,7 +704,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__id
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. module: web_editor
 #. openerp-web
@@ -754,7 +775,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1061
 #, python-format
 msgid "Indent"
-msgstr ""
+msgstr "Rovátkált"
 
 #. module: web_editor
 #. openerp-web
@@ -830,17 +851,17 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Legutóbb frissítve"
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Legutóbb frissítette"
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Legutóbb frissítve "
 
 #. module: web_editor
 #. openerp-web
@@ -854,7 +875,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1015
 #, python-format
 msgid "Link"
-msgstr ""
+msgstr "Hivatkozás"
 
 #. module: web_editor
 #. openerp-web
@@ -883,7 +904,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/editor.xml:260
 #, python-format
 msgid "Medium"
-msgstr ""
+msgstr "Közepes"
 
 #. module: web_editor
 #: model:ir.model.fields,field_description:web_editor.field_web_editor_converter_test_sub__name
@@ -926,7 +947,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/translator.js:98
 #, python-format
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #. module: web_editor
 #. openerp-web
@@ -1114,7 +1135,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.js:326
 #, python-format
 msgid "Readonly field"
-msgstr ""
+msgstr "Csak olvasható mező"
 
 #. module: web_editor
 #. openerp-web
@@ -1382,7 +1403,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:993
 #, python-format
 msgid "Subscript"
-msgstr ""
+msgstr "Alsó-index"
 
 #. module: web_editor
 #. openerp-web
@@ -1504,7 +1525,7 @@ msgstr ""
 #: code:addons/web_editor/static/src/xml/backend.xml:12
 #, python-format
 msgid "Translate"
-msgstr ""
+msgstr "Fordítás"
 
 #. module: web_editor
 #. openerp-web
@@ -1524,6 +1545,11 @@ msgstr ""
 #: model:ir.model,name:web_editor.model_ir_translation
 msgid "Translation"
 msgstr ""
+
+#. module: web_editor
+#: model:ir.model,name:web_editor.model_ir_translation
+msgid "Translation"
+msgstr "Fordítás"
 
 #. module: web_editor
 #. openerp-web
@@ -1634,7 +1660,7 @@ msgstr ""
 #. module: web_editor
 #: model:ir.model,name:web_editor.model_ir_ui_view
 msgid "View"
-msgstr ""
+msgstr "Nézet"
 
 #. module: web_editor
 #. openerp-web

@@ -2,12 +2,20 @@
 # This file contains the translation of the following modules:
 # * website_event_track
 # 
+# Translators:
+# gezza <geza.nagy@oregional.hu>, 2018
+# Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# Zsofia Biro <zsbiro1205@gmail.com>, 2018
+# Martin Trigaux, 2018
+# krnkris, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:34+0000\n"
+"Last-Translator: krnkris, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -194,11 +202,16 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Application"
-msgstr ""
+msgstr "Alkalmazás"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Archived"
+msgstr ""
+
+#. module: website_event_track
+#: model:ir.model.fields,field_description:website_event_track.field_event_track__message_attachment_count
+msgid "Attachment Count"
 msgstr ""
 
 #. module: website_event_track
@@ -229,13 +242,13 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage5
 msgid "Cancelled"
-msgstr ""
+msgstr "Visszavonva"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__color
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__color
 msgid "Color Index"
-msgstr ""
+msgstr "Színjegyzék"
 
 #. module: website_event_track
 #: model:event.type,name:website_event_track.event_type_data_tracks
@@ -250,7 +263,7 @@ msgstr ""
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage1
 msgid "Confirmed"
-msgstr ""
+msgstr "Megerősített"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor__create_uid
@@ -261,7 +274,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__create_uid
 #: model:ir.model.fields,field_description:website_event_track.field_website_event_menu__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Létrehozta"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor__create_date
@@ -272,7 +285,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__create_date
 #: model:ir.model.fields,field_description:website_event_track.field_website_event_menu__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Létrehozva"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
@@ -314,6 +327,26 @@ msgid "Discover our new design team"
 msgstr ""
 
 #. module: website_event_track
+#: model:event.track,name:website_event_track.event_track25
+msgid "Design contest (entire afternoon)"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track24
+msgid "Design contest (entire day)"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track6
+msgid "Detailed roadmap of our new products"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track11
+msgid "Discover our new design team"
+msgstr ""
+
+#. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor__display_name
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_type__display_name
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__display_name
@@ -327,6 +360,11 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.track_view
 msgid "Documents"
+msgstr ""
+
+#. module: website_event_track
+#: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_kanban
+msgid "Dropdown menu"
 msgstr ""
 
 #. module: website_event_track
@@ -461,7 +499,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__fold
 msgid "Folded in Kanban"
-msgstr ""
+msgstr "Kanbannézetben behajtott"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_follower_ids
@@ -501,7 +539,7 @@ msgstr ""
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Group By"
-msgstr ""
+msgstr "Csoportosítás ezzel"
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -559,6 +597,51 @@ msgid "How to optimize your sales, from leads to sales orders"
 msgstr ""
 
 #. module: website_event_track
+#: model:event.track,name:website_event_track.event_track21
+msgid "House of World Cultures"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track18
+msgid "How to build your marketing strategy within a competitive environment"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track15
+msgid "How to communicate with your community"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track1
+msgid "How to design a new piece of furniture"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track4
+msgid "How to develop automated processes"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track16
+msgid "How to follow us on the social media"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track9
+msgid "How to improve your quality processes"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track2
+msgid "How to integrate hardware materials in your pieces of furniture"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track8
+msgid "How to optimize your sales, from leads to sales orders"
+msgstr ""
+
+#. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor__id
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_type__id
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__id
@@ -567,7 +650,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__id
 #: model:ir.model.fields,field_description:website_event_track.field_website_event_menu__id
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. module: website_event_track
 #: model:ir.model.fields,help:website_event_track.field_event_track__message_unread
@@ -612,9 +695,14 @@ msgid "Is published"
 msgstr ""
 
 #. module: website_event_track
+#: model:ir.model.fields,field_description:website_event_track.field_event_track__is_published
+msgid "Is published"
+msgstr ""
+
+#. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__kanban_state
 msgid "Kanban State"
-msgstr ""
+msgstr "Kanbanállapot"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track23
@@ -630,7 +718,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag____last_update
 #: model:ir.model.fields,field_description:website_event_track.field_website_event_menu____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Legutóbb frissítve"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor__write_uid
@@ -641,7 +729,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__write_uid
 #: model:ir.model.fields,field_description:website_event_track.field_website_event_menu__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Legutóbb frissítette"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_sponsor__write_date
@@ -652,7 +740,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_tag__write_date
 #: model:ir.model.fields,field_description:website_event_track.field_website_event_menu__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Legutóbb frissítve "
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
@@ -683,6 +771,16 @@ msgstr ""
 #: model:event.track,name:website_event_track.event_track31
 msgid "Lunch"
 msgstr ""
+
+#. module: website_event_track
+#: model:ir.model.fields,field_description:website_event_track.field_event_track__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track31
+msgid "Lunch"
+msgstr "Ebéd"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_main_attachment_id
@@ -734,8 +832,28 @@ msgid "Morning break"
 msgstr ""
 
 #. module: website_event_track
+#: model:event.track,name:website_event_track.event_track22
+msgid "Minimal but efficient design"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track30
+msgid "Morning break"
+msgstr ""
+
+#. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "My Activities"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track27
+msgid "My Company global presentation"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track20
+msgid "New Certification Program"
 msgstr ""
 
 #. module: website_event_track
@@ -824,6 +942,11 @@ msgid "Partnership programs"
 msgstr ""
 
 #. module: website_event_track
+#: model:event.track,name:website_event_track.event_track14
+msgid "Partnership programs"
+msgstr ""
+
+#. module: website_event_track
 #: selection:event.track,activity_state:0
 msgid "Planned"
 msgstr ""
@@ -841,7 +964,7 @@ msgstr ""
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__priority
 msgid "Priority"
-msgstr ""
+msgstr "Prioritás"
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage0
@@ -906,6 +1029,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__location_id
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_location__name
 msgid "Room"
+msgstr ""
+
+#. module: website_event_track
+#: model:ir.model.fields,field_description:website_event_track.field_event_track__is_seo_optimized
+msgid "SEO optimized"
 msgstr ""
 
 #. module: website_event_track
@@ -1010,12 +1138,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__stage_id
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Stage"
-msgstr ""
+msgstr "Szakasz"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__name
 msgid "Stage Name"
-msgstr ""
+msgstr "Szakasz neve"
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track28
@@ -1049,7 +1177,7 @@ msgstr ""
 #. module: website_event_track
 #: sql_constraint:event.track.tag:0
 msgid "Tag name already exists !"
-msgstr ""
+msgstr "A címkenév már létezik!"
 
 #. module: website_event_track
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__tag_ids
@@ -1106,6 +1234,17 @@ msgid "The new way to promote your creations"
 msgstr ""
 
 #. module: website_event_track
+#: model:event.track,name:website_event_track.event_track17
+#: model:event.track,name:website_event_track.event_track29
+msgid "The new marketing strategy"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track5
+msgid "The new way to promote your creations"
+msgstr ""
+
+#. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "This event does not accept proposals."
 msgstr ""
@@ -1116,6 +1255,8 @@ msgid ""
 "This stage is folded in the kanban view when there are no records in that "
 "stage to display."
 msgstr ""
+"Ez a szakasz behajtott kanbannézetben, ha nincsenek benne megjeleníthető "
+"rekordok."
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -1322,9 +1463,14 @@ msgid "Website opengraph image"
 msgstr ""
 
 #. module: website_event_track
+#: model:ir.model.fields,field_description:website_event_track.field_event_track__website_meta_og_img
+msgid "Website opengraph image"
+msgstr ""
+
+#. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
 msgid "Your Email"
-msgstr ""
+msgstr "Az Ön e-mail címe"
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -1356,4 +1502,4 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_track.agenda
 #: model_terms:ir.ui.view,arch_db:website_event_track.tracks
 msgid "unpublished"
-msgstr ""
+msgstr "Nem közzétett"

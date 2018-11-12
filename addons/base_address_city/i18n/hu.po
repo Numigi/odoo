@@ -2,12 +2,19 @@
 # This file contains the translation of the following modules:
 # * base_address_city
 # 
+# Translators:
+# Martin Trigaux, 2018
+# krnkris, 2018
+# gezza <geza.nagy@oregional.hu>, 2018
+# Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-18 09:48+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -48,7 +55,7 @@ msgstr ""
 #. module: base_address_city
 #: model:ir.model,name:base_address_city.model_res_partner
 msgid "Contact"
-msgstr ""
+msgstr "Kapcsolattartó"
 
 #. module: base_address_city
 #: model:ir.model,name:base_address_city.model_res_country
@@ -94,17 +101,17 @@ msgstr ""
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Legutóbb frissítve"
 
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Legutóbb frissítette"
 
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Legutóbb frissítve "
 
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city__name
@@ -119,7 +126,7 @@ msgstr ""
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city__state_id
 msgid "State"
-msgstr ""
+msgstr "Állam / megye"
 
 #. module: base_address_city
 #: model:ir.model.fields,field_description:base_address_city.field_res_city__zipcode

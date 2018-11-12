@@ -4,13 +4,19 @@
 # 
 # Translators:
 # Martin Trigaux, 2018
+# Carles Antoli <carlesantoli@hotmail.com>, 2018
+# RGB Consulting <odoo@rgbconsulting.com>, 2018
+# Quim - eccit <quim@eccit.com>, 2018
+# Sandra Franch <sandra.franch@upc.edu>, 2018
+# Manel Fernandez <manelfera@outlook.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-02 10:06+0000\n"
-"PO-Revision-Date: 2018-10-02 10:06+0000\n"
-"Last-Translator: Martin Trigaux, 2018\n"
+"PO-Revision-Date: 2018-08-24 09:34+0000\n"
+"Last-Translator: Manel Fernandez <manelfera@outlook.com>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -464,7 +470,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_needaction
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_needaction
 msgid "Action Needed"
-msgstr ""
+msgstr "Cal fer alguna acció"
 
 #. module: website_forum
 #: selection:forum.post,state:0
@@ -607,6 +613,11 @@ msgid "Appears in"
 msgstr ""
 
 #. module: website_forum
+#: model:ir.model.fields,field_description:website_forum.field_gamification_challenge__category
+msgid "Appears in"
+msgstr "Apareix en"
+
+#. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_view_search
 #: model_terms:ir.ui.view,arch_db:website_forum.view_forum_post_search
 msgid "Archived"
@@ -692,6 +703,13 @@ msgid "Attachment Count"
 msgstr ""
 
 #. module: website_forum
+#: model:ir.model.fields,field_description:website_forum.field_forum_forum__message_attachment_count
+#: model:ir.model.fields,field_description:website_forum.field_forum_post__message_attachment_count
+#: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_attachment_count
+msgid "Attachment Count"
+msgstr "Nombre d'adjunts"
+
+#. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.view_forum_post_search
 msgid "Author"
 msgstr "Autor"
@@ -708,7 +726,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.user_detail_full
 #: model_terms:ir.ui.view,arch_db:website_forum.users
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.new_question
@@ -742,6 +760,12 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.edit_profile
 msgid "Biography"
+msgstr ""
+
+#. module: website_forum
+#: model_terms:ir.ui.view,arch_db:website_forum.badge
+#: model_terms:ir.ui.view,arch_db:website_forum.user_badges
+msgid "Bronze badge"
 msgstr ""
 
 #. module: website_forum
@@ -869,7 +893,7 @@ msgstr "Ciutat"
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.edit_profile
 msgid "Clear"
-msgstr ""
+msgstr "Neteja"
 
 #. module: website_forum
 #. openerp-web
@@ -1085,6 +1109,16 @@ msgid "Create a new tag"
 msgstr ""
 
 #. module: website_forum
+#: model_terms:ir.actions.act_window,help:website_forum.action_forum_post
+msgid "Create a new forum post"
+msgstr ""
+
+#. module: website_forum
+#: model_terms:ir.actions.act_window,help:website_forum.forum_tag_action
+msgid "Create a new tag"
+msgstr ""
+
+#. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_tag_create
 msgid "Create new tags"
 msgstr ""
@@ -1144,7 +1178,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_forum.post_comment
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "Delete"
-msgstr ""
+msgstr "Eliminar"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_unlink_all
@@ -1231,7 +1265,7 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
 msgid "Edit Your Previous Answer"
-msgstr ""
+msgstr "Editar la seva resposta anterior"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_edit_all
@@ -1411,21 +1445,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_follower_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_follower_ids
 msgid "Followers"
-msgstr ""
+msgstr "Seguidors"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__message_channel_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_channel_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_channel_ids
 msgid "Followers (Channels)"
-msgstr ""
+msgstr "Seguidors (Canals)"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__message_partner_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_partner_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_partner_ids
 msgid "Followers (Partners)"
-msgstr ""
+msgstr "Seguidors (Clients)"
 
 #. module: website_forum
 #: model_terms:forum.forum,faq:website_forum.forum_help
@@ -1642,21 +1676,21 @@ msgstr "ID"
 #: model:ir.model.fields,help:website_forum.field_forum_post__message_unread
 #: model:ir.model.fields,help:website_forum.field_forum_tag__message_unread
 msgid "If checked new messages require your attention."
-msgstr ""
+msgstr "Si està marcat, els nous missatges requereixen la vostra atenció."
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum__message_needaction
 #: model:ir.model.fields,help:website_forum.field_forum_post__message_needaction
 #: model:ir.model.fields,help:website_forum.field_forum_tag__message_needaction
 msgid "If checked, new messages require your attention."
-msgstr ""
+msgstr "Si està marcat, els nous missatges requereixen la vostra atenció."
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum__message_has_error
 #: model:ir.model.fields,help:website_forum.field_forum_post__message_has_error
 #: model:ir.model.fields,help:website_forum.field_forum_tag__message_has_error
 msgid "If checked, some messages have a delivery error."
-msgstr ""
+msgstr "Si està marcat, alguns missatges tenen un error d'entrega."
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum__karma_dofollow
@@ -1721,7 +1755,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_is_follower
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_is_follower
 msgid "Is Follower"
-msgstr ""
+msgstr "És seguidor"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__has_validated_answer
@@ -1854,7 +1888,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_main_attachment_id
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_main_attachment_id
 msgid "Main Attachment"
-msgstr ""
+msgstr "Adjunt principal"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.close_post
@@ -1867,14 +1901,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_has_error
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Error d'entrega del missatge"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__message_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_ids
 msgid "Messages"
-msgstr ""
+msgstr "Missatges"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__karma_moderate
@@ -2014,7 +2048,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_needaction_counter
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_needaction_counter
 msgid "Number of Actions"
-msgstr ""
+msgstr "Nombre d'accions"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__posts_count
@@ -2036,7 +2070,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_has_error_counter
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_has_error_counter
 msgid "Number of error"
-msgstr ""
+msgstr "Nombre d'errors"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__count_flagged_posts
@@ -2048,14 +2082,14 @@ msgstr ""
 #: model:ir.model.fields,help:website_forum.field_forum_post__message_needaction_counter
 #: model:ir.model.fields,help:website_forum.field_forum_tag__message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr ""
+msgstr "Nombre de missatges que requereixen una acció"
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum__message_has_error_counter
 #: model:ir.model.fields,help:website_forum.field_forum_post__message_has_error_counter
 #: model:ir.model.fields,help:website_forum.field_forum_tag__message_has_error_counter
 msgid "Number of messages with delivery error"
-msgstr ""
+msgstr "Nombre de missatges amb error d'entrega"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__count_posts_waiting_validation
@@ -2067,7 +2101,7 @@ msgstr ""
 #: model:ir.model.fields,help:website_forum.field_forum_post__message_unread_counter
 #: model:ir.model.fields,help:website_forum.field_forum_tag__message_unread_counter
 msgid "Number of unread messages"
-msgstr ""
+msgstr "Nombre de missatges no llegits"
 
 #. module: website_forum
 #: selection:forum.post,state:0
@@ -2083,7 +2117,7 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_answers
 msgid "On"
-msgstr ""
+msgstr "On"
 
 #. module: website_forum
 #. openerp-web
@@ -2411,12 +2445,12 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
 msgid "Refuse"
-msgstr ""
+msgstr "Rebutja"
 
 #. module: website_forum
 #: model_terms:forum.forum,welcome_message:website_forum.forum_help
 msgid "Register"
-msgstr ""
+msgstr "Registre"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.post_description_full
@@ -2910,14 +2944,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_unread
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_unread
 msgid "Unread Messages"
-msgstr ""
+msgstr "Missatges pendents de llegir"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__message_unread_counter
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__message_unread_counter
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__message_unread_counter
 msgid "Unread Messages Counter"
-msgstr ""
+msgstr "Comptador de missatges no llegits"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.edit_profile
@@ -2983,7 +3017,7 @@ msgstr ""
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.moderation_queue
 msgid "Validate"
-msgstr ""
+msgstr "Validar"
 
 #. module: website_forum
 #: model_terms:ir.ui.view,arch_db:website_forum.forum_post_template_validation
@@ -3055,35 +3089,35 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__website_message_ids
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__website_message_ids
 msgid "Website Messages"
-msgstr ""
+msgstr "Missatges del lloc web"
 
 #. module: website_forum
 #: model:ir.model.fields,help:website_forum.field_forum_forum__website_message_ids
 #: model:ir.model.fields,help:website_forum.field_forum_post__website_message_ids
 #: model:ir.model.fields,help:website_forum.field_forum_tag__website_message_ids
 msgid "Website communication history"
-msgstr ""
+msgstr "Historial de comunicacions del lloc web"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__website_meta_description
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__website_meta_description
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__website_meta_description
 msgid "Website meta description"
-msgstr ""
+msgstr "Meta descripció del lloc web"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__website_meta_keywords
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__website_meta_keywords
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__website_meta_keywords
 msgid "Website meta keywords"
-msgstr ""
+msgstr "Meta paraules del lloc web"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__website_meta_title
 #: model:ir.model.fields,field_description:website_forum.field_forum_post__website_meta_title
 #: model:ir.model.fields,field_description:website_forum.field_forum_tag__website_meta_title
 msgid "Website meta title"
-msgstr ""
+msgstr "Mata títol del lloc web"
 
 #. module: website_forum
 #: model:ir.model.fields,field_description:website_forum.field_forum_forum__website_meta_og_img

@@ -2,12 +2,18 @@
 # This file contains the translation of the following modules:
 # * pad
 # 
+# Translators:
+# Martin Trigaux, 2018
+# krnkris, 2018
+# Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:21+0000\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -23,6 +29,11 @@ msgstr ""
 #. module: pad
 #: model:ir.model,name:pad.model_res_company
 msgid "Companies"
+msgstr ""
+
+#. module: pad
+#: model:ir.model,name:pad.model_res_config_settings
+msgid "Config Settings"
 msgstr ""
 
 #. module: pad
@@ -50,12 +61,12 @@ msgstr ""
 #. module: pad
 #: model:ir.model.fields,field_description:pad.field_pad_common__id
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. module: pad
 #: model:ir.model.fields,field_description:pad.field_pad_common____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Legutóbb frissítve"
 
 #. module: pad
 #. openerp-web
@@ -115,10 +126,17 @@ msgstr ""
 
 #. module: pad
 #. openerp-web
+#: code:addons/pad/static/src/xml/pad.xml:14
+#, python-format
+msgid "Switch pad"
+msgstr ""
+
+#. module: pad
+#. openerp-web
 #: code:addons/pad/static/src/js/pad.js:166
 #, python-format
 msgid "This pad will be initialized on first edit"
-msgstr ""
+msgstr "Ezen szerkesztő kezdőértéke az első szerkesztéskor kerül megadásra"
 
 #. module: pad
 #. openerp-web
@@ -135,4 +153,4 @@ msgstr ""
 #. module: pad
 #: model:ir.model,name:pad.model_pad_common
 msgid "pad.common"
-msgstr ""
+msgstr "pad.common"

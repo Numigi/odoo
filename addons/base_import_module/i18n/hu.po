@@ -2,12 +2,19 @@
 # This file contains the translation of the following modules:
 # * base_import_module
 # 
+# Translators:
+# Martin Trigaux, 2018
+# krnkris, 2018
+# gezza <geza.nagy@oregional.hu>, 2018
+# Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:16+0000\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +25,7 @@ msgstr ""
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Cancel"
-msgstr ""
+msgstr "Mégsem"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -34,12 +41,12 @@ msgstr ""
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Létrehozta"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Létrehozva"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__display_name
@@ -66,7 +73,7 @@ msgstr ""
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__id
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
@@ -99,17 +106,17 @@ msgstr ""
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Legutóbb frissítve"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Legutóbb frissítette"
 
 #. module: base_import_module
 #: model:ir.model.fields,field_description:base_import_module.field_base_import_module__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Legutóbb frissítve "
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_module_module
@@ -178,6 +185,11 @@ msgid "View"
 msgstr ""
 
 #. module: base_import_module
+#: model:ir.model,name:base_import_module.model_ir_ui_view
+msgid "View"
+msgstr "Nézet"
+
+#. module: base_import_module
 #: selection:base.import.module,state:0
 msgid "done"
 msgstr ""
@@ -185,4 +197,4 @@ msgstr ""
 #. module: base_import_module
 #: selection:base.import.module,state:0
 msgid "init"
-msgstr ""
+msgstr "kezd"

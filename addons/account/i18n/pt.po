@@ -12,7 +12,7 @@
 # Manuela Silva <inactive+h_manuela_rodsilva@transifex.com>, 2018
 # Joao Felix <jrmfelix@gmail.com>, 2018
 # Ricardo Martins <ricardo.nbs.martins@gmail.com>, 2018
-# MS, 2018
+# MS <manuelarodsilva@gmail.com>, 2018
 # Nuno Silva <nuno.silva@arxi.pt>, 2018
 # Diogo Fonseca <dsf@thinkopensolutions.pt>, 2018
 # 
@@ -2642,8 +2642,8 @@ msgstr "Alterar etiqueta do complemento que contém a diferença de pagamentos"
 #: code:addons/account/controllers/portal.py:105
 #, python-format
 msgid ""
-"Changing VAT number is not allowed once invoices have been issued for your "
-"account. Please contact us directly for this operation."
+"Changing your company name is not allowed once invoices have been issued for"
+" your account. Please contact us directly for this operation."
 msgstr ""
 "Alterar o NIF não é permitido assim que sejam emitidas faturas na sua conta."
 " Por favor contacte-nos diretamente para esta operação."
@@ -3639,7 +3639,7 @@ msgstr "Pagamentos de Cliente"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_invoice__access_url
 msgid "Customer Portal URL"
-msgstr ""
+msgstr "Portal URL do cliente"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_product_template__taxes_id
@@ -6665,7 +6665,7 @@ msgstr "Memorando:"
 #: model:ir.model.fields,field_description:account.field_account_invoice__message_has_error
 #: model:ir.model.fields,field_description:account.field_account_payment__message_has_error
 msgid "Message Delivery error"
-msgstr ""
+msgstr "Gerir erro de entrega"
 
 #. module: account
 #: model:ir.model.fields,field_description:account.field_account_invoice_send__record_name
@@ -8369,7 +8369,7 @@ msgstr "Reconciliação em Extratos Bancários"
 #. module: account
 #: model_terms:ir.actions.act_window,help:account.action_vendor_bill_template
 msgid "Record a new vendor bill"
-msgstr ""
+msgstr "Registar uma nova fatura de fornecedor."
 
 #. module: account
 #: model_terms:ir.ui.view,arch_db:account.res_config_settings_view_form
@@ -8537,6 +8537,13 @@ msgstr "Relatórios"
 #. module: account
 #: model:ir.model.fields,help:account.field_account_cash_rounding__rounding
 msgid "Represent the non-zero value smallest coinage (for example, 0.05)."
+msgstr ""
+"Representa o valor mínimo diferente de zero da moeda mais pequena da divisa "
+"(por exemplo, 0.05)"
+
+#. module: account
+#: model:ir.model.fields,field_description:account.field_account_setup_bank_manual_config__res_partner_bank_id
+msgid "Res Partner Bank"
 msgstr ""
 "Representa o valor mínimo diferente de zero da moeda mais pequena da divisa "
 "(por exemplo, 0.05)"
@@ -10356,6 +10363,12 @@ msgid "The optional other currency if it is a multi-currency entry."
 msgstr "A outra moeda opcional se se tratar de uma entrada multi-moeda."
 
 #. module: account
+#: model:ir.model.fields,help:account.field_account_bank_statement_line__currency_id
+#: model:ir.model.fields,help:account.field_account_move_line__currency_id
+msgid "The optional other currency if it is a multi-currency entry."
+msgstr "A outra moeda opcional se se tratar de uma entrada multi-moeda."
+
+#. module: account
 #: model:ir.model.fields,help:account.field_account_move_line__quantity
 msgid ""
 "The optional quantity expressed by this line, eg: number of product sold. "
@@ -10897,11 +10910,6 @@ msgstr ""
 #, python-format
 msgid "To speed up reconciliation, define"
 msgstr "para acelerar reconciliações defina"
-
-#. module: account
-#: selection:account.invoice,activity_state:0
-msgid "Today"
-msgstr "Hoje"
 
 #. module: account
 #: selection:account.invoice,activity_state:0

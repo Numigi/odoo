@@ -795,11 +795,6 @@ msgid "Confirm Order"
 msgstr "Confirmar Pedido"
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.wizard_checkout
-msgid "Confirm Order"
-msgstr "Confirmar Pedido"
-
-#. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment
 msgid "Confirm Order <span class=\"fa fa-chevron-right\"/>"
 msgstr ""

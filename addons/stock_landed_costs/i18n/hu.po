@@ -2,12 +2,19 @@
 # This file contains the translation of the following modules:
 # * stock_landed_costs
 # 
+# Translators:
+# Martin Trigaux, 2018
+# krnkris, 2018
+# gezza <geza.nagy@oregional.hu>, 2018
+# Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:17+0000\n"
 "PO-Revision-Date: 2018-08-24 09:25+0000\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -32,7 +39,7 @@ msgstr ""
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__account_journal_id
 msgid "Account Journal"
-msgstr ""
+msgstr "Napló"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__message_needaction
@@ -42,6 +49,11 @@ msgstr ""
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__additional_landed_cost
 msgid "Additional Landed Cost"
+msgstr ""
+
+#. module: stock_landed_costs
+#: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__message_attachment_count
+msgid "Attachment Count"
 msgstr ""
 
 #. module: stock_landed_costs
@@ -76,22 +88,22 @@ msgstr ""
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Cancel"
-msgstr ""
+msgstr "Mégsem"
 
 #. module: stock_landed_costs
 #: selection:stock.landed.cost,state:0
 msgid "Cancelled"
-msgstr ""
+msgstr "Visszavonva"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__company_id
 msgid "Company"
-msgstr ""
+msgstr "Vállalat"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,help:stock_landed_costs.field_stock_landed_cost__company_id
 msgid "Company related to this journal"
-msgstr ""
+msgstr "Ehhez a naplóhoz kapcsolt vállalat"
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
@@ -132,14 +144,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__create_uid
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Létrehozta"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__create_date
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__create_date
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Létrehozva"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__date
@@ -169,7 +181,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
 #: model:mail.message.subtype,name:stock_landed_costs.mt_stock_landed_cost_open
 msgid "Done"
-msgstr ""
+msgstr "Kész"
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
@@ -227,14 +239,14 @@ msgstr ""
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
 msgid "Group By"
-msgstr ""
+msgstr "Csoportosítás ezzel"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__id
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__id
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__id
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,help:stock_landed_costs.field_stock_landed_cost__message_unread
@@ -303,7 +315,7 @@ msgstr ""
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.stock_landed_cost_tree_view
 msgid "Landed Cost Type"
-msgstr ""
+msgstr "Teljes költség ár (termék+szálítás+biztosítás+...) típus"
 
 #. module: stock_landed_costs
 #: model:ir.actions.act_window,name:stock_landed_costs.stock_landed_cost_type_action
@@ -337,21 +349,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines____last_update
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Legutóbb frissítve"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__write_uid
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__write_uid
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Legutóbb frissítette"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__write_date
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost_lines__write_date
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Legutóbb frissítve "
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__message_main_attachment_id
@@ -417,7 +429,7 @@ msgstr ""
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:89
 #, python-format
 msgid "Only draft landed costs can be validated"
-msgstr ""
+msgstr "Kizárólag a teljes költség sablont leget jóváhagyni"
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:314
@@ -466,7 +478,7 @@ msgstr ""
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__state
 msgid "State"
-msgstr ""
+msgstr "Állam / megye"
 
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_search
@@ -487,7 +499,7 @@ msgstr ""
 #: model:ir.model,name:stock_landed_costs.model_stock_move
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__move_id
 msgid "Stock Move"
-msgstr ""
+msgstr "Készletmozgás"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__amount_total
@@ -498,6 +510,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__picking_ids
 msgid "Transfers"
 msgstr ""
+
+#. module: stock_landed_costs
+#: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__picking_ids
+msgid "Transfers"
+msgstr "Belső átutalások"
 
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_landed_cost__message_unread
@@ -512,7 +529,7 @@ msgstr ""
 #. module: stock_landed_costs
 #: model_terms:ir.ui.view,arch_db:stock_landed_costs.view_stock_landed_cost_form
 msgid "Validate"
-msgstr ""
+msgstr "Jóváhagyás"
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/models/stock_landed_cost.py:83
@@ -520,6 +537,11 @@ msgstr ""
 msgid ""
 "Validated landed costs cannot be cancelled, but you could create negative "
 "landed costs to reverse them"
+msgstr ""
+
+#. module: stock_landed_costs
+#: model:ir.model,name:stock_landed_costs.model_stock_valuation_adjustment_lines
+msgid "Valuation Adjustment Lines"
 msgstr ""
 
 #. module: stock_landed_costs
@@ -551,6 +573,15 @@ msgstr ""
 #. module: stock_landed_costs
 #: model:ir.model.fields,field_description:stock_landed_costs.field_stock_valuation_adjustment_lines__weight
 msgid "Weight"
+msgstr ""
+
+#. module: stock_landed_costs
+#: code:addons/stock_landed_costs/models/stock_landed_cost.py:163
+#, python-format
+msgid ""
+"You cannot apply landed costs on the chosen transfer(s). Landed costs can "
+"only be applied for products with automated inventory valuation and FIFO "
+"costing method."
 msgstr ""
 
 #. module: stock_landed_costs

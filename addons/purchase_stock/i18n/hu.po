@@ -2,12 +2,19 @@
 # This file contains the translation of the following modules:
 # * purchase_stock
 # 
+# Translators:
+# Martin Trigaux, 2018
+# krnkris, 2018
+# gezza <geza.nagy@oregional.hu>, 2018
+# Kovács Tibor <kovika@gmail.com>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-24 09:34+0000\n"
 "PO-Revision-Date: 2018-08-24 09:24+0000\n"
+"Last-Translator: Kovács Tibor <kovika@gmail.com>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -139,6 +146,11 @@ msgid "Lot/Serial"
 msgstr ""
 
 #. module: purchase_stock
+#: model:ir.model,name:purchase_stock.model_stock_production_lot
+msgid "Lot/Serial"
+msgstr "Szett/Széria"
+
+#. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.exception_on_po
 msgid "Manual actions may be needed."
 msgstr ""
@@ -159,7 +171,7 @@ msgstr ""
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_stock_warehouse_orderpoint
 msgid "Minimum Inventory Rule"
-msgstr ""
+msgstr "Minimum készlet szabály"
 
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.res_config_settings_view_form_stock
@@ -184,11 +196,21 @@ msgstr ""
 #. module: purchase_stock
 #: model:ir.model.fields,field_description:purchase_stock.field_purchase_order__group_id
 msgid "Procurement Group"
-msgstr ""
+msgstr "Beszerzési Csoport"
 
 #. module: purchase_stock
 #: model:ir.model,name:purchase_stock.model_product_template
 msgid "Product Template"
+msgstr ""
+
+#. module: purchase_stock
+#: selection:stock.rule,action:0
+msgid "Pull & Push"
+msgstr ""
+
+#. module: purchase_stock
+#: selection:stock.rule,action:0
+msgid "Pull From"
 msgstr ""
 
 #. module: purchase_stock
@@ -283,6 +305,16 @@ msgstr ""
 #. module: purchase_stock
 #: model_terms:ir.ui.view,arch_db:purchase_stock.purchase_order_line_view_form_inherit
 msgid "Stock Moves"
+msgstr ""
+
+#. module: purchase_stock
+#: model:ir.model,name:purchase_stock.model_stock_rule
+msgid "Stock Rule"
+msgstr ""
+
+#. module: purchase_stock
+#: model:ir.model,name:purchase_stock.model_report_stock_report_stock_rule
+msgid "Stock rule report"
 msgstr ""
 
 #. module: purchase_stock

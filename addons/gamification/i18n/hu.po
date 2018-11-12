@@ -2,12 +2,20 @@
 # This file contains the translation of the following modules:
 # * gamification
 # 
+# Translators:
+# Kovács Tibor <kovika@gmail.com>, 2018
+# Martin Trigaux, 2018
+# krnkris, 2018
+# gezza <geza.nagy@oregional.hu>, 2018
+# Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:18+0000\n"
+"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -421,7 +429,7 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__action_id
 msgid "Action"
-msgstr ""
+msgstr "Akció"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_needaction
@@ -465,6 +473,12 @@ msgid ""
 "Assign a list of goals to chosen users to evaluate them.\n"
 "                The challenge can use a period (weekly, monthly...) for automatic creation of goals.\n"
 "                The goals are created for the specified users or member of the group."
+msgstr ""
+
+#. module: gamification
+#: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_attachment_count
+#: model:ir.model.fields,field_description:gamification.field_gamification_challenge__message_attachment_count
+msgid "Attachment Count"
 msgstr ""
 
 #. module: gamification
@@ -563,7 +577,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.view_badge_wizard_grant
 #: model_terms:ir.ui.view,arch_db:gamification.view_goal_wizard_update_current
 msgid "Cancel"
-msgstr ""
+msgstr "Mégsem"
 
 #. module: gamification
 #: selection:gamification.goal,state:0
@@ -686,6 +700,11 @@ msgid ""
 "not connect to the system. You can assign them groups in order to give them "
 "specific access to the applications they need to use in the system."
 msgstr ""
+"Hozza létre és kezelje a felhasználókat, akik csatlakozni fognak a "
+"rendszerhez. A felhasználók deaktiválhatóak, ha eltelik egy időszak amelynek"
+" során nem csatlakoznak a rendszerhez. Csoportokhoz rendelheti őket, amely "
+"külön hozzáféréseket biztosít az alkalmazásokhoz, amelyekre szükségük van a "
+"rendszer használatához."
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__create_uid
@@ -697,7 +716,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__create_uid
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__create_uid
 msgid "Created by"
-msgstr ""
+msgstr "Létrehozta"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__create_date
@@ -709,12 +728,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__create_date
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Létrehozva"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__current
 msgid "Current"
-msgstr ""
+msgstr "Jelenlegi"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal__current
@@ -817,7 +836,7 @@ msgstr ""
 #: selection:gamification.challenge,state:0
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Done"
-msgstr ""
+msgstr "Kész"
 
 #. module: gamification
 #: selection:gamification.challenge,state:0
@@ -919,7 +938,7 @@ msgstr ""
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__full_suffix
 msgid "Full Suffix"
-msgstr ""
+msgstr "Teljes utótag"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge
@@ -949,7 +968,7 @@ msgstr ""
 #. module: gamification
 #: model:ir.ui.menu,name:gamification.gamification_menu
 msgid "Gamification Tools"
-msgstr ""
+msgstr "Gammifikációs/Játékos eszközök"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge_user
@@ -964,7 +983,7 @@ msgstr ""
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge_line
 msgid "Gamification generic goal for challenge"
-msgstr ""
+msgstr "Gamifikációs/játékos cél a kihíváshoz"
 
 #. module: gamification
 #: model:ir.actions.server,name:gamification.ir_cron_check_challenge_ir_actions_server
@@ -1079,7 +1098,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_search_view
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "Group By"
-msgstr ""
+msgstr "Csoportosítás ezzel"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_challenge__report_message_group_id
@@ -1116,7 +1135,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__id
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__id
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__res_id_field
@@ -1215,7 +1234,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition____last_update
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Legutóbb frissítve"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_challenge__last_report_date
@@ -1237,7 +1256,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__write_uid
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Legutóbb frissítette"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__write_date
@@ -1249,7 +1268,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_definition__write_date
 #: model:ir.model.fields,field_description:gamification.field_gamification_goal_wizard__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Legutóbb frissítve "
 
 #. module: gamification
 #: selection:gamification.challenge,visibility_mode:0
@@ -1296,6 +1315,17 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.view_challenge_kanban
 msgid "Member"
 msgstr ""
+
+#. module: gamification
+#: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_main_attachment_id
+#: model:ir.model.fields,field_description:gamification.field_gamification_challenge__message_main_attachment_id
+msgid "Main Attachment"
+msgstr ""
+
+#. module: gamification
+#: model_terms:ir.ui.view,arch_db:gamification.view_challenge_kanban
+msgid "Member"
+msgstr "Tag"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__message_has_error
@@ -1486,6 +1516,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
 msgid "Owner"
 msgstr ""
+
+#. module: gamification
+#: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
+msgid "Owner"
+msgstr "Tulajdonos"
 
 #. module: gamification
 #: model:ir.model.fields,field_description:gamification.field_gamification_badge__owner_ids
@@ -1764,7 +1799,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_search_view
 #: model_terms:ir.ui.view,arch_db:gamification.goal_search_view
 msgid "State"
-msgstr ""
+msgstr "Állam / megye"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_form_view
@@ -2083,7 +2118,7 @@ msgstr ""
 #: selection:gamification.challenge,period:0
 #: selection:gamification.challenge,report_message_frequency:0
 msgid "Weekly"
-msgstr ""
+msgstr "Hetente"
 
 #. module: gamification
 #: model:ir.model.fields,help:gamification.field_gamification_badge__rule_auth
@@ -2167,7 +2202,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
 #: model_terms:ir.ui.view,arch_db:gamification.goal_form_view
 msgid "days"
-msgstr ""
+msgstr "nap"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.challenge_form_view
@@ -2189,7 +2224,7 @@ msgstr ""
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.goal_definition_form_view
 msgid "e.g. user.partner_id.id"
-msgstr ""
+msgstr "pl. user.partner_id.id"
 
 #. module: gamification
 #: model_terms:ir.ui.view,arch_db:gamification.badge_kanban_view
