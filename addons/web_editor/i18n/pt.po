@@ -597,22 +597,22 @@ msgstr "Rota HTTP"
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1042
 #, python-format
-msgid "Header 6"
+msgid "Hide fullscreen button"
 msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1043
 #, python-format
-msgid "Help"
-msgstr "Ajuda"
+msgid "Hide player controls"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1044
 #, python-format
-msgid "Here are the visuals used to help you translate efficiently:"
-msgstr "Aqui tem a ótica utilizada ​​para o ajudar a traduzir eficientemente:"
+msgid "Hide sharing button"
+msgstr ""
 
 #. module: web_editor
 #. openerp-web

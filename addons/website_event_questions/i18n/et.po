@@ -2,12 +2,22 @@
 # This file contains the translation of the following modules:
 # * website_event_questions
 # 
+# Translators:
+# Rivo Zängov <eraser@eraser.ee>, 2018
+# Martin Trigaux, 2018
+# Wanradt Koell <wanradt@gmail.com>, 2018
+# Egon Raamat <egon@avalah.ee>, 2018
+# Eneli Õigus <enelioigus@gmail.com>, 2018
+# Martin Aavastik <martin@avalah.ee>, 2018
+# Helen Sulaoja <helen@avalah.ee>, 2018
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server saas~11.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-09-21 13:18+0000\n"
 "PO-Revision-Date: 2018-08-24 09:34+0000\n"
+"Last-Translator: Helen Sulaoja <helen@avalah.ee>, 2018\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -18,7 +28,7 @@ msgstr ""
 #. module: website_event_questions
 #: model_terms:ir.ui.view,arch_db:website_event_questions.registration_attendee_details_questions
 msgid "<strong>Questions</strong>"
-msgstr ""
+msgstr "<strong>Küsimused</strong>"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_answer__name
@@ -32,12 +42,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_questions.field_event_registration__answer_ids
 #: model_terms:ir.ui.view,arch_db:website_event_questions.view_registration_search_inherit_question
 msgid "Answers"
-msgstr ""
+msgstr "Vastused"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__is_individual
 msgid "Ask each attendee"
-msgstr ""
+msgstr "Küsi igalt osalejalt"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_answer__create_uid
@@ -51,7 +61,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__create_date
 #: model:ir.model.fields,field_description:website_event_questions.field_event_registration_answer__create_date
 msgid "Created on"
-msgstr ""
+msgstr "Loomise kuupäev"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_answer__display_name
@@ -73,12 +83,12 @@ msgstr ""
 #: model:ir.model,name:website_event_questions.model_event_answer
 #: model:ir.model.fields,field_description:website_event_questions.field_event_registration_answer__event_answer_id
 msgid "Event Answer"
-msgstr ""
+msgstr "Ürituse vastus"
 
 #. module: website_event_questions
 #: model:ir.model,name:website_event_questions.model_event_type
 msgid "Event Category"
-msgstr ""
+msgstr "Ürituse kategooria"
 
 #. module: website_event_questions
 #: model:ir.model,name:website_event_questions.model_event_question
@@ -104,12 +114,12 @@ msgstr ""
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__event_type_id
 msgid "Event Type"
-msgstr ""
+msgstr "Sündmuse tüüp"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_event__general_question_ids
 msgid "General Questions"
-msgstr ""
+msgstr "Üldised küsimused"
 
 #. module: website_event_questions
 #: model_terms:ir.ui.view,arch_db:website_event_questions.view_event_question_report_search
@@ -137,21 +147,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question_report____last_update
 #: model:ir.model.fields,field_description:website_event_questions.field_event_registration_answer____last_update
 msgid "Last Modified on"
-msgstr ""
+msgstr "Viimati muudetud (millal)"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_answer__write_uid
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__write_uid
 #: model:ir.model.fields,field_description:website_event_questions.field_event_registration_answer__write_uid
 msgid "Last Updated by"
-msgstr ""
+msgstr "Viimati uuendatud (kelle poolt)"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_answer__write_date
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__write_date
 #: model:ir.model.fields,field_description:website_event_questions.field_event_registration_answer__write_date
 msgid "Last Updated on"
-msgstr ""
+msgstr "Viimati uuendatud (millal)"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_answer__question_id
@@ -182,7 +192,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event_questions.view_event_question_report_pivot
 #: model_terms:ir.ui.view,arch_db:website_event_questions.view_event_question_report_search
 msgid "Questions Analysis"
-msgstr ""
+msgstr "Küsimuste analüüs"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_type__use_questions
@@ -199,14 +209,14 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_event_questions.field_event_answer__sequence
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__sequence
 msgid "Sequence"
-msgstr ""
+msgstr "Järjestus"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_event__specific_question_ids
 msgid "Specific Questions"
-msgstr ""
+msgstr "Spetsiifilised küsimused"
 
 #. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__title
 msgid "Title"
-msgstr ""
+msgstr "Tiitel"
