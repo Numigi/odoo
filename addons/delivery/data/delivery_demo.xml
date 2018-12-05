@@ -6,7 +6,7 @@
 
         <record id="product_product_delivery_poste" model="product.product">
             <field name="name">The Poste</field>
-            <field name="default_code">Delivery</field>
+            <field name="default_code">Delivery_008</field>
             <field name="type">service</field>
             <field name="categ_id" ref="product.product_category_all"/>
             <field name="sale_ok" eval="False"/>
@@ -24,7 +24,7 @@
 
         <record id="product_product_delivery_normal" model="product.product">
             <field name="name">Normal Delivery Charges</field>
-            <field name="default_code">Delivery</field>
+            <field name="default_code">Delivery_009</field>
             <field name="type">service</field>
             <field name="categ_id" ref="product.product_category_all"/>
             <field name="sale_ok" eval="False"/>
