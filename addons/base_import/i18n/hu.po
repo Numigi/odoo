@@ -103,11 +103,31 @@ msgid "Column Name"
 msgstr ""
 
 #. module: base_import
+#: model:ir.model.fields,field_description:base_import.field_base_import_mapping__column_name
+msgid "Column Name"
+msgstr ""
+
+#. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:211
 #: code:addons/base_import/static/src/js/import_action.js:228
 #, python-format
 msgid "Comma"
+msgstr ""
+
+#. module: base_import
+#: code:addons/base_import/models/base_import.py:825
+#, python-format
+msgid ""
+"Could not retrieve URL: %(url)s [%(field_name)s: L%(line_number)d]: "
+"%(error)s"
+msgstr ""
+
+#. module: base_import
+#. openerp-web
+#: code:addons/base_import/static/src/xml/base_import.xml:108
+#, python-format
+msgid "Create if doesn't exist"
 msgstr ""
 
 #. module: base_import
@@ -282,6 +302,18 @@ msgstr ""
 
 #. module: base_import
 #. openerp-web
+#: code:addons/base_import/static/src/xml/base_import.xml:87
+#, python-format
+msgid "Download"
+msgstr "Letöltés"
+
+#. module: base_import
+#: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_complex__dt
+msgid "Dt"
+msgstr ""
+
+#. module: base_import
+#. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:78
 #, python-format
 msgid "Encoding:"
@@ -338,6 +370,13 @@ msgstr ""
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_import__file_type
 msgid "File Type"
+msgstr ""
+
+#. module: base_import
+#: code:addons/base_import/models/base_import.py:808
+#: code:addons/base_import/models/base_import.py:814
+#, python-format
+msgid "File size exceeds configured maximum (%s bytes)"
 msgstr ""
 
 #. module: base_import
@@ -484,6 +523,16 @@ msgstr ""
 #: code:addons/base_import/static/src/xml/base_import.xml:136
 #, python-format
 msgid "Import preview failed due to:"
+msgstr ""
+
+#. module: base_import
+#. openerp-web
+#: code:addons/base_import/static/src/js/import_action.js:579
+#, python-format
+msgid ""
+"Import timed out. Please retry. If you still encounter this issue, the file "
+"may be too big for the system's configuration, try to split it (import less "
+"records per file)."
 msgstr ""
 
 #. module: base_import
@@ -780,86 +829,11 @@ msgid "Tests: Base Import Model Float"
 msgstr ""
 
 #. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_preview
-msgid "Tests : Base Import Model Preview"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_char
-msgid "Tests : Base Import Model, Character"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_char_noreadonly
-msgid "Tests : Base Import Model, Character No readonly"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_char_readonly
-msgid "Tests : Base Import Model, Character readonly"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_char_required
-msgid "Tests : Base Import Model, Character required"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_char_states
-msgid "Tests : Base Import Model, Character states"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_char_stillreadonly
-msgid "Tests : Base Import Model, Character still readonly"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_m2o
-msgid "Tests : Base Import Model, Many to One"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_m2o_related
-msgid "Tests : Base Import Model, Many to One related"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_m2o_required
-msgid "Tests : Base Import Model, Many to One required"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_m2o_required_related
-msgid "Tests : Base Import Model, Many to One required related"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_o2m
-msgid "Tests : Base Import Model, One to Many"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_o2m_child
-msgid "Tests : Base Import Model, One to Many child"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_complex
-msgid "Tests: Base Import Model Complex"
-msgstr ""
-
-#. module: base_import
-#: model:ir.model,name:base_import.model_base_import_tests_models_float
-msgid "Tests: Base Import Model Float"
-msgstr ""
-
-#. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:80
 #, python-format
 msgid "Text Delimiter:"
-msgstr ""
+msgstr "Szöveg elválasztó:"
 
 #. module: base_import
 #. openerp-web
@@ -875,7 +849,7 @@ msgstr ""
 #: code:addons/base_import/static/src/js/import_action.js:87
 #, python-format
 msgid "Thousands Separator:"
-msgstr ""
+msgstr "Ezres elválasztó:"
 
 #. module: base_import
 #. openerp-web
@@ -919,7 +893,7 @@ msgstr "Felhasználók"
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_o2m__value
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_o2m_child__value
 msgid "Value"
-msgstr ""
+msgstr "Érték"
 
 #. module: base_import
 #: model:ir.model.fields,field_description:base_import.field_base_import_tests_models_float__value2

@@ -42,11 +42,6 @@ msgid "<i class=\"fa fa-times\"/> unsubscribe"
 msgstr ""
 
 #. module: website_mail_channel
-#: model_terms:ir.ui.view,arch_db:website_mail_channel.subscribe
-msgid "<span class=\"oe_snippet_thumbnail_title\">Discussion Group</span>"
-msgstr ""
-
-#. module: website_mail_channel
 #: model:mail.template,body_html:website_mail_channel.mail_template_list_subscribe
 msgid ""
 "<table border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"padding-top: 16px; background-color: #F1F1F1; font-family:Verdana, Arial,sans-serif; color: #454748; width: 100%; border-collapse:separate;\"><tr><td align=\"center\">\n"
@@ -409,6 +404,12 @@ msgstr "Avatár"
 
 #. module: website_mail_channel
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.group_message
+#: model_terms:ir.ui.view,arch_db:website_mail_channel.messages_short
+msgid "Avatar"
+msgstr "Avatár"
+
+#. module: website_mail_channel
+#: model_terms:ir.ui.view,arch_db:website_mail_channel.group_message
 msgid "Browse archives"
 msgstr ""
 
@@ -450,6 +451,16 @@ msgid "Confirm unsubscription to ${object.name}"
 msgstr ""
 
 #. module: website_mail_channel
+#: model:mail.template,subject:website_mail_channel.mail_template_list_subscribe
+msgid "Confirm subscription to ${object.name}"
+msgstr ""
+
+#. module: website_mail_channel
+#: model:mail.template,subject:website_mail_channel.mail_template_list_unsubscribe
+msgid "Confirm unsubscription to ${object.name}"
+msgstr ""
+
+#. module: website_mail_channel
 #. openerp-web
 #: code:addons/website_mail_channel/static/src/js/website_mail_channel.editor.js:18
 #, python-format
@@ -465,6 +476,11 @@ msgstr "Beszélgetési csatorna"
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.group_message
 msgid "Follow-Ups"
 msgstr ""
+
+#. module: website_mail_channel
+#: model_terms:ir.ui.view,arch_db:website_mail_channel.mail_channels
+msgid "Group"
+msgstr "Csoport"
 
 #. module: website_mail_channel
 #: model_terms:ir.ui.view,arch_db:website_mail_channel.mail_channels

@@ -147,46 +147,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__create_uid
 #: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__create_uid
 msgid "Created by"
-msgstr ""
-
-#. module: sale_management
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__create_date
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__create_date
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__create_date
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__create_date
-msgid "Created on"
-msgstr ""
-
-#. module: sale_management
-#: model:ir.model.fields,field_description:sale_management.field_res_config_settings__default_sale_order_template_id
-msgid "Default Template"
-msgstr ""
-
-#. module: sale_management
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__name
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__name
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__name
-#: model_terms:ir.ui.view,arch_db:sale_management.report_saleorder_document_inherit_sale_management
-#: model_terms:ir.ui.view,arch_db:sale_management.sale_order_template_view_form
-msgid "Description"
-msgstr ""
-
-#. module: sale_management
-#: model_terms:ir.ui.view,arch_db:sale_management.res_config_settings_view_form
-msgid "Create standardized offers with default products"
-msgstr ""
-
-#. module: sale_management
-#: model_terms:ir.actions.act_window,help:sale_management.sale_order_template_action
-msgid "Create your quotation template"
-msgstr ""
-
-#. module: sale_management
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_option__create_uid
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template__create_uid
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_line__create_uid
-#: model:ir.model.fields,field_description:sale_management.field_sale_order_template_option__create_uid
-msgid "Created by"
 msgstr "Loonud"
 
 #. module: sale_management

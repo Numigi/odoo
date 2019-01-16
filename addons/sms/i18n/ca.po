@@ -121,18 +121,6 @@ msgid "SMS Pricing"
 msgstr ""
 
 #. module: sms
-#: model:ir.model,name:sms.model_sms_api
-msgid "SMS API"
-msgstr ""
-
-#. module: sms
-#. openerp-web
-#: code:addons/sms/static/src/xml/sms_widget.xml:4
-#, python-format
-msgid "SMS Pricing"
-msgstr ""
-
-#. module: sms
 #: code:addons/sms/models/mail_thread.py:48
 #, python-format
 msgid "SMS message sent: %s"

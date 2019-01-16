@@ -60,6 +60,17 @@ msgid ""
 msgstr ""
 
 #. module: base_geolocalize
+#: code:addons/base_geolocalize/models/res_partner.py:19
+#, python-format
+msgid ""
+"API key for GeoCoding (Places) required.\n"
+"\n"
+"                          Save this key in System Parameters with key: google.api_key_geocode, value: <your api key>\n"
+"                          Visit https://developers.google.com/maps/documentation/geocoding/get-api-key for more information.\n"
+"                          "
+msgstr ""
+
+#. module: base_geolocalize
 #: code:addons/base_geolocalize/models/res_partner.py:28
 #, python-format
 msgid ""

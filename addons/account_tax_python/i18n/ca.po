@@ -109,12 +109,6 @@ msgstr "Codi Python"
 #. module: account_tax_python
 #: selection:account.tax,amount_type:0
 #: selection:account.tax.template,amount_type:0
-msgid "Percentage of Price"
-msgstr ""
-
-#. module: account_tax_python
-#: selection:account.tax,amount_type:0
-#: selection:account.tax.template,amount_type:0
 msgid "Percentage of Price Tax Included"
 msgstr ""
 
@@ -136,12 +130,6 @@ msgstr "Impost"
 #: model:ir.model.fields,field_description:account_tax_python.field_account_tax_template__amount_type
 msgid "Tax Computation"
 msgstr "Càlcul d'impostos"
-
-#. module: account_tax_python
-#: model:ir.model.fields,field_description:account_tax_python.field_account_tax__amount_type
-#: model:ir.model.fields,field_description:account_tax_python.field_account_tax_template__amount_type
-msgid "Tax Computation"
-msgstr ""
 
 #. module: account_tax_python
 #: model:ir.model,name:account_tax_python.model_account_tax_template

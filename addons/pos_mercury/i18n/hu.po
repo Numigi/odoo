@@ -73,6 +73,11 @@ msgid "Automatic Vacuum"
 msgstr ""
 
 #. module: pos_mercury
+#: model:ir.model,name:pos_mercury.model_ir_autovacuum
+msgid "Automatic Vacuum"
+msgstr ""
+
+#. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_account_bank_statement_line
 msgid "Bank Statement Line"
 msgstr ""
@@ -81,6 +86,11 @@ msgstr ""
 #: model:ir.model,name:pos_mercury.model_barcode_rule
 msgid "Barcode Rule"
 msgstr ""
+
+#. module: pos_mercury
+#: model:ir.model,name:pos_mercury.model_barcode_rule
+msgid "Barcode Rule"
+msgstr "Vonalkód szabály"
 
 #. module: pos_mercury
 #: model:ir.model,name:pos_mercury.model_barcode_rule
@@ -368,6 +378,13 @@ msgid "Online Payment"
 msgstr ""
 
 #. module: pos_mercury
+#. openerp-web
+#: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:7
+#, python-format
+msgid "Online Payment"
+msgstr ""
+
+#. module: pos_mercury
 #: selection:barcode.rule,type:0
 msgid "Package"
 msgstr ""
@@ -400,6 +417,16 @@ msgstr ""
 #: code:addons/pos_mercury/static/src/js/pos_mercury.js:416
 #, python-format
 msgid "Please setup your Mercury merchant account."
+msgstr ""
+
+#. module: pos_mercury
+#: model:ir.model,name:pos_mercury.model_pos_mercury_configuration
+msgid "Point of Sale Mercury Configuration"
+msgstr ""
+
+#. module: pos_mercury
+#: model:ir.model,name:pos_mercury.model_pos_mercury_mercury_transaction
+msgid "Point of Sale Mercury Transaction"
 msgstr ""
 
 #. module: pos_mercury

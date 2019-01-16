@@ -54,27 +54,14 @@ msgid "403: Forbidden"
 msgstr "403: Prohibit"
 
 #. module: survey
+#: model_terms:ir.ui.view,arch_db:survey.403
+msgid "403: Forbidden"
+msgstr "403: Prohibit"
+
+#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.result
 msgid "<b>Question </b>"
 msgstr "<b>Pregunta </b>"
-
-#. module: survey
-#: model:mail.template,body_html:survey.email_template_survey
-msgid ""
-"<div style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
-"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
-"        Hello<br/><br/>\n"
-"        We are conducting a survey, and your response would be appreciated.\n"
-"        <div style=\"margin: 16px 0px 16px 0px;\">\n"
-"            <a href=\"__URL__\" style=\"background-color: #875A7B; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px; font-size:13px;\">\n"
-"                Start Survey\n"
-"            </a>\n"
-"        </div>\n"
-"        Thanks for your participation!\n"
-"    </p>\n"
-"</div>\n"
-"            "
-msgstr ""
 
 #. module: survey
 #: model:mail.template,body_html:survey.email_template_survey
@@ -381,13 +368,6 @@ msgstr ""
 "impacte al id del missatge generat."
 
 #. module: survey
-#: model:ir.model.fields,help:survey.field_survey_mail_compose_message__no_auto_thread
-msgid ""
-"Answers do not go in the original document discussion thread. This has an "
-"impact on the generated message-id."
-msgstr ""
-
-#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Archived"
 msgstr "Arxivat"
@@ -434,28 +414,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__author_avatar
 msgid "Author's avatar"
 msgstr "Avatar de l'autor"
-
-#. module: survey
-#: model:ir.model,name:survey.model_ir_autovacuum
-msgid "Automatic Vacuum"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__author_id
-msgid "Author"
-msgstr "Autor"
-
-#. module: survey
-#: model:ir.model.fields,help:survey.field_survey_mail_compose_message__author_id
-msgid ""
-"Author of the message. If not set, email_from may hold an email address that"
-" did not match any partner."
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__author_avatar
-msgid "Author's avatar"
-msgstr ""
 
 #. module: survey
 #: model:ir.model,name:survey.model_ir_autovacuum
@@ -552,11 +510,6 @@ msgid "Company name"
 msgstr "Nom de la companyia"
 
 #. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.layout
-msgid "Company name"
-msgstr ""
-
-#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_tree
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
 #: selection:survey.user_input,state:0
@@ -572,11 +525,6 @@ msgstr "Compondre correu electrònic"
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__composition_mode
 msgid "Composition mode"
 msgstr "Mode de composició"
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__composition_mode
-msgid "Composition mode"
-msgstr ""
 
 #. module: survey
 #: model:ir.ui.menu,name:survey.menu_surveys_configuration
@@ -597,11 +545,6 @@ msgstr "Restriccions"
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__body
 msgid "Contents"
 msgstr "Continguts"
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__body
-msgid "Contents"
-msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_email_compose_message
@@ -784,13 +727,6 @@ msgstr ""
 "document (només enviaments massiu)"
 
 #. module: survey
-#: model:ir.model.fields,help:survey.field_survey_mail_compose_message__auto_delete_message
-msgid ""
-"Do not keep a copy of the email in the document communication history (mass "
-"mailing only)"
-msgstr ""
-
-#. module: survey
 #: model:survey.question,question:survey.feedback_3_3
 msgid "Do you have a proposition to attract new contributors?"
 msgstr "Té alguna proposta per atraure nous contribuïdors?"
@@ -851,13 +787,6 @@ msgstr ""
 "coincident i reemplaça el camp author_id en la xerrada."
 
 #. module: survey
-#: model:ir.model.fields,help:survey.field_survey_mail_compose_message__email_from
-msgid ""
-"Email address of the sender. This field is set when no matching partner is "
-"found and replaces the author_id field in the chatter."
-msgstr ""
-
-#. module: survey
 #: model:ir.model,name:survey.model_survey_mail_compose_message
 msgid "Email composition wizard for Survey"
 msgstr "Assistent de composició de correu electrònic per enquesta"
@@ -893,16 +822,6 @@ msgid "Filter question"
 msgstr ""
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__starred_partner_ids
-msgid "Favorited By"
-msgstr ""
-
-#. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.result_choice
-msgid "Filter question"
-msgstr ""
-
-#. module: survey
 #: model:survey.label,value:survey.choice_1_2_3
 msgid "Financial Management"
 msgstr "Gestió Financera"
@@ -928,21 +847,6 @@ msgid "Followers (Partners)"
 msgstr "Seguidors (Clients)"
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__message_follower_ids
-msgid "Followers"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__message_channel_ids
-msgid "Followers (Channels)"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__message_partner_ids
-msgid "Followers (Partners)"
-msgstr ""
-
-#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
 msgid "Format"
 msgstr "Formatar"
@@ -956,11 +860,6 @@ msgstr "Text Lliure"
 #: model:ir.model.fields,field_description:survey.field_survey_user_input_line__value_free_text
 msgid "Free Text answer"
 msgstr "Resposta de text lliure"
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__email_from
-msgid "From"
-msgstr "De"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__email_from
@@ -1253,6 +1152,11 @@ msgid "Layout"
 msgstr ""
 
 #. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__layout
+msgid "Layout"
+msgstr ""
+
+#. module: survey
 #: selection:survey.user_input,type:0
 msgid "Link"
 msgstr "Enllaç"
@@ -1415,29 +1319,9 @@ msgid "Moderation Status"
 msgstr ""
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__moderator_id
-msgid "Moderated By"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__moderation_status
-msgid "Moderation Status"
-msgstr ""
-
-#. module: survey
 #: selection:survey.question,type:0
 msgid "Multiple Lines Text Box"
 msgstr "Caixa de text de diverses línies"
-
-#. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
-msgid "Multiple choice with multiple answers"
-msgstr ""
-
-#. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.survey_question_form
-msgid "Multiple choice with one answer"
-msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_question_form
@@ -1511,21 +1395,6 @@ msgid "Next Activity Type"
 msgstr "Tipus de la següent activitat"
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_date_deadline
-msgid "Next Activity Deadline"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_summary
-msgid "Next Activity Summary"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__activity_type_id
-msgid "Next Activity Type"
-msgstr ""
-
-#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.page
 msgid "Next page"
 msgstr "Pàgina següent"
@@ -1597,21 +1466,6 @@ msgid "Notify followers of the document (mass post only)"
 msgstr "Notificar als seguidors del document (només per enviaments massius)"
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__notification_ids
-msgid "Notifications"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__notify
-msgid "Notify followers"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,help:survey.field_survey_mail_compose_message__notify
-msgid "Notify followers of the document (mass post only)"
-msgstr ""
-
-#. module: survey
 #: selection:survey.user_input_line,answer_type:0
 msgid "Number"
 msgstr "Número"
@@ -1663,11 +1517,6 @@ msgid "Number of unread messages"
 msgstr "Nombre de missatges no llegits"
 
 #. module: survey
-#: model:ir.model.fields,help:survey.field_survey_survey__message_unread_counter
-msgid "Number of unread messages"
-msgstr ""
-
-#. module: survey
 #: selection:survey.question,type:0
 msgid "Numerical Value"
 msgstr "Valor Numèric"
@@ -1686,11 +1535,6 @@ msgstr "Ocurrència"
 #: model_terms:ir.ui.view,arch_db:survey.layout
 msgid "Odoo"
 msgstr "Odoo"
-
-#. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.layout
-msgid "Odoo"
-msgstr ""
 
 #. module: survey
 #: selection:survey.question,matrix_subtype:0
@@ -1744,11 +1588,6 @@ msgstr "Pàgines"
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__parent_id
 msgid "Parent Message"
 msgstr "Missatge pare"
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__parent_id
-msgid "Parent Message"
-msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_user_input_search
@@ -2133,17 +1972,6 @@ msgstr ""
 "una imatge petita."
 
 #. module: survey
-#: model:ir.model.fields,help:survey.field_survey_mail_compose_message__author_avatar
-msgid ""
-"Small-sized image of this contact. It is automatically resized as a 64x64px "
-"image, with aspect ratio preserved. Use this field anywhere a small image is"
-" required."
-msgstr ""
-"Imatge petita del contacte. Es redimensionarà automàticament a 64x64 px, "
-"preservant el rati d'aspecte. Utilitzi aquest camp sempre que es necessiti "
-"una imatge petita."
-
-#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.page
 msgid ""
 "Something went wrong while contacting survey server. <strong class=\"text-"
@@ -2169,6 +1997,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__starred
 msgid "Starred"
 msgstr ""
+
+#. module: survey
+#: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__starred
+msgid "Starred"
+msgstr "Destacat"
 
 #. module: survey
 #: model:ir.model.fields,field_description:survey.field_survey_mail_compose_message__starred
@@ -2449,11 +2282,6 @@ msgid "The page you were looking for could not be authorized."
 msgstr "No està autoritzat a veure la pàgina que està buscant."
 
 #. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.403
-msgid "The page you were looking for could not be authorized."
-msgstr ""
-
-#. module: survey
 #: model:survey.label,value:survey.frow_2_5_1
 msgid "The security rules defined on groups are useful"
 msgstr "Les regles de seguretat definides en els grups són útils"
@@ -2530,12 +2358,6 @@ msgstr ""
 #: model:ir.model.fields,help:survey.field_survey_survey__thank_you_message
 msgid "This message will be displayed when survey is completed"
 msgstr "Aquest missatge serà mostrat quan l'enquesta estigui completa"
-
-#. module: survey
-#: code:addons/survey/models/survey.py:806
-#, python-format
-msgid "This question cannot be unanswered or skipped."
-msgstr ""
 
 #. module: survey
 #: code:addons/survey/models/survey.py:806
@@ -2669,16 +2491,6 @@ msgid "Unread Messages Counter"
 msgstr "Comptador de missatges no llegits"
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__message_unread
-msgid "Unread Messages"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr ""
-
-#. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.survey_survey_view_search
 msgid "Upcoming Activities"
 msgstr ""
@@ -2795,16 +2607,6 @@ msgid "Website communication history"
 msgstr "Historial de comunicacions del lloc web"
 
 #. module: survey
-#: model:ir.model.fields,field_description:survey.field_survey_survey__website_message_ids
-msgid "Website Messages"
-msgstr ""
-
-#. module: survey
-#: model:ir.model.fields,help:survey.field_survey_survey__website_message_ids
-msgid "Website communication history"
-msgstr ""
-
-#. module: survey
 #: model:survey.question,question:survey.feedback_2_7
 msgid "What do you think about configuration wizards?"
 msgstr "Que en penses sobre els assistents de configuració?"
@@ -2842,11 +2644,6 @@ msgstr "On es desenvolupa les noves característiques?"
 #: model:ir.model.fields,help:survey.field_survey_mail_compose_message__is_log
 msgid "Whether the message is an internal note (comment mode only)"
 msgstr "Si missatge és una nota interna (només mode comentari)"
-
-#. module: survey
-#: model:ir.model.fields,help:survey.field_survey_mail_compose_message__is_log
-msgid "Whether the message is an internal note (comment mode only)"
-msgstr ""
 
 #. module: survey
 #: model:survey.question,question:survey.feedback_1_2
@@ -2945,16 +2742,6 @@ msgstr "punts."
 #: model_terms:ir.ui.view,arch_db:survey.sfinished
 msgid "review your answers"
 msgstr "revisar les teves respostes"
-
-#. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.403
-msgid "this page"
-msgstr ""
-
-#. module: survey
-#: model_terms:ir.ui.view,arch_db:survey.layout
-msgid "with"
-msgstr ""
 
 #. module: survey
 #: model_terms:ir.ui.view,arch_db:survey.403

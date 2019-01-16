@@ -40,12 +40,6 @@ msgid "Campaign"
 msgstr "Kampaania"
 
 #. module: sale_crm
-#: model:ir.model.fields,field_description:sale_crm.field_account_invoice__campaign_id
-#: model:ir.model.fields,field_description:sale_crm.field_sale_order__campaign_id
-msgid "Campaign"
-msgstr ""
-
-#. module: sale_crm
 #: model:ir.model,name:sale_crm.model_account_invoice
 msgid "Invoice"
 msgstr ""
@@ -75,22 +69,6 @@ msgstr "Turundus"
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order__medium_id
 msgid "Medium"
 msgstr "Keskmine"
-
-#. module: sale_crm
-#: model:ir.ui.menu,name:sale_crm.sale_order_menu_quotations_crm
-msgid "My Quotations"
-msgstr ""
-
-#. module: sale_crm
-#: model_terms:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
-msgid "Marketing"
-msgstr ""
-
-#. module: sale_crm
-#: model:ir.model.fields,field_description:sale_crm.field_account_invoice__medium_id
-#: model:ir.model.fields,field_description:sale_crm.field_sale_order__medium_id
-msgid "Medium"
-msgstr ""
 
 #. module: sale_crm
 #: model:ir.ui.menu,name:sale_crm.sale_order_menu_quotations_crm
@@ -144,6 +122,11 @@ msgid "Sale Order"
 msgstr "Müügitellimus"
 
 #. module: sale_crm
+#: model:ir.model,name:sale_crm.model_sale_order
+msgid "Sale Order"
+msgstr "Müügitellimus"
+
+#. module: sale_crm
 #: model:ir.actions.act_window,name:sale_crm.sale_action_orders
 msgid "Sale orders"
 msgstr "Müügitellimus"
@@ -176,6 +159,28 @@ msgid ""
 "This is a name that helps you keep track of your different campaign efforts,"
 " e.g. Fall_Drive, Christmas_Special"
 msgstr ""
+"See nimetus aitab jälgida antud kampaania tulemusi, nt Jõulu_eripakkumine"
+
+#. module: sale_crm
+#: model:ir.model.fields,help:sale_crm.field_account_invoice__medium_id
+#: model:ir.model.fields,help:sale_crm.field_sale_order__medium_id
+msgid "This is the method of delivery, e.g. Postcard, Email, or Banner Ad"
+msgstr "See on postitamise viis, nt postkaart, e-kiri, bänner-reklaam"
+
+#. module: sale_crm
+#: model:ir.model.fields,help:sale_crm.field_account_invoice__source_id
+#: model:ir.model.fields,help:sale_crm.field_sale_order__source_id
+msgid ""
+"This is the source of the link, e.g. Search Engine, another domain, or name "
+"of email list"
+msgstr ""
+"See on linki allikas, nt otsingumootor, teine ​​domeen või e-posti nimekirja"
+" nimi"
+
+#. module: sale_crm
+#: model:ir.model.fields,help:sale_crm.field_crm_lead__sale_amount_total
+msgid "Untaxed Total of Confirmed Orders"
+msgstr "Kinnitatud tellimusi maksudeta kokku"
 
 #. module: sale_crm
 #: model:ir.model.fields,help:sale_crm.field_account_invoice__medium_id

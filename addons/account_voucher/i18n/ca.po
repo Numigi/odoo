@@ -80,11 +80,6 @@ msgid "Analytic Tags"
 msgstr "Etiquetes analítiques"
 
 #. module: account_voucher
-#: model:ir.model.fields,field_description:account_voucher.field_account_voucher_line__analytic_tag_ids
-msgid "Analytic Tags"
-msgstr ""
-
-#. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_sale_receipt_form
 msgid "Are you sure you want to cancel this receipt?"
@@ -494,19 +489,6 @@ msgid "Register a new purchase receipt"
 msgstr ""
 
 #. module: account_voucher
-#: model:ir.actions.act_window,name:account_voucher.action_purchase_receipt
-#: model:ir.actions.act_window,name:account_voucher.action_sale_receipt
-#: model:ir.ui.menu,name:account_voucher.menu_action_purchase_receipt
-#: model:ir.ui.menu,name:account_voucher.menu_action_sale_receipt
-msgid "Receipts"
-msgstr ""
-
-#. module: account_voucher
-#: model_terms:ir.actions.act_window,help:account_voucher.action_purchase_receipt
-msgid "Register a new purchase receipt"
-msgstr ""
-
-#. module: account_voucher
 #: selection:account.voucher,voucher_type:0
 msgid "Sale"
 msgstr "Venda"
@@ -625,16 +607,6 @@ msgid "Unread Messages Counter"
 msgstr "Comptador de missatges no llegits"
 
 #. module: account_voucher
-#: model:ir.model.fields,field_description:account_voucher.field_account_voucher__message_unread
-msgid "Unread Messages"
-msgstr ""
-
-#. module: account_voucher
-#: model:ir.model.fields,field_description:account_voucher.field_account_voucher__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr ""
-
-#. module: account_voucher
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_purchase_receipt_form
 #: model_terms:ir.ui.view,arch_db:account_voucher.view_sale_receipt_form
 msgid "Validate"
@@ -697,16 +669,6 @@ msgstr "Missatges del lloc web"
 #: model:ir.model.fields,help:account_voucher.field_account_voucher__website_message_ids
 msgid "Website communication history"
 msgstr "Historial de comunicacions del lloc web"
-
-#. module: account_voucher
-#: model:ir.model.fields,field_description:account_voucher.field_account_voucher__website_message_ids
-msgid "Website Messages"
-msgstr ""
-
-#. module: account_voucher
-#: model:ir.model.fields,help:account_voucher.field_account_voucher__website_message_ids
-msgid "Website communication history"
-msgstr ""
 
 #. module: account_voucher
 #: model_terms:ir.actions.act_window,help:account_voucher.action_purchase_receipt

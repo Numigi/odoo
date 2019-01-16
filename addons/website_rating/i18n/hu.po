@@ -78,6 +78,27 @@ msgstr ""
 
 #. module: website_rating
 #. openerp-web
+#: code:addons/website_rating/static/src/xml/website_mail.xml:69
+#, python-format
+msgid "Five stars on five"
+msgstr ""
+
+#. module: website_rating
+#. openerp-web
+#: code:addons/website_rating/static/src/xml/website_mail.xml:68
+#, python-format
+msgid "Four stars on five"
+msgstr ""
+
+#. module: website_rating
+#. openerp-web
+#: code:addons/website_rating/static/src/xml/website_mail.xml:13
+#, python-format
+msgid "Half a star"
+msgstr ""
+
+#. module: website_rating
+#. openerp-web
 #: code:addons/website_rating/static/src/js/website_mail.js:43
 #, python-format
 msgid "I don't like it"
@@ -114,6 +135,20 @@ msgstr ""
 #. module: website_rating
 #: model:ir.model,name:website_rating.model_mail_message
 msgid "Message"
+msgstr ""
+
+#. module: website_rating
+#. openerp-web
+#: code:addons/website_rating/static/src/xml/website_mail.xml:10
+#, python-format
+msgid "One star"
+msgstr ""
+
+#. module: website_rating
+#. openerp-web
+#: code:addons/website_rating/static/src/xml/website_mail.xml:65
+#, python-format
+msgid "One star on five"
 msgstr ""
 
 #. module: website_rating

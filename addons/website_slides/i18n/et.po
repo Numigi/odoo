@@ -131,46 +131,6 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
-#: model:mail.template,body_html:website_slides.slide_template_shared
-msgid ""
-"<div style=\"margin: 0px; padding: 0px;\">\n"
-"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
-"        Hello<br/><br/>\n"
-"        ${user.name} shared the ${object.slide_type} <strong>${object.name}</strong> with you!\n"
-"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
-"            <a href=\"${object.website_url}\">\n"
-"                <img alt=\"${object.name}\" src=\"${ctx['base_url']}/web/image/slide.slide/${object.id}/image\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
-"            </a>\n"
-"        </div>\n"
-"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
-"            <a href=\"${object.website_url}\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">View <strong>${object.name}</strong></a>\n"
-"        </div>\n"
-"    </p>\n"
-"</div>\n"
-"            "
-msgstr ""
-
-#. module: website_slides
-#: model:mail.template,body_html:website_slides.slide_template_published
-msgid ""
-"<div style=\"margin: 0px; padding: 0px;\">\n"
-"    <p style=\"margin: 0px; padding: 0px; font-size: 13px;\">\n"
-"        Hello<br/><br/>\n"
-"        A new ${object.slide_type} <strong>${object.name}</strong> has been published on ${object.channel_id.name} at ${format_tz(object.write_date, tz=user.tz)}\n"
-"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
-"            <a href=\"${object.website_url}\">\n"
-"                <img alt=\"${object.name}\" src=\"${ctx['base_url']}/web/image/slide.slide/${object.id}/image\" style=\"height:auto; width:150px; margin: 16px;\"/>\n"
-"            </a>\n"
-"        </div>\n"
-"        <div style=\"margin: 16px 8px 16px 8px; text-align: center;\">\n"
-"            <a href=\"${object.website_url}\" style=\"background-color: #875a7b; padding: 8px 16px 8px 16px; text-decoration: none; color: #fff; border-radius: 5px;\">View <strong>${object.name}</strong></a>\n"
-"        </div>\n"
-"    </p>\n"
-"</div>\n"
-"            "
-msgstr ""
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "<i class=\"fa fa-align-justify\"/> Transcript"
 msgstr ""
@@ -270,13 +230,6 @@ msgid ""
 msgstr ""
 
 #. module: website_slides
-#: code:addons/website_slides/models/slides.py:107
-#, python-format
-msgid ""
-"<p>This channel is private and its content is restricted to some users.</p>"
-msgstr ""
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid ""
 "<span class=\"badge badge-pill\" id=\"facebook-badge\">0</span>\n"
@@ -363,12 +316,6 @@ msgid "Action Needed"
 msgstr "Vajalik toiming"
 
 #. module: website_slides
-#: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_needaction
-#: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_needaction
-msgid "Action Needed"
-msgstr ""
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Actions"
 msgstr ""
@@ -390,9 +337,20 @@ msgid "Add a new slide"
 msgstr ""
 
 #. module: website_slides
+#: model_terms:ir.actions.act_window,help:website_slides.action_slides_slides
+msgid "Add a new slide"
+msgstr ""
+
+#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_channel_view_search
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Archived"
+msgstr ""
+
+#. module: website_slides
+#: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_attachment_count
+#: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_attachment_count
+msgid "Attachment Count"
 msgstr ""
 
 #. module: website_slides
@@ -440,13 +398,6 @@ msgid "Cancel"
 msgstr "Tühista"
 
 #. module: website_slides
-#. openerp-web
-#: code:addons/website_slides/static/src/js/website_slides.editor.js:55
-#, python-format
-msgid "Cancel"
-msgstr ""
-
-#. module: website_slides
 #: model:ir.actions.act_window,name:website_slides.action_ir_slide_category
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__category_ids
 #: model:ir.ui.menu,name:website_slides.menu_action_ir_slide_category_global
@@ -476,11 +427,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 #, python-format
 msgid "Channel"
-msgstr ""
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
-msgid "Channel #{slide.channel_id.name}"
 msgstr ""
 
 #. module: website_slides
@@ -986,12 +932,6 @@ msgid "Main Attachment"
 msgstr ""
 
 #. module: website_slides
-#: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_main_attachment_id
-#: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_main_attachment_id
-msgid "Main Attachment"
-msgstr ""
-
-#. module: website_slides
 #: model:slide.tag,name:website_slides.tag2
 msgid "Marketing"
 msgstr ""
@@ -999,6 +939,12 @@ msgstr ""
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image_medium
 msgid "Medium"
+msgstr ""
+
+#. module: website_slides
+#: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_has_error
+#: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_has_error
+msgid "Message Delivery error"
 msgstr ""
 
 #. module: website_slides
@@ -1061,11 +1007,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
 msgid "Newest"
 msgstr "Uusim"
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
-msgid "Next slide"
-msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
@@ -1270,11 +1211,6 @@ msgid "Previous slide"
 msgstr ""
 
 #. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
-msgid "Previous slide"
-msgstr ""
-
-#. module: website_slides
 #: selection:slide.channel,visibility:0
 msgid "Private"
 msgstr ""
@@ -1283,17 +1219,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.channels
 msgid "Private channel"
 msgstr "Privaatkanal"
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.slides_grid_view
-msgid "Promote this #{slide.slide_type}"
-msgstr ""
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.channels
-#: model_terms:ir.ui.view,arch_db:website_slides.home
-msgid "Promoted slide"
-msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_grid_view
@@ -1343,12 +1268,6 @@ msgid "Restrict publishing to this website."
 msgstr ""
 
 #. module: website_slides
-#: model:ir.model.fields,help:website_slides.field_slide_channel__website_id
-#: model:ir.model.fields,help:website_slides.field_slide_slide__website_id
-msgid "Restrict publishing to this website."
-msgstr ""
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.home
 msgid "Results for"
 msgstr "Tulemused"
@@ -1386,19 +1305,9 @@ msgid "Search"
 msgstr "Otsi"
 
 #. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
-msgid "Search"
-msgstr ""
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search
 msgid "Search Slides"
 msgstr "Otsi slaide"
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
-msgid "Search in #{channel.name}"
-msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
@@ -1416,6 +1325,13 @@ msgstr ""
 #, python-format
 msgid "Select"
 msgstr ""
+
+#. module: website_slides
+#. openerp-web
+#: code:addons/website_slides/static/src/js/website_slides.editor.js:44
+#, python-format
+msgid "Select"
+msgstr "Vali"
 
 #. module: website_slides
 #. openerp-web
@@ -1466,21 +1382,6 @@ msgid "Share on LinkedIn"
 msgstr ""
 
 #. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.slides_share
-msgid "Share on Facebook"
-msgstr ""
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.slides_share
-msgid "Share on Google Plus"
-msgstr ""
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.slides_share
-msgid "Share on LinkedIn"
-msgstr ""
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_social_media
 msgid "Share on Social Networks"
 msgstr ""
@@ -1509,11 +1410,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_form
 msgid "Slide"
 msgstr "Slaid"
-
-#. module: website_slides
-#: model:ir.model,name:website_slides.model_slide_channel
-msgid "Slide Channel"
-msgstr ""
 
 #. module: website_slides
 #: model:ir.model,name:website_slides.model_slide_channel
@@ -1763,12 +1659,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__visibility
 msgid "Visibility"
 msgstr "Nähtavus"
-
-#. module: website_slides
-#: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_published
-#: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_published
-msgid "Visible on current website"
-msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_published

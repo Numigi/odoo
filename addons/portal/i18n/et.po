@@ -59,16 +59,6 @@ msgid "<span class=\"small mr-1 navbar-text\">Group By:</span>"
 msgstr ""
 
 #. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
-msgid "<i class=\"fa fa-arrow-right\"/> Back to edit mode"
-msgstr ""
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_layout
-msgid "<i class=\"fa fa-pencil\"/> Edit"
-msgstr ""
-
-#. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small mr-1 navbar-text\">Sort By:</span>"
 msgstr ""
@@ -204,13 +194,6 @@ msgid "Avatar"
 msgstr ""
 
 #. module: portal
-#. openerp-web
-#: code:addons/portal/static/src/xml/portal_chatter.xml:26
-#, python-format
-msgid "Avatar"
-msgstr ""
-
-#. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "Cancel"
@@ -248,12 +231,6 @@ msgstr "Vajuta, et näha oma dokumenti."
 #: model_terms:ir.ui.view,arch_db:portal.portal_layout
 msgid "Close"
 msgstr "Kinnitatud"
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
-#: model_terms:ir.ui.view,arch_db:portal.portal_layout
-msgid "Close"
-msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
@@ -488,6 +465,21 @@ msgid "Odoo Logo"
 msgstr "Odoo logo"
 
 #. module: portal
+#: model:ir.model.fields,field_description:portal.field_portal_share__note
+msgid "Note"
+msgstr "Märkused"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.frontend_layout
+msgid "Odoo"
+msgstr "Odoo"
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
+msgid "Odoo Logo"
+msgstr "Odoo logo"
+
+#. module: portal
 #. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:39
 #, python-format
@@ -526,12 +518,6 @@ msgstr "Portaali kasutaja seadistused"
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "Powered by"
 msgstr "Tootja"
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.frontend_layout
-#: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
-msgid "Powered by"
-msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.pager
@@ -657,11 +643,6 @@ msgid "This is a preview of the customer portal."
 msgstr ""
 
 #. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
-msgid "This is a preview of the customer portal."
-msgstr ""
-
-#. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.wizard_view
 msgid "This text is included in the email sent to new portal users."
 msgstr ""
@@ -701,6 +682,12 @@ msgid "VAT Number"
 msgstr "KMKR nr"
 
 #. module: portal
+#: code:addons/portal/models/portal_mixin.py:83
+#, python-format
+msgid "View %s"
+msgstr ""
+
+#. module: portal
 #: model:ir.model.fields,field_description:portal.field_account_analytic_account__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_calendar_event__website_message_ids
 #: model:ir.model.fields,field_description:portal.field_mail_blacklist__website_message_ids
@@ -733,18 +720,6 @@ msgstr ""
 #, python-format
 msgid "Write a message..."
 msgstr "Kirjuta sõnum ..."
-
-#. module: portal
-#: code:addons/portal/wizard/portal_share.py:59
-#: code:addons/portal/wizard/portal_share.py:71
-#, python-format
-msgid "You are invited to access %s"
-msgstr ""
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_share_template
-msgid "You have been invited to access the following document:"
-msgstr ""
 
 #. module: portal
 #: code:addons/portal/wizard/portal_share.py:59

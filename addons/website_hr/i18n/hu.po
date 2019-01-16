@@ -38,6 +38,11 @@ msgid "Is published"
 msgstr ""
 
 #. module: website_hr
+#: model:ir.model.fields,field_description:website_hr.field_hr_employee__is_published
+msgid "Is published"
+msgstr ""
+
+#. module: website_hr
 #: model_terms:ir.ui.view,arch_db:website_hr.aboutus
 msgid "Our Team"
 msgstr ""
@@ -45,6 +50,11 @@ msgstr ""
 #. module: website_hr
 #: model:ir.model.fields,field_description:website_hr.field_hr_employee__public_info
 msgid "Public Info"
+msgstr ""
+
+#. module: website_hr
+#: model:ir.model.fields,help:website_hr.field_hr_employee__website_id
+msgid "Restrict publishing to this website."
 msgstr ""
 
 #. module: website_hr

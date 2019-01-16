@@ -117,6 +117,14 @@ msgstr ""
 
 #. module: website_links
 #. openerp-web
+#: code:addons/website_links/static/src/xml/recent_link.xml:26
+#: model_terms:ir.ui.view,arch_db:website_links.graphs
+#, python-format
+msgid "Edit code"
+msgstr ""
+
+#. module: website_links
+#. openerp-web
 #: code:addons/website_links/static/src/js/website_links.js:356
 #, python-format
 msgid "Generating link..."
@@ -133,6 +141,13 @@ msgstr ""
 #, python-format
 msgid "Icon"
 msgstr ""
+
+#. module: website_links
+#. openerp-web
+#: code:addons/website_links/static/src/xml/recent_link.xml:13
+#, python-format
+msgid "Icon"
+msgstr "Ikon"
 
 #. module: website_links
 #. openerp-web

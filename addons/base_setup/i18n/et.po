@@ -97,11 +97,6 @@ msgid "Auto-populate company data"
 msgstr ""
 
 #. module: base_setup
-#: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
-msgid "Auto-populate company data"
-msgstr ""
-
-#. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Autocomplete company data (name, logo, address, etc.)"
 msgstr ""
@@ -153,6 +148,11 @@ msgstr ""
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__company_id
 msgid "Company"
+msgstr ""
+
+#. module: base_setup
+#: model:ir.model,name:base_setup.model_res_config_settings
+msgid "Config Settings"
 msgstr ""
 
 #. module: base_setup
@@ -257,11 +257,6 @@ msgid "HTTP Routing"
 msgstr ""
 
 #. module: base_setup
-#: model:ir.model,name:base_setup.model_ir_http
-msgid "HTTP Routing"
-msgstr ""
-
-#. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Import & Export"
 msgstr "Impordi ja ekspordi"
@@ -359,11 +354,6 @@ msgid "Show Effect"
 msgstr ""
 
 #. module: base_setup
-#: model:ir.model.fields,field_description:base_setup.field_res_config_settings__show_effect
-msgid "Show Effect"
-msgstr ""
-
-#. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Synchronize your calendar with Google Calendar"
 msgstr "Sünkroniseerige oma kalender Google'i kalendriga"
@@ -382,11 +372,6 @@ msgstr "Tõlgi oma veebileht Gengo'ga"
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Translate your website with Gengo"
 msgstr "Tõlgi oma veebileht Gengo'ga"
-
-#. module: base_setup
-#: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash
-msgid "Unsplash Image Library"
-msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_web_unsplash

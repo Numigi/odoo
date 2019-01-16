@@ -442,12 +442,6 @@ msgid "Unit(s)"
 msgstr "Unitat(s)"
 
 #. module: event_sale
-#: model:product.product,uom_name:event_sale.product_product_event
-#: model:product.template,uom_name:event_sale.product_product_event_product_template
-msgid "Unit(s)"
-msgstr ""
-
-#. module: event_sale
 #: selection:event.event.ticket,seats_availability:0
 msgid "Unlimited"
 msgstr "Ilimitat"

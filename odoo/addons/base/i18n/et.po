@@ -7,21 +7,21 @@
 # Wanradt Koell <wanradt@gmail.com>, 2018
 # Ants Peetsalu <ants@avalah.ee>, 2018
 # Egon Raamat <egon@avalah.ee>, 2018
-# Eneli Õigus <enelioigus@gmail.com>, 2018
 # Marek Pontus, 2018
-# Martin Aavastik <martin@avalah.ee>, 2018
 # Helen Sulaoja <helen@avalah.ee>, 2018
+# Arma Gedonsky <armagedonsky@hot.ee>, 2018
 # Rivo Zängov <eraser@eraser.ee>, 2018
 # Martin Trigaux, 2018
-# Arma Gedonsky <armagedonsky@hot.ee>, 2018
+# Eneli Õigus <enelioigus@gmail.com>, 2018
+# Martin Aavastik <martin@avalah.ee>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-08 07:02+0000\n"
+"POT-Creation-Date: 2018-12-19 08:47+0000\n"
 "PO-Revision-Date: 2018-08-24 09:14+0000\n"
-"Last-Translator: Arma Gedonsky <armagedonsky@hot.ee>, 2018\n"
+"Last-Translator: Martin Aavastik <martin@avalah.ee>, 2018\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -58,37 +58,18 @@ msgid ""
 "\n"
 "\n"
 "Add Structured Communication to customer invoices.\n"
-"---------------------------------------------------------------------------------------------------------------------\n"
+"--------------------------------------------------\n"
 "\n"
-"Using BBA structured communication simplifies the reconciliation between invoices and payments.        \n"
+"Using BBA structured communication simplifies the reconciliation between invoices and payments.\n"
 "You can select the structured communication as payment communication in Invoicing/Accounting settings.\n"
 "Three algorithms are suggested:\n"
+"\n"
 "    1) Random : +++RRR/RRRR/RRRDD+++\n"
 "        **R..R =** Random Digits, **DD =** Check Digits\n"
 "    2) Date : +++DOY/YEAR/SSSDD+++\n"
 "        **DOY =** Day of the Year, **SSS =** Sequence Number, **DD =** Check Digits\n"
 "    3) Customer Reference +++RRR/RRRR/SSSDDD+++\n"
-"        **R..R =** Customer Reference without non-numeric characters, **SSS =** Sequence Number, **DD =** Check Digits  \n"
-"    "
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_l10n_be_invoice_bba
-msgid ""
-"\n"
-"\n"
-"Add Structured Communication to customer invoices.\n"
-"---------------------------------------------------------------------------------------------------------------------\n"
-"\n"
-"Using BBA structured communication simplifies the reconciliation between invoices and payments.        \n"
-"You can select the structured communication as payment communication in Invoicing/Accounting settings.\n"
-"Three algorithms are suggested:\n"
-"    1) Random : +++RRR/RRRR/RRRDD+++\n"
-"        **R..R =** Random Digits, **DD =** Check Digits\n"
-"    2) Date : +++DOY/YEAR/SSSDD+++\n"
-"        **DOY =** Day of the Year, **SSS =** Sequence Number, **DD =** Check Digits\n"
-"    3) Customer Reference +++RRR/RRRR/SSSDDD+++\n"
-"        **R..R =** Customer Reference without non-numeric characters, **SSS =** Sequence Number, **DD =** Check Digits  \n"
+"        **R..R =** Customer Reference without non-numeric characters, **SSS =** Sequence Number, **DD =** Check Digits\n"
 "    "
 msgstr ""
 
@@ -641,11 +622,21 @@ msgstr ""
 "        Sild Personali ja Hoolduse vahel"
 
 #. module: base
-#: model:ir.module.module,description:base.module_account_taxcloud
+#: model:ir.module.module,description:base.module_sale_intrastat
 msgid ""
 "\n"
-"        Compute sales tax automatically using TaxCloud based on customer address in United States.\n"
+"        Bridge module between sale and intrastat.\n"
 "    "
+msgstr ""
+"\n"
+"        Arvutage müügimaks automaatselt kasutades TaxCloud-i vastavalt kliendi Ameerika Ühendriikide aadressile..\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_partner_autocomplete_address_extended
+msgid ""
+"\n"
+"        Correct address formating when both modules are installed"
 msgstr ""
 "\n"
 "        Arvutage müügimaks automaatselt kasutades TaxCloud-i vastavalt kliendi Ameerika Ühendriikide aadressile..\n"
@@ -744,13 +735,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_social_media
-msgid ""
-"\n"
-"        Social media connectors for company settings."
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_base_sparse_field
 msgid ""
 "\n"
@@ -764,15 +748,6 @@ msgstr ""
 "        Selle mooduli eesmärk on rakendada \"hõredaid\" välju, nt välju, \n"
 "        mis on enamasti nullid.\n"
 "    "
-
-#. module: base
-#: model:ir.module.module,description:base.module_social_media
-msgid ""
-"\n"
-"        The purpose of this technical module is to provide a front for\n"
-"        social media configuration for any other module that might need it.\n"
-"    "
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_social_media
@@ -804,6 +779,31 @@ msgstr ""
 "\n"
 "        See moodul lisab tuge laohaldamise süsteemi ribakoodide skaneerimisele.\n"
 "    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_es_real_estates
+msgid ""
+"\n"
+"        This module adds support for real estates data to Spanish localization,\n"
+"        and its mod 347 report.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_im_support
+msgid ""
+"\n"
+"        This module allows employee users to communicate with livechat operators\n"
+"        of another database on which a counterpart addon is installed.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_stock_zebra
+msgid ""
+"\n"
+"        This module bring templates to produce labels in the Stock app (and derivatives) for Zebra printers. Those devices print thermal barcode label and shipping labels. Printers make label from ZPL script which is built in Odoo."
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_es_real_estates
@@ -1028,13 +1028,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_quality_mrp_workorder
-msgid ""
-"\n"
-"    Adds Quality Control to workorders.\n"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_quality_mrp
 msgid ""
 "\n"
@@ -1042,14 +1035,6 @@ msgid ""
 msgstr ""
 "\n"
 "    Lisab töökohad kvaliteedikontrolli\n"
-
-#. module: base
-#: model:ir.module.module,description:base.module_quality_mrp_iot
-msgid ""
-"\n"
-"    Configure IoT devices to be used in certain \n"
-"    quality steps for taking measures, taking pictures, ...\n"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_quality_mrp_iot
@@ -1122,6 +1107,15 @@ msgstr ""
 "\n"
 "    PayUmoney makseviis toetab ainult INR valuutat.\n"
 "    "
+
+#. module: base
+#: model:ir.module.module,summary:base.module_l10n_mx_tax_cash_basis
+msgid ""
+"\n"
+"    Properly create the Journal Entries on Tax Cash basis when using foreign\n"
+"    currencies the Tax must be set at date of payment\n"
+"    "
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_project_forecast
@@ -1601,6 +1595,54 @@ msgid ""
 "\n"
 "Add the ability to create invoices from the document module.\n"
 msgstr ""
+"\n"
+"Lisab toodetele aruandlusmenüü, mis arvutab arvete põhjal müügi, ostu, kasumimarginaali ja teised huvitavad indikaatorid.\n"
+"=============================================================================================================================\n"
+"\n"
+"Aruande avamisel käivitub abiline, mis aitab teil saada vajalikud andmed.\n"
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_product
+msgid ""
+"\n"
+"Add the ability to create products from the document module.\n"
+"and to get the option to send products' attachments to the documents app.\n"
+msgstr ""
+"\n"
+"Lisab rohkem toetust (Ether)Pad manustele veebikliendis.\n"
+"===================================================================\n"
+"\n"
+"Võimaldab ettevõttel kohendada, millist Pad-i paigutust kasutada uute linkimiseks\n"
+"pad-i (vaikimisi http://etherpad.com/).\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_be_intrastat_2019
+msgid ""
+"\n"
+"Adds the possibility to specify the origin country of goods and the partner VAT in the Intrastat XML report.\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_sign
+msgid ""
+"\n"
+"Add the ability to create signatures from the document module.\n"
+"The first element of the selection (in DRM) will be used as the signature attachment.\n"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_documents_account
+#: model:ir.module.module,description:base.module_documents_project
+msgid ""
+"\n"
+"Add the ability to create invoices from the document module.\n"
+msgstr ""
+"\n"
+"Lubage klientidel kodulehe kaudu kohtumisi planeerida\n"
+"-------------------------------------------------------------\n"
+"\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_documents_product
@@ -1705,14 +1747,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_website_sale_wishlist
-msgid ""
-"\n"
-"Allow shoppers of your eCommerce store to create personalized collections of products they want to buy and save them for future reference.\n"
-"    "
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_auth_oauth
 msgid ""
 "\n"
@@ -1735,14 +1769,6 @@ msgstr ""
 "Lubage kasutajatel registreeruda ja lähtestada oma parool\n"
 "===============================================\n"
 "    "
-
-#. module: base
-#: model:ir.module.module,description:base.module_website_livechat
-msgid ""
-"\n"
-"Allow website visitors to chat with the collaborators. This module also brings a feedback tool for the livechat and web pages to display your channel with its ratings on the website.\n"
-"    "
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_livechat
@@ -1786,25 +1812,6 @@ msgstr ""
 "Samuti toimib see arvetel, pangaväljavõtetel, maksetel ...\n"
 "\n"
 "Olge selle mooduliga ettevaatlik, kuna see võib mõjutada auditeid. Raamatupidamiskirjete kustutamine pole kõigis riikides lubatud.\n"
-
-#. module: base
-#: model:ir.module.module,description:base.module_sale_purchase
-msgid ""
-"\n"
-"Allows the outsourcing of services. This module allows one to sell services provided\n"
-"by external providers and will automatically generate purchase orders directed to the service seller.\n"
-"    "
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_mrp_bom_cost
-msgid ""
-"\n"
-"Allows to compute the cost of the product based on its BoM,\n"
-"using the costs of its components and work center operations.\n"
-"It adds a button on the product itself but also an action in the list view of the products.\n"
-"If the automated inventory valuation is active, the necessary accounting entries will be created.\n"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_sale_purchase
@@ -2221,7 +2228,8 @@ msgid ""
 "Legal\n"
 "-----\n"
 "**The use of pos_blackbox_be sources is only certified on odoo.com SaaS platform\n"
-"for version 9.0.**\n"
+"for version 11.0.** Contact Odoo SA before installing pos_blackbox_be module.\n"
+"\n"
 "An obfuscated and certified version of the pos_blackbox_be may be provided on\n"
 "requests for on-premise installations.\n"
 "No modified version is certified and supported by Odoo SA.\n"
@@ -2262,6 +2270,17 @@ msgstr ""
 "Plan contable boliviano e impuestos de acuerdo a disposiciones vigentes\n"
 "\n"
 "    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_mail_enterprise
+msgid ""
+"\n"
+"Bridge module for mail and enterprise\n"
+"=====================================\n"
+"\n"
+"Display a preview of the last chatter attachment in the form view for large\n"
+"screen devices.\n"
+msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_mail_enterprise
@@ -2504,18 +2523,6 @@ msgstr ""
 "\n"
 "Saate projekti plaanis võrrelda ajaarvestust ja prognoosi, et paremini ressursse planeerida.\n"
 "    "
-
-#. module: base
-#: model:ir.module.module,description:base.module_project_timesheet_forecast
-msgid ""
-"\n"
-"Compare timesheets and forecasts\n"
-"================================\n"
-"\n"
-"Better plan your futur forecasts by observing the number of hours pressed\n"
-"on old forecasts.\n"
-"\n"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_project_timesheet_forecast
@@ -2808,6 +2815,16 @@ msgstr ""
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_l10n_mx_edi_payment_bank
+msgid ""
+"\n"
+"EDI Mexican Localization\n"
+"========================\n"
+"Allow the user to select the bank account that was used the customer to paid the invoices.\n"
+"    "
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_hw_escpos
 msgid ""
 "\n"
@@ -2970,14 +2987,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,description:base.module_snailmail_account_reports_followup
-msgid ""
-"\n"
-"Extension to send follow-up documents by post\n"
-"    "
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_hw_blackbox_be
 msgid ""
 "\n"
@@ -3040,14 +3049,6 @@ msgstr ""
 "    - The payslip.line with appears_in_payslip = False should appears in the\n"
 "      payslip interface, but not in the payslip report\n"
 "    "
-
-#. module: base
-#: model:ir.module.module,description:base.module_purchase_mrp_workorder_quality
-msgid ""
-"\n"
-"Full Traceability Report Demo Data\n"
-"==================================\n"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_purchase_mrp_workorder_quality
@@ -4312,6 +4313,15 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_delivery_hs_code
+msgid ""
+"\n"
+"Set back field hs_code on pruduct template.\n"
+"==============================================================\n"
+"\n"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_account_analytic_default
 msgid ""
 "\n"
@@ -4601,22 +4611,6 @@ msgid ""
 "\n"
 "This creates a product cache per POS config. It drastically lowers the\n"
 "time it takes to load a POS session with a lot of products.\n"
-"    "
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_website_partner
-msgid ""
-"\n"
-"This is a base module. It holds website-related stuff for Contact model (res.partner).\n"
-"    "
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_website_payment
-msgid ""
-"\n"
-"This is a bridge module which integrates payment acquirers with Website app.\n"
 "    "
 msgstr ""
 
@@ -5114,8 +5108,12 @@ msgid ""
 "-----------------\n"
 "This module supports the three most common check formats and will work out of the box with the linked checks from checkdepot.net.\n"
 "\n"
-"- Check on top: Quicken / QuickBooks standard (https://www.checkdepot.net/checks/checkorder/59209.htm)\n"
-"- Check on middle: Peachtree standard (https://www.checkdepot.net/checks/checkorder/513791.htm)\n"
+"View all checks at: https://www.checkdepot.net/checks/laser/Odoo.htm\n"
+"\n"
+"You can choose between:\n"
+"\n"
+"- Check on top: Quicken / QuickBooks standard (https://www.checkdepot.net/checks/checkorder/laser_topcheck.htm)\n"
+"- Check on middle: Peachtree standard (https://www.checkdepot.net/checks/checkorder/laser_middlecheck.htm)\n"
 "- Check on bottom: ADP standard (https://www.checkdepot.net/checks/checkorder/laser_bottomcheck.htm)\n"
 "    "
 msgstr ""
@@ -5154,6 +5152,14 @@ msgid ""
 "\n"
 "The automatic assignation is figured from the weight of partner levels and the geolocalization. Partners get leads that are located around them.\n"
 "\n"
+"    "
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_website_gengo
+msgid ""
+"\n"
+"This module allows to send website content to Gengo translation service in a single click. Gengo then gives back the translated terms in the destination language.\n"
 "    "
 msgstr ""
 
@@ -6116,6 +6122,11 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
+msgid "<span class=\"text-white text-uppercase\">Danger Zone</span>"
+msgstr ""
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.sequence_view
 msgid ""
 "<span colspan=\"2\">Current Year with Century: %(year)s</span>\n"
@@ -6160,6 +6171,85 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
 msgid "<span>Object:</span>"
 msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
+msgid "<span>Version</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
+msgid "<span>Web</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_currency_kanban
+msgid "<strong><span>Current Rate: </span></strong>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
+msgid "<strong>Apps</strong>"
+msgstr "<strong>Rakendused</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
+msgid "<strong>Attribute</strong>"
+msgstr "<strong>Atribuut</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
+msgid "<strong>Dependencies :</strong>"
+msgstr "<strong>Sõltuvused :</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_company_kanban
+msgid "<strong>Email:</strong>"
+msgstr "<strong>E-post:</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
+msgid "<strong>Group</strong>"
+msgstr "<strong>Grupp</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.sequence_view
+msgid ""
+"<span colspan=\"2\">Current Year with Century: %(year)s</span>\n"
+"                                <span colspan=\"2\">Current Year without Century: %(y)s</span>\n"
+"                                <span colspan=\"2\">Month: %(month)s</span>\n"
+"                                <span colspan=\"2\">Day: %(day)s</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
+msgid "<strong>Inherited</strong>"
+msgstr "<strong>Päritud</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodeloverview
+msgid "<strong>Label</strong>"
+msgstr "<strong>Silt</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
+msgid "<strong>Menu :</strong>"
+msgstr "<strong>Menüü :</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
+msgid "<span>Module</span>"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_res_company_kanban
+msgid "<strong>Phone</strong>"
+msgstr "<strong>Telefon</strong>"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
+msgid "<strong>Reports :</strong>"
+msgstr "<strong>Aruanded :</strong>"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.report_irmodulereference
@@ -6590,293 +6680,6 @@ msgstr "Dokumendi muudeti viimati, kui te vaatasite seda (%s:%d)"
 #. module: base
 #: model_terms:ir.actions.act_window,help:base.action_res_groups
 msgid ""
-"==============================\n"
-"Barcodes module documentation\n"
-"==============================\n"
-"\n"
-"This module brings barcode encoding logic and client-side barcode scanning utilities.\n"
-"\n"
-"\n"
-"Barcodes encoding\n"
-"==============================\n"
-"\n"
-"The Barcodes module defines barcode nomenclatures whose rules identify specific type \n"
-"of items e.g. products, locations. It contains the following features:\n"
-"\n"
-"- Patterns to identify barcodes containing a numerical value (e.g. weight, price)\n"
-"- Definitin of barcode aliases that allow to identify the same product with different barcodes\n"
-"- Unlimited barcode patterns and definitions,\n"
-"- Support for encodings EAN-13, EAN-8 and UPC-A\n"
-"\n"
-"Barcode encodings\n"
-"-----------------\n"
-"\n"
-"A barcode is an arbitrary long sequence of ASCII characters. An EAN-13 barcode is a 13 digit\n"
-"barcode, whose 13th digit is the checksum. \n"
-"\n"
-"Simple barcodes and rules\n"
-"-------------------------\n"
-"\n"
-"The default nomenclature assumes an EAN-13 encoding for product barcodes. It defines a rule \n"
-"for Unit Products whose encoding is EAN-13, and whose pattern is '.', i.e. any barcode \n"
-"matches this pattern. Scanning the barcode of a product, say '5410013101703', matches this rule. \n"
-"The scanned item is thus identified as a Unit Product, and is retrieved from the product table.\n"
-"\n"
-"Note: the special character '.' in patterns is matched by any character. To explicitely specify \n"
-"the '.' character in a pattern, escape it with '\\'. The '\\' character has to be escaped as well\n"
-"('\\\\') to be explicitely specified.\n"
-"\n"
-"Let us now suppose that we identify other items with barcodes, say stock locations. We define a\n"
-"new rule in the nomenclature with the corresponding type (in our example, the type is 'Location'),\n"
-"and whose pattern is e.g. '414.', that is, any location barcode starts with '414'. Scanning a barcode\n"
-"location, say '41401', matches this Location rule, and the corresponding location is retrieved from\n"
-"the location table.\n"
-"\n"
-"Note: Rules have a sequence field which indicates the order the rules are evaluated (ASC). In our \n"
-"previous examples, the Unit Product rule should have a larger sequence that then Location rule, \n"
-"because we want the latter one to be evaluated first.\n"
-"\n"
-"Barcodes with numerical content\n"
-"--------------------------------\n"
-"\n"
-"Barcodes may encode numerical content, which is decoded by the barcodes module. To that purpose,\n"
-"one have to define a new rule for barcodes with numerical content (e.g. barcodes for Weighted \n"
-"Products). The numerical content in a pattern is specified between braces (special characters '{' and \n"
-"'}'). The content of the braces must be a sequence of 'N's (representing the whole part of the numerical \n"
-"content) followed by a sequence of 'D's (representing the decimal part of the numerical content). \n"
-"For instance, let us define a new rule for Weighted Products whose pattern is '21.....{NNDDD}.'. Since\n"
-"we assume EAN-13 encoding for product barcodes, the encoding of this rule should be EAN-13 as well.\n"
-"\n"
-"Let us now assume that we want to write a barcode for a given Weighted Product, say oranges. We first \n"
-"have to define in product oranges a barcode that will match the Weighted Product rule. This barcode \n"
-"must start with '21' and be a correct EAN-13 barcode (i.e. the 13th digit must be a correct checksum). \n"
-"Moreover, all the numerical content must be set to a '0'. For instance, let us set the barcode to \n"
-"'2100001000004'. \n"
-"\n"
-"We now want to write a barcode for 2.75kg of oranges. This barcode should be '2100001027506' (the \n"
-"numerical content of this barcode is '02750', and the correct checksum is '6'). When scanned, this \n"
-"barcode matches the Weighted Product rule (since is starts with '21'). The numerical content is extracted, \n"
-"and replaced by a sequence of '0's. The correct checksum is then computed for the obtained barcode \n"
-"('2100001000004') and the corresponding product (oranges) is retrieved from product table.\n"
-"\n"
-"Note: the special characters '{' and '}' in patterns are used to identify numerical content. To \n"
-"explicitely specify '{' or '}' in a pattern, they must be escaped.\n"
-"\n"
-"\n"
-"Strict EAN-13 field of barcode nomenclatures\n"
-"--------------------------------------------\n"
-"\n"
-"Many barcode scanners strip the leading zero when scanning EAN-13 barcodes. Barcode nomenclatures\n"
-"have a boolean field \"Use strict EAN13\". If False, when trying to match a scanned barcode with\n"
-"a rule whose encoding is EAN-13, if the barcode is of length 12 and, by prepending it by a 0,\n"
-"the last digit is the correct checksum, we automatically prepend the barcode by 0 and try to\n"
-"find a match with this new barcode. If \"Use strict EAN13\" is set to True, we look for a pattern\n"
-"matching the original, 12-digit long, barcode.\n"
-"\n"
-"\n"
-"\n"
-"Barcodes scanning\n"
-"==============================\n"
-"\n"
-"Scanning\n"
-"--------\n"
-"\n"
-"Use a USB scanner (that mimics keyboard inputs) in order to work with barcodes in Odoo.\n"
-"The scanner must be configured to use no prefix and a carriage return or tab as suffix.\n"
-"The delay between each character input must be less than or equal to 50 milliseconds.\n"
-"Most barcode scanners will work out of the box.\n"
-"However, make sure the scanner uses the same keyboard layout as the device it's plugged in.\n"
-"Either by setting the device's keyboard layout to US QWERTY (default value for most readers)\n"
-"or by changing the scanner's keyboard layout (check the manual).\n"
-"\n"
-"\n"
-"Barcode events\n"
-"------------------------------\n"
-"\n"
-"When the module barcodes is installed, it instanciate a singleton of the javascript class BarcodeEvents.\n"
-"The purpose of this component is to listen to keypresses to detect barcodes, then dispatch those barcodes\n"
-"on core.bus inside a 'barcode_event'.\n"
-"All keypress events are buffered until there is no more keypress during 50ms or a carriage return / tab is\n"
-"inputted (because most barcode scanners use this as a suffix).\n"
-"If the buffered keys looks like a barcode, an event is triggered :\n"
-"core.bus.trigger('barcode_scanned', barcode);\n"
-"Otherwise, the keypresses are 'resent'. However, for security reasons, a keypress event programmatically\n"
-"crafted doesn't trigger native browser behaviors. For this reason, BarcodeEvents doesn't intercept keypresses\n"
-"whose target is an editable element (eg. input) or when ctrl/cmd/alt is pushed.\n"
-"To catch keypresses targetting an editable element, it must have the attribute barcode_events=\"true\".\n"
-"\n"
-"\n"
-"Barcode handlers\n"
-"------------------------------\n"
-"\n"
-"To keep the web client consistent, components that want to listen to barcode events should include BarcodeHandlerMixin.\n"
-"It requires method on_barcode_scanned(barcode) to be implemented and exposes methods start_listening and stop_listening\n"
-"As long as it is the descendant of a View managed by a ViewManager is only listens while the view is attached.\n"
-"\n"
-"\n"
-"Form view barcode handler\n"
-"------------------------------\n"
-"\n"
-"It is possible for a form view to listen to barcode events, handle them client side and/or server-side.\n"
-"When the barcode is handled server-side, it works like an onchange. The relevant model must include the\n"
-"BarcodeEventsMixin and redefine method on_barcode_scanned. This method receives the barcode scanned and\n"
-"the `self` is a pseudo-record representing the content of the form view, just like in @api.onchange methods.\n"
-"Barcodes prefixed with 'O-CMD' or 'O-BTN' are reserved for special features and are never passed to on_barcode_scanned.\n"
-"The form view barcode handler can be extended to add client-side handling. Please refer to the (hopefully\n"
-"well enough) documented file for more informations.\n"
-"\n"
-"\n"
-"Button barcode handler\n"
-"------------------------------\n"
-"\n"
-"Add an attribute 'barcode_trigger' to a button to be able to trigger it by scanning a barcode. Example :\n"
-"<button name=\"validate\" type=\"object\" barcode_trigger=\"validate\"/> will be triggered when a barcode containing\n"
-"\"O-BTN.validate\" is scanned.\n"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_l10n_mx_edi_landing
-msgid ""
-"==========================================\n"
-"Odoo Mexico Localization for Stock/Landing\n"
-"==========================================\n"
-"\n"
-"This module extends the functionality of Mexican localization to support\n"
-"customs numbers related with landed costs when you generate the electronic\n"
-"invoice.\n"
-"\n"
-"Usage\n"
-"=====\n"
-"\n"
-"To use this module, you need to:\n"
-"\n"
-"* Generate a new purchase order for a product from abroad. Landed costs are\n"
-"  only possible for products configured with 'automated' valuation with\n"
-"  'FIFO' costing method. The costing method is configured in the product\n"
-"  category.\n"
-"\n"
-".. figure:: static/description/purchase_order_new.png\n"
-"\n"
-"* Receive the product of the purchase order\n"
-"\n"
-".. figure:: static/description/picking_done_purchase.png\n"
-"\n"
-"* Go to Inventory -> Inventory control -> Landed Cost\n"
-"\n"
-"* Create a new landed cost indicating the picking of the purchase order\n"
-"  and the number of the customs information (pedimento). Landed costs are\n"
-"  only possible for products configured in real time valuation with real\n"
-"  price costing method. The costing method is configured on the product\n"
-"  category\n"
-"\n"
-".. figure:: static/description/landed_cost_picking.png\n"
-"\n"
-"* Start by creating specific products to indicate your various Landed\n"
-"  Costs, such as freight, insurance or custom duties.\n"
-"\n"
-"  Go to Inventory -> Configuration -> Landed Cost types. Landed costs are\n"
-"  only possible for products configured in real time valuation with real\n"
-"  price costing method. The costing method is configured on the product\n"
-"  category.\n"
-"\n"
-".. figure:: static/description/product_landed_cost.png\n"
-"\n"
-"* Click the Compute button to see how the landed costs will be split across\n"
-"  the picking lines.\n"
-"\n"
-".. figure:: static/description/compute_landed_cost.png\n"
-"\n"
-"* To confirm the landed costs attribution, click on the Validate button.\n"
-"\n"
-".. figure:: static/description/validate_landed_cost.png\n"
-"\n"
-"* Create a sales order for the product purchased from abroad\n"
-"\n"
-".. figure:: static/description/sale_order_new.png\n"
-"\n"
-"* Delivery the product related to the sales order\n"
-"\n"
-".. figure:: static/description/picking_done_sale.png\n"
-"\n"
-"* Create and validate a new invoice associated with the sales order\n"
-"\n"
-".. figure:: static/description/validate_invoice_customs.png\n"
-"\n"
-"* The customs information is found in the lines of the invoice associated\n"
-"  with each product.\n"
-"\n"
-".. figure:: static/description/invoice_custom_pedimento.png\n"
-"\n"
-"* Check the electronic invoice associated with the product where the node\n"
-"  of the customs information is displayed\n"
-"\n"
-".. figure:: static/description/invoice_custom_xml.png\n"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,description:base.module_l10n_mx_edi_customs
-msgid ""
-"=======================================================\n"
-"Odoo Mexico Localization for Invoice with Custom Number\n"
-"=======================================================\n"
-"\n"
-"This module extends the functionality of Mexican localization to support customs numbers when you generate the electronic invoice.\n"
-"\n"
-"Usage\n"
-"=====\n"
-"\n"
-"To use this module, you need to:\n"
-"\n"
-"- Create a customer invoice normally.\n"
-"- Add the personalized number related to the customs information, separated by commas, \n"
-"  if there are several numbers for each line of the invoice associated with a product.\n"
-"\n"
-"  For example, given the number of petition **16  52  3XXX  8000988**.\n"
-"\n"
-"  The number of the corresponding request to import the good must be registered, which is integrated from left to right in the following way:\n"
-"\n"
-"  Last 2 digits of the validation year followed by two spaces, 2 digits of the customs office followed by two spaces, 4 digits of the number of the patent followed by two spaces, \n"
-"  1 digit corresponding to the last digit of the current year, except that it is of a consolidated motion, initiated in the immediately preceding year or of the original motion \n"
-"  for a rectification, followed by 6 digits of the progressive numbering by customs.\n"
-"\n"
-"  +------------+------------+---------+-----------+--------+------------+-----------------------+\n"
-"  | Validation |            | Customs |           | Patent |            | Exercise and Quantity |\n"
-"  +============+============+=========+===========+========+============+=======================+\n"
-"  |     16     | Two Spaces |   52    | Two Space |  3XXX  | Two Spaces |       8000988         |\n"
-"  +------------+------------+---------+-----------+--------+------------+-----------------------+\n"
-"\n"
-"  With the previous value in the patent of our petition. These values must coincide with the SAT catalog in such a way that:\n"
-"\n"
-"  * Validation: The year of validation. The value of positions one and two must be smaller or same as the last two digits of the year of the current date and must be greater or same as the last two digits of the year of the current date minus ten.\n"
-"\n"
-"  * Customs: Code of customs clearance agent. Positions five and six must correspond to a key from the catalog of Customs (catCFDI: c_Aduana)\n"
-"\n"
-"  * Patent: Positions nine through twelve must correspond to a patent number of the catalog of customs patents (catCFDI: c_PatenteAduanal)\n"
-"\n"
-"  * Exercise: Last digit of the current year, unless it is of a consolidated motion, initiated in the immediately previous year or of the original motion for a rectification)\n"
-"\n"
-"  * Quantity: The value of the last six digits must be between the minimum value 1 and the value maximum of consecutive numbers in the catalog quantity column catCFDI: c_NumPedimentoAduana that correspond to those used by customs in that year.\n"
-"\n"
-"- Validate the invoice\n"
-"\n"
-"For more information in the `SAT page <http://www.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/cfdv33.pdf>`_. Page 70.\n"
-"For more information in the SAT documentation\n"
-msgstr ""
-
-#. module: base
-#: model:res.partner.industry,full_name:base.res_partner_industry_A
-msgid "A AGRICULTURE, FORESTRY AND FISHING"
-msgstr ""
-
-#. module: base
-#: code:addons/models.py:2986
-#, python-format
-msgid "A document was modified since you last viewed it (%s:%d)"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_res_groups
-msgid ""
 "A group is a set of functional areas that will be assigned to the user in "
 "order to give them access and rights to specific applications and tasks in "
 "the system. You can create custom groups or edit the ones existing by "
@@ -6915,11 +6718,6 @@ msgstr "API testimise moodul"
 #: model:ir.module.module,description:base.module_test_uninstall
 msgid "A module to test the uninstall feature."
 msgstr "Moodul deinstalleerimise testimiseks."
-
-#. module: base
-#: model:ir.module.module,description:base.module_test_translation_import
-msgid "A module to test translation import."
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,description:base.module_test_translation_import
@@ -7144,13 +6942,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:ir.model.fields,help:base.field_res_partner_bank__acc_holder_name
-msgid ""
-"Account holder name, in case it is different than the name of the Account "
-"Holder"
-msgstr ""
-
-#. module: base
 #: model:ir.module.category,name:base.module_category_accounting
 #: model:ir.module.module,shortdesc:base.module_account_accountant
 msgid "Accounting"
@@ -7312,6 +7103,21 @@ msgid "Action Window View"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_ir_actions_act_window
+msgid "Action Window"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_actions_act_window_close
+msgid "Action Window Close"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_actions_act_window_view
+msgid "Action Window View"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_window,name:base.ir_sequence_actions
 #: model:ir.model,name:base.model_ir_actions_actions
 #: model:ir.ui.menu,name:base.menu_ir_sequence_actions
@@ -7344,10 +7150,21 @@ msgid "Active"
 msgstr ""
 
 #. module: base
+#: selection:ir.actions.act_window.view,view_mode:0
+#: selection:ir.ui.view,type:0
+msgid "Activity"
+msgstr "Tegevus"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence__number_next_actual
 #: model:ir.model.fields,field_description:base.field_ir_sequence_date_range__number_next_actual
 msgid "Actual Next Number"
 msgstr ""
+
+#. module: base
+#: selection:ir.actions.server,state:0
+msgid "Add Followers"
+msgstr "Lisa jälgijaid"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mail_bot
@@ -7378,11 +7195,6 @@ msgstr "Lisage saatmisele ribakoodi lugemise võimalus."
 #: model:ir.module.module,summary:base.module_event_barcode
 msgid "Add barcode scanning feature to event management."
 msgstr "Lisage ürituste haldamisele ribakoodi lugemise võimalus."
-
-#. module: base
-#: model:ir.module.module,summary:base.module_website_sale_delivery
-msgid "Add delivery costs to online sales"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_sale_delivery
@@ -7434,6 +7246,12 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_country_form
 msgid "Address format..."
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/ir_qweb_fields.py:630
+#, python-format
+msgid "Address separator"
 msgstr ""
 
 #. module: base
@@ -7559,31 +7377,11 @@ msgid "Advanced Features for Sale Management"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_sale_enterprise
-msgid "Advanced Features for Sale Management"
-msgstr ""
-
-#. module: base
 #: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_form
 #: model_terms:ir.ui.view,arch_db:base.view_model_form
 msgid "Advanced Properties"
 msgstr "Täpsemad seaded"
-
-#. module: base
-#: model:ir.module.module,summary:base.module_crm_enterprise
-msgid "Advanced features for CRM"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,summary:base.module_stock_enterprise
-msgid "Advanced features for Stock"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,summary:base.module_stock_account_enterprise
-msgid "Advanced features for stock_account"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_enterprise
@@ -7624,6 +7422,16 @@ msgstr "Pärast aadressi"
 #. module: base
 #: selection:res.currency,position:0
 msgid "After Amount"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_helpdesk
+msgid "After-Sales"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,description:base.module_category_helpdesk
+msgid "After-sales services"
 msgstr ""
 
 #. module: base
@@ -7710,8 +7518,8 @@ msgid "Allow visitors to join public mail channels"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_website_sale_wishlist
-msgid "Allow shoppers to enlist products"
+#: model:ir.module.module,summary:base.module_website_mail_channel
+msgid "Allow visitors to join public mail channels"
 msgstr ""
 
 #. module: base
@@ -7737,13 +7545,6 @@ msgid ""
 msgstr ""
 "Võimaldab luua arveid ja jälgida makseid. See on lihtsam versioon "
 "raamatupidamise moodulist mitte-raamatupidajatest juhtidele ."
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_attachment
-msgid ""
-"Also you will find here all the related documents and download it by "
-"clicking on any individual document."
-msgstr ""
 
 #. module: base
 #: code:addons/base/models/ir_fields.py:394
@@ -7776,6 +7577,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_analytic
 msgid "Analytic Accounting"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_analytic_enterprise
+msgid "Analytic Accounting Enterprise"
 msgstr ""
 
 #. module: base
@@ -7982,6 +7788,18 @@ msgid "Are you sure you want to load demo data?"
 msgstr ""
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
+msgid "Are you sure to execute the automatic merge of your contacts ?"
+msgstr "Are you sure to execute the automatic merge of your contacts ?"
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
+msgid ""
+"Are you sure to execute the list of automatic merges of your contacts ?"
+msgstr ""
+"Are you sure to execute the list of automatic merges of your contacts ?"
+
+#. module: base
 #: model:res.country,name:base.ar
 msgid "Argentina"
 msgstr ""
@@ -8022,6 +7840,11 @@ msgid "Assess your employees"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_hr_appraisal
+msgid "Assess your employees"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_account_asset
 msgid "Assets Management"
 msgstr ""
@@ -8040,6 +7863,11 @@ msgstr ""
 #: code:addons/base/models/res_lang.py:60
 #, python-format
 msgid "At least one language must be active."
+msgstr ""
+
+#. module: base
+#: model_terms:ir.actions.act_window,help:base.action_attachment
+msgid "Attach a new document"
 msgstr ""
 
 #. module: base
@@ -8080,6 +7908,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_attendance
 msgid "Attendances"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_website_mass_mailing
+msgid "Attract visitors to subscribe to mailing lists"
 msgstr ""
 
 #. module: base
@@ -8146,6 +7979,11 @@ msgid "Auto Search"
 msgstr "Automaatne otsing"
 
 #. module: base
+#: selection:ir.actions.server,usage:0
+msgid "Automated Action"
+msgstr "Automatiseeritud tegevus"
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_base_automation
 msgid "Automated Action Rules"
 msgstr ""
@@ -8169,6 +8007,16 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
 msgid "Automatic Merge Wizard"
 msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_autovacuum
+msgid "Automatic Vacuum"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
+msgid "Automatic Merge Wizard"
+msgstr "Automatic Merge Wizard"
 
 #. module: base
 #: model:ir.model,name:base.model_ir_autovacuum
@@ -8216,13 +8064,6 @@ msgid "Avatar"
 msgstr ""
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view
-#: model_terms:ir.ui.view,arch_db:base.view_partner_form
-#: model_terms:ir.ui.view,arch_db:base.view_res_users_kanban
-msgid "Avatar"
-msgstr ""
-
-#. module: base
 #: model:res.country,name:base.az
 msgid "Azerbaijan"
 msgstr ""
@@ -8249,8 +8090,8 @@ msgstr ""
 
 #. module: base
 #: selection:report.paperformat,format:0
-msgid "B10    16  31 x 44 mm"
-msgstr ""
+msgid "B2  17  500 x 707 mm"
+msgstr "B2  17  500 x 707 mm"
 
 #. module: base
 #: selection:report.paperformat,format:0
@@ -8344,6 +8185,16 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_bank_form
 msgid "Bank account"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_l10n_mx_edi_payment_bank
+msgid "Bank account in the payments"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_mx_edi_payment_bank
+msgid "Bank account payment to Mexico"
 msgstr ""
 
 #. module: base
@@ -8523,6 +8374,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_be_intrastat
 msgid "Belgian Intrastat Declaration"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_be_intrastat_2019
+msgid "Belgian Intrastat Declaration - Complement for 2019"
 msgstr ""
 
 #. module: base
@@ -8988,6 +8844,16 @@ msgid "Centralize your address book"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_hr
+msgid "Centralize employee information"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_contacts
+msgid "Centralize your address book"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.td
 msgid "Chad"
 msgstr ""
@@ -9165,27 +9031,7 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.cn
 msgid "China"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_l10n_cn
-msgid "China - Accounting"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_l10n_cn_city
-msgid "China - City Data"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_l10n_cn_small_business
-msgid "China - Small Business CoA"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_l10n_cn_standard
-msgid "China - Standard CoA"
-msgstr ""
+msgstr "Hiina"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_cn
@@ -9214,10 +9060,8 @@ msgid "Choose Your Document Layout"
 msgstr "Vali oma dokumendi kujundus"
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_country_form
-msgid ""
-"Choose a subview of partners that includes only address fields, to change "
-"the way users can input addresses."
+#: model:ir.module.module,shortdesc:base.module_l10n_cn
+msgid "China - Accounting"
 msgstr ""
 
 #. module: base
@@ -9230,8 +9074,8 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model:res.country,name:base.cx
-msgid "Christmas Island"
+#: model:ir.module.module,shortdesc:base.module_l10n_cn_small_business
+msgid "China - Small Business CoA"
 msgstr ""
 
 #. module: base
@@ -9246,7 +9090,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_partner_short_form
 #: model_terms:ir.ui.view,arch_db:base.view_res_bank_form
 msgid "City"
-msgstr ""
+msgstr "Linn"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_address_city
@@ -9510,14 +9354,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: code:addons/base/models/ir_qweb_fields.py:396
-#, python-format
-msgid ""
-"Company used for the original currency (only used for t-esc). By default use"
-" the user company"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,shortdesc:base.module_project_timesheet_forecast_sale
 msgid "Compare timesheets and forecast for your projects"
 msgstr ""
@@ -9541,7 +9377,7 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__complete_name
 msgid "Complete Name"
-msgstr ""
+msgstr "Täielik nimi"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__compute
@@ -9570,6 +9406,21 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_default__condition
 msgid "Condition"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_res_config
+msgid "Config"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_res_config_installer
+msgid "Config Installer"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_res_config_settings
+msgid "Config Settings"
 msgstr ""
 
 #. module: base
@@ -9799,8 +9650,18 @@ msgid "Contracts"
 msgstr "Lepingud"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_hr_contract
+msgid "Contracts"
+msgstr "Lepingud"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__contributors
 msgid "Contributors"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_quality_control
+msgid "Control the quality of your products"
 msgstr ""
 
 #. module: base
@@ -9822,11 +9683,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__copied
 msgid "Copied"
 msgstr "Kopeeritud"
-
-#. module: base
-#: model:ir.module.category,name:base.module_category_theme_corporate
-msgid "Corporate"
-msgstr ""
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_theme_corporate
@@ -9904,16 +9760,11 @@ msgstr "Riikide rühmad"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_country__name
 msgid "Country Name"
-msgstr ""
+msgstr "Riigi nimi"
 
 #. module: base
-#: model:ir.model,name:base.model_res_country_state
-msgid "Country state"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_website_sale_coupon
-msgid "Coupons & Promotions for eCommerce"
+#: model_terms:ir.actions.act_window,help:base.action_attachment
+msgid "Create a new document"
 msgstr ""
 
 #. module: base
@@ -9924,22 +9775,22 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_access__perm_create
 msgid "Create Access"
+msgstr "Loomisõigus"
+
+#. module: base
+#: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
+msgid "Create a new vendor in your address book"
 msgstr ""
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_rule_search
-msgid "Create Access Right"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
-msgid "Create Contextual Action"
+#: model:ir.module.module,summary:base.module_web_studio
+msgid "Create and customize your Odoo apps"
 msgstr ""
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_logging__create_date
 msgid "Create Date"
-msgstr ""
+msgstr "Loomise kuupäev"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_reveal
@@ -9947,9 +9798,8 @@ msgid "Create Leads/Opportunities from your website's traffic"
 msgstr ""
 
 #. module: base
-#: model:ir.actions.act_window,name:base.act_menu_create
-#: model_terms:ir.ui.view,arch_db:base.view_model_menu_create
-msgid "Create Menu"
+#: model_terms:ir.actions.act_window,help:base.action_partner_category_form
+msgid "Create a new contact tag"
 msgstr ""
 
 #. module: base
@@ -9958,28 +9808,23 @@ msgid "Create Menu Wizard"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_crm_project
-msgid "Create Tasks from Leads"
+#: selection:ir.actions.server,state:0
+msgid "Create Next Activity"
 msgstr ""
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_model_menu_create
-msgid "Create _Menu"
+#: model_terms:ir.actions.act_window,help:base.action_attachment
+msgid "Create a new document"
 msgstr ""
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_model_form
-msgid "Create a Menu"
+#: model_terms:ir.actions.act_window,help:base.res_partner_industry_action
+msgid "Create a new industry"
 msgstr ""
 
 #. module: base
-#: model_terms:ir.actions.act_window,help:base.action_res_partner_bank_account_form
-msgid "Create a bank account"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_ui_view_custom
-msgid "Create a customized view"
+#: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
+msgid "Create a new vendor in your address book"
 msgstr ""
 
 #. module: base
@@ -10016,52 +9861,6 @@ msgstr ""
 #: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
 #: model_terms:ir.actions.act_window,help:base.action_partner_form
 msgid "Create a new customer in your address book"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_attachment
-msgid "Create a new document"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.res_partner_industry_action
-msgid "Create a new industry"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_partner_supplier_form
-msgid "Create a new vendor in your address book"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,summary:base.module_web_studio
-msgid "Create and customize your Odoo apps"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_res_bank_form
-msgid "Create a new bank"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_res_company_form
-msgid "Create a new company"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_partner_category_form
-msgid "Create a new contact tag"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_partner_customer_form
-#: model_terms:ir.actions.act_window,help:base.action_partner_form
-msgid "Create a new customer in your address book"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.actions.act_window,help:base.action_attachment
-msgid "Create a new document"
 msgstr ""
 
 #. module: base
@@ -10444,6 +10243,11 @@ msgid "Custom View"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_ir_ui_view_custom
+msgid "Custom View"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_model.py:406
 #, python-format
 msgid "Custom fields must have a name that starts with 'x_' !"
@@ -10515,7 +10319,7 @@ msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_dhl
-msgid "DHL Shipping"
+msgid "DHL Express Shipping"
 msgstr ""
 
 #. module: base
@@ -10591,7 +10395,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_currency_rate_search
 #, python-format
 msgid "Date"
-msgstr ""
+msgstr "Kuupäev"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang__date_format
@@ -10649,6 +10453,27 @@ msgid "Days"
 msgstr ""
 
 #. module: base
+#: model:res.company,overdue_msg:base.main_company
+msgid ""
+"Dear Sir/Madam,\n"
+"\n"
+"Our records indicate that some payments on your account are still due. Please find details below.\n"
+"If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
+"If you have any queries regarding your account, Please contact us.\n"
+"\n"
+"Thank you in advance for your cooperation.\n"
+"Best Regards,"
+msgstr ""
+"Dear Sir/Madam,\n"
+"\n"
+"Our records indicate that some payments on your account are still due. Please find details below.\n"
+"If the amount has already been paid, please disregard this notice. Otherwise, please forward us the total amount stated below.\n"
+"If you have any queries regarding your account, Please contact us.\n"
+"\n"
+"Thank you in advance for your cooperation.\n"
+"Best Regards,"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_mail_server__smtp_debug
 msgid "Debugging"
 msgstr ""
@@ -10671,12 +10496,17 @@ msgstr ""
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_deduplicate
 msgid "Deduplicate Contacts"
-msgstr ""
+msgstr "Deduplicate Contacts"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
 msgid "Deduplicate the other Contacts"
-msgstr ""
+msgstr "Deduplicate the other Contacts"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_filters__is_default
+msgid "Default Filter"
+msgstr "Vaikimisi filter"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_partner_deduplicate
@@ -10771,6 +10601,12 @@ msgid "Delivery"
 msgstr "Transport"
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view
+#: model_terms:ir.ui.view,arch_db:base.view_partner_form
+msgid "Delivery"
+msgstr "Transport"
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery_barcode
 msgid "Delivery Barcode Scanning"
 msgstr ""
@@ -10783,6 +10619,16 @@ msgstr ""
 #. module: base
 #: model:ir.model,name:base.model_ir_demo
 msgid "Demo"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_demo
+msgid "Demo"
+msgstr "Esitlus"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_delivery_hs_code
+msgid "Delivery HS Code"
 msgstr ""
 
 #. module: base
@@ -10832,6 +10678,28 @@ msgstr ""
 msgid ""
 "Demo data should only be used on test databases. Once they are loaded, they "
 "cannot be removed."
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_demo_failure
+msgid "Demo failure"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_demo_failure_wizard
+msgid "Demo Failure wizard"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_demo_failure_wizard__failure_ids
+msgid "Demo Installation Failures"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
+msgid ""
+"Demo data should only be used on test databases!\n"
+"                             Once they are loaded, they cannot be removed!"
 msgstr ""
 
 #. module: base
@@ -10966,7 +10834,6 @@ msgid ""
 msgstr ""
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
 #: model_terms:ir.ui.view,arch_db:base.onboarding_container
 #: model_terms:ir.ui.view,arch_db:base.res_config_settings_view_form
 msgid "Discard"
@@ -11195,11 +11062,17 @@ msgid "Do you want to remove this configuration panel?"
 msgstr ""
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.onboarding_container
+msgid "Do you want to remove this configuration panel?"
+msgstr ""
+
+#. module: base
 #: model:res.partner.title,name:base.res_partner_title_doctor
 msgid "Doctor"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_ir_attachment
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_uninstall
 msgid "Document"
 msgstr ""
@@ -11207,6 +11080,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_document_management
 msgid "Document Management"
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_sign
+msgid "Document Signatures"
 msgstr ""
 
 #. module: base
@@ -11546,7 +11424,12 @@ msgid "Employees"
 msgstr " töötajad"
 
 #. module: base
-#: code:addons/base/models/ir_model.py:462
+#: selection:ir.attachment,type:0
+msgid "Empty"
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/ir_model.py:466
 #, python-format
 msgid "Empty dependency in %r"
 msgstr ""
@@ -11690,11 +11573,6 @@ msgid "Events Organization Add-on"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_event_enterprise
-msgid "Events Organization Add-on"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,shortdesc:base.module_event_sale
 msgid "Events Sales"
 msgstr "Ürituste müük"
@@ -11721,11 +11599,6 @@ msgstr ""
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.res_lang_form
 msgid "Examples"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
-msgid "Exclude contacts having"
 msgstr ""
 
 #. module: base
@@ -11939,10 +11812,6 @@ msgid ""
 "    changed here if is one exception. If this field is actived, then will be\n"
 "    showed the next fields:\n"
 "\n"
-"  - **Incoterm**: It is used for the attribute *incoterm* in the External Trade\n"
-"    node, is required, and must contain a value from the SAT catalog_ to\n"
-"    incoterms.\n"
-"\n"
 "  - **Certificate Source**: If the document to be generated is a\n"
 "    Certificate of Origin, must be registered the certificate of\n"
 "    origin folio or the fiscal folio in CFDI with which the issuance of the\n"
@@ -12015,12 +11884,8 @@ msgid ""
 "\n"
 "- In the partner:\n"
 "\n"
-"  - **CURP**: It is used to store the unique Key of the Register of\n"
-"    Population (CURP) of the issuer of the CFDI. When it is a natural\n"
-"    person, it must contain 18 characters.\n"
-"\n"
 "  - **Need external trade?**: Field used to indicate if the customer needs\n"
-"    their invoices with external complement. If the field is equal to True,\n"
+"    his/her invoices with external complement. If the field is equal to True,\n"
 "    then the add-on is added to the CFDIs for this client.\n"
 "\n"
 "\n"
@@ -12058,7 +11923,6 @@ msgid ""
 "in this version, since it needs fields that depend on the stock module.\n"
 "They will be added in a later version.\n"
 "\n"
-".. _catalog: http://www.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/c_INCOTERM.xls\n"
 ".. _c_FraccionArancelaria: http://www.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/c_FraccionArancelaria.xls \n"
 ".. _Link: http://www.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/c_UnidadMedidaAduana.xls\n"
 ".. _c_colonia: http://www.sat.gob.mx/informacion_fiscal/factura_electronica/Documents/c_Colonia.xls\n"
@@ -12087,11 +11951,6 @@ msgstr "Lisaõigused"
 #: model:ir.module.category,name:base.module_category_extra_tools
 msgid "Extra Tools"
 msgstr "Lisa töövahendid"
-
-#. module: base
-#: model:ir.module.module,summary:base.module_account_invoice_extract
-msgid "Extract data from invoice scans to fill them automatically"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_invoice_extract
@@ -12132,6 +11991,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.contact
 msgid "Fax"
 msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.contact
+msgid "Fax"
+msgstr "Faks"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.contact
@@ -12290,6 +12154,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_tree
 #: model_terms:ir.ui.view,arch_db:base.view_model_form
 msgid "Fields"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_fields_converter
+msgid "Fields Converter"
 msgstr ""
 
 #. module: base
@@ -12643,8 +12512,18 @@ msgid "Friday"
 msgstr "Reede"
 
 #. module: base
+#: selection:res.lang,week_start:0
+msgid "Friday"
+msgstr "Reede"
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_sequence_date_range__date_from
 msgid "From"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_sale_management
+msgid "From quotations to invoices"
 msgstr ""
 
 #. module: base
@@ -12717,6 +12596,11 @@ msgstr ""
 #. module: base
 #: selection:ir.module.module,license:0
 msgid "GPL-3 or later version"
+msgstr ""
+
+#. module: base
+#: model:res.country,vat_label:base.sg
+msgid "GST No."
 msgstr ""
 
 #. module: base
@@ -12900,9 +12784,66 @@ msgid "Germany SKR04 - Accounting"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_website_sale_dashboard
-msgid "Get a new dashboard view in the Website App"
+#: model:ir.actions.act_window,name:base.action_wizard_update_translations
+#: model:ir.ui.menu,name:base.menu_wizard_update_translations
+#: model_terms:ir.ui.view,arch_db:base.wizard_update_translations
+msgid "Generate Missing Terms"
+msgstr "Lisa puuduvad mõisted"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_website_crm
+msgid "Generate leads from a contact form"
 msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_sale_subscription
+msgid "Generate recurring invoices and manage renewals"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_website_links
+msgid "Generate trackable & short URLs"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_website_enterprise
+msgid "Get the enterprise look and feel"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_de
+msgid "Germany - Accounting"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_de_reports
+msgid "Germany - Accounting Reports"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_account_bank_statement_import
+msgid ""
+"Generic Wizard to Import Bank Statements.\n"
+"\n"
+"(This module does not include any type of import format.)\n"
+"\n"
+"OFX and QIF imports are available in Enterprise version."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_de_skr04
+msgid "Germany SKR04 - Accounting"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_website_gengo
+msgid "Gengo Translator"
+msgstr ""
+
+#. module: base
+#: model:res.country,name:base.ge
+msgid "Georgia"
+msgstr "Gruusia"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_enterprise
@@ -12959,6 +12900,14 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.ir_access_view_search
 #: model_terms:ir.ui.view,arch_db:base.view_rule_search
 msgid "Global"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.view_rule_form
+msgid ""
+"Global rules (non group-specific) are restrictions, and cannot be bypassed.\n"
+"                         Group-specific rules grant additional permissions, but are constrained within the bounds of global ones.\n"
+"                         The first group rules restrict further the global rules, but can be relaxed by additional group rules."
 msgstr ""
 
 #. module: base
@@ -13048,11 +12997,6 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_google_drive
 msgid "Google Drive™ integration"
 msgstr "Google Drive™-ga ühendamine"
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_website_google_map
-msgid "Google Maps"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_google_map
@@ -13162,16 +13106,6 @@ msgid "Group-specific rules are combined together with a logical OR operator"
 msgstr ""
 
 #. module: base
-#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__number_group
-msgid "Group of Contacts"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_rule_form
-msgid "Group-specific rules are combined together with a logical OR operator"
-msgstr ""
-
-#. module: base
 #: model:ir.actions.act_window,name:base.action_res_groups
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__groups_id
 #: model:ir.model.fields,field_description:base.field_ir_actions_report__groups_id
@@ -13257,11 +13191,6 @@ msgid "HST"
 msgstr ""
 
 #. module: base
-#: model:res.country,vat_label:base.ca
-msgid "HST"
-msgstr ""
-
-#. module: base
 #: selection:ir.actions.report,report_type:0
 msgid "HTML"
 msgstr "HTML"
@@ -13274,6 +13203,11 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.ht
 msgid "Haiti"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_lunch
+msgid "Handle lunch orders of your employees"
 msgstr ""
 
 #. module: base
@@ -13542,6 +13476,11 @@ msgid "Home Menu"
 msgstr ""
 
 #. module: base
+#: model:ir.actions.act_url,name:base.action_open_website
+msgid "Home Menu"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.hn
 msgid "Honduras"
 msgstr ""
@@ -13740,6 +13679,11 @@ msgstr "IBAN Pangakontod"
 #: model:ir.model.fields,field_description:base.field_res_users_log__id
 #: model:ir.model.fields,field_description:base.field_wizard_ir_model_menu_create__id
 msgid "ID"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_ir_actions_server__xml_id
+msgid "ID of the action if defined in a XML file"
 msgstr ""
 
 #. module: base
@@ -14039,6 +13983,11 @@ msgid "Import Vendor Bills From XML"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_account_facturx
+msgid "Import Vendor Bills From XML"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,description:base.module_currency_rate_live
 msgid "Import exchange rates from the Internet.\n"
 msgstr ""
@@ -14120,11 +14069,6 @@ msgstr "India palgaarvestus"
 #: selection:res.partner,company_type:0
 msgid "Individual"
 msgstr "Eraisik"
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
-msgid "Individuals"
-msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_res_partner_filter
@@ -14237,6 +14181,11 @@ msgid "Install Modules"
 msgstr ""
 
 #. module: base
+#: model:ir.actions.server,name:base.action_server_module_immediate_install
+msgid "Install Modules"
+msgstr ""
+
+#. module: base
 #: selection:ir.module.module,state:0
 #: selection:ir.module.module.dependency,state:0
 #: selection:ir.module.module.exclusion,state:0
@@ -14323,6 +14272,11 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_translation__src
 msgid "Internal Source"
+msgstr ""
+
+#. module: base
+#: model:res.groups,name:base.group_user
+msgid "Internal User"
 msgstr ""
 
 #. module: base
@@ -14549,21 +14503,6 @@ msgid "IoTBox Software Upgrader"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_hw_posbox_homepage
-msgid "IoT Box Homepage"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_quality_mrp_iot
-msgid "IoT features for Work Order Quality Control"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_hw_posbox_upgrade
-msgid "IoTBox Software Upgrader"
-msgstr ""
-
-#. module: base
 #: model:res.country,name:base.ir
 msgid "Iran"
 msgstr ""
@@ -14680,7 +14619,7 @@ msgstr "Ametikoht"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__exclude_journal_item
 msgid "Journal Items associated to the contact"
-msgstr ""
+msgstr "Journal Items associated to the contact"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__exclude_journal_item
@@ -14691,11 +14630,6 @@ msgstr "Journal Items associated to the contact"
 #: model:ir.module.module,shortdesc:base.module_procurement_jit
 msgid "Just In Time Scheduling"
 msgstr "Lihtsalt aja planeerimises"
-
-#. module: base
-#: selection:res.company,base_onboarding_company_state:0
-msgid "Just done"
-msgstr ""
 
 #. module: base
 #: selection:res.company,base_onboarding_company_state:0
@@ -14806,6 +14740,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_users__lang
 #: model_terms:ir.ui.view,arch_db:base.res_lang_search
 msgid "Language"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_base_language_export
+msgid "Language Export"
 msgstr ""
 
 #. module: base
@@ -15284,11 +15223,6 @@ msgid "Lines"
 msgstr "Read"
 
 #. module: base
-#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__line_ids
-msgid "Lines"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,description:base.module_account_payment
 msgid ""
 "Link Account and Payment and add Portal Payment\n"
@@ -15306,8 +15240,8 @@ msgid "Link Tracker"
 msgstr "Lingi jälgija"
 
 #. module: base
-#: model:ir.module.module,summary:base.module_pos_sale
-msgid "Link module between Point of Sale and Sales"
+#: model:ir.module.module,summary:base.module_pos_iot
+msgid "Link your PoS configuration with an IoT Box"
 msgstr ""
 
 #. module: base
@@ -15389,6 +15323,11 @@ msgid "Load demo data"
 msgstr ""
 
 #. module: base
+#: model:ir.actions.act_window,name:base.demo_force_install_action
+msgid "Load demo data"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang__code
 msgid "Locale Code"
 msgstr ""
@@ -15415,12 +15354,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_res_users__login
 #: model_terms:ir.ui.view,arch_db:base.view_res_users_kanban
 msgid "Login"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.res_partner_kanban_view
-#: model_terms:ir.ui.view,arch_db:base.view_partner_form
-msgid "Logo"
 msgstr ""
 
 #. module: base
@@ -15565,6 +15498,16 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_maintenance
 msgid "Maintenance"
 msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_maintenance
+msgid "Maintenance - HR"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_maintenance
+msgid "Maintenance"
+msgstr "Hooldus"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_maintenance
@@ -15797,11 +15740,6 @@ msgid "Marketing Automation Tests"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_test_marketing_automation
-msgid "Marketing Automation Tests"
-msgstr ""
-
-#. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_ma
 msgid "Maroc - Accounting"
 msgstr ""
@@ -15876,6 +15814,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__maximum_group
 msgid "Maximum of Group of Contacts"
 msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__maximum_group
+msgid "Maximum of Group of Contacts"
+msgstr "Maximum of Group of Contacts"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_automatic_wizard__maximum_group
@@ -16045,7 +15988,7 @@ msgstr "MinID"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_partner_merge_line__min_id
 msgid "MinID"
-msgstr ""
+msgstr "MinID"
 
 #. module: base
 #: selection:ir.cron,interval_type:0
@@ -16143,6 +16086,12 @@ msgid "Model %s does not exist"
 msgstr ""
 
 #. module: base
+#: code:addons/base/models/ir_model.py:504
+#, python-format
+msgid "Model %s does not exist"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/ir_model.py:668
 #, python-format
 msgid "Model %s does not exist!"
@@ -16186,6 +16135,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_model_search
 #: model_terms:ir.ui.view,arch_db:base.view_model_tree
 msgid "Model Description"
+msgstr ""
+
+#. module: base
+#: selection:ir.translation,type:0
+msgid "Model Field"
 msgstr ""
 
 #. module: base
@@ -16280,9 +16234,19 @@ msgid "Module Info"
 msgstr ""
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.module_view_kanban
+msgid "Module Info"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_module_module__shortdesc
 #: model_terms:ir.ui.view,arch_db:base.module_form
 msgid "Module Name"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_report_base_report_irmodulereference
+msgid "Module Reference Report (base)"
 msgstr ""
 
 #. module: base
@@ -16363,6 +16327,11 @@ msgstr ""
 #: selection:res.lang,week_start:0
 msgid "Monday"
 msgstr ""
+
+#. module: base
+#: selection:res.lang,week_start:0
+msgid "Monday"
+msgstr "Esmaspäev"
 
 #. module: base
 #: selection:res.lang,week_start:0
@@ -16529,11 +16498,6 @@ msgid "Netherlands Intrastat Declaration"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_l10n_nl_intrastat
-msgid "Netherlands Intrastat Declaration"
-msgstr ""
-
-#. module: base
 #: model:res.country,name:base.nc
 msgid "New Caledonia"
 msgstr ""
@@ -16606,6 +16570,11 @@ msgstr ""
 #. module: base
 #: model:res.country,name:base.ni
 msgid "Nicaragua"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.onboarding_container
+msgid "Nice work! Your configuration is done."
 msgstr ""
 
 #. module: base
@@ -16738,6 +16707,12 @@ msgid "Normal"
 msgstr "Tavaline"
 
 #. module: base
+#: code:addons/base/models/res_bank.py:69
+#, python-format
+msgid "Normal"
+msgstr "Tavaline"
+
+#. module: base
 #: model:res.country,name:base.kp
 msgid "North Korea"
 msgstr ""
@@ -16768,6 +16743,17 @@ msgstr "Norra - Raamatupidamisaruanded"
 #: selection:ir.module.module.exclusion,state:0
 #: model_terms:ir.ui.view,arch_db:base.view_module_filter
 msgid "Not Installed"
+msgstr ""
+
+#. module: base
+#: selection:res.company,base_onboarding_company_state:0
+msgid "Not done"
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/ir_model.py:1407
+#, python-format
+msgid "Not enough access rights on the external ID:"
 msgstr ""
 
 #. module: base
@@ -18148,6 +18134,11 @@ msgid ""
 msgstr ""
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
+msgid "Oops, no!"
+msgstr ""
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_base_module_update
 msgid "Open Apps"
 msgstr ""
@@ -18422,6 +18413,12 @@ msgid "Original currency"
 msgstr ""
 
 #. module: base
+#: code:addons/base/models/ir_qweb_fields.py:393
+#, python-format
+msgid "Original currency"
+msgstr ""
+
+#. module: base
 #: code:addons/base/models/res_users.py:995
 #: code:addons/base/models/res_users.py:1178
 #: model_terms:ir.ui.view,arch_db:base.user_groups_view
@@ -18586,6 +18583,11 @@ msgid "Paper Format Config"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_report_paperformat
+msgid "Paper Format Config"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_window,name:base.paper_format_action
 msgid "Paper Format General Configuration"
 msgstr ""
@@ -18680,6 +18682,11 @@ msgid "Partner Autocomplete"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_partner_autocomplete
+msgid "Partner Autocomplete"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_partner_autocomplete_address_extended
 msgid "Partner Autocomplete extends Address autocomplete"
 msgstr ""
@@ -18695,19 +18702,9 @@ msgid "Partner Title"
 msgstr ""
 
 #. module: base
-#: model:ir.model,name:base.model_res_partner_title
-msgid "Partner Title"
-msgstr ""
-
-#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_title_form
 #: model_terms:ir.ui.view,arch_db:base.view_partner_title_tree
 msgid "Partner Titles"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,summary:base.module_website_partner
-msgid "Partner module for website"
 msgstr ""
 
 #. module: base
@@ -18743,11 +18740,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:base.field_ir_mail_server__smtp_pass
 #: model:ir.model.fields,field_description:base.field_res_users__password
 msgid "Password"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_auth_password_policy
-msgid "Password Policy"
 msgstr ""
 
 #. module: base
@@ -18916,6 +18908,13 @@ msgstr ""
 msgid ""
 "Please configure an email on the current user to simulate sending an email "
 "message via this outgoing server"
+msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
+msgid ""
+"Please confirm that you want to <b>irreversibly</b> make this database a "
+"demo database."
 msgstr ""
 
 #. module: base
@@ -19151,11 +19150,6 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_product_expiry
 msgid "Products Expiration Date"
 msgstr "Toodete aegumiskuupäev"
-
-#. module: base
-#: model:ir.module.module,summary:base.module_documents_product
-msgid "Products from Documents"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_documents_product
@@ -19402,13 +19396,13 @@ msgid "Python Code"
 msgstr "Pythoni kood"
 
 #. module: base
-#: selection:ir.server.object.lines,type:0
-msgid "Python expression"
+#: model:ir.model,name:base.model_ir_qweb_field_float
+msgid "Qweb Field Float"
 msgstr ""
 
 #. module: base
-#: model:res.partner.industry,full_name:base.res_partner_industry_Q
-msgid "Q HUMAN HEALTH AND SOCIAL WORK ACTIVITIES"
+#: model:ir.model,name:base.model_ir_qweb_field_float_time
+msgid "Qweb Field Float Time"
 msgstr ""
 
 #. module: base
@@ -19418,13 +19412,13 @@ msgid "QWeb"
 msgstr "QWeb"
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.act_report_xml_view
-msgid "QWeb views"
+#: model:ir.model,name:base.model_ir_qweb_field_image
+msgid "Qweb Field Image"
 msgstr ""
 
 #. module: base
-#: model:res.country,name:base.qa
-msgid "Qatar"
+#: model:ir.model,name:base.model_ir_qweb_field_integer
+msgid "Qweb Field Integer"
 msgstr ""
 
 #. module: base
@@ -19480,8 +19474,8 @@ msgid "Quotation Builder"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_quality_mrp_iot
-msgid "Quality steps in MRP work orders with IoT devices"
+#: model:ir.model,name:base.model_ir_qweb_field_qweb
+msgid "Qweb Field qweb"
 msgstr ""
 
 #. module: base
@@ -19774,6 +19768,11 @@ msgid "Relation Model"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_ir_model_relation
+msgid "Relation Model"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_model_relation__name
 msgid "Relation Name"
 msgstr ""
@@ -19797,6 +19796,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.onboarding_container
 msgid "Remove"
 msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.onboarding_container
+msgid "Remove"
+msgstr "Eemalda"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.onboarding_container
@@ -19872,6 +19876,11 @@ msgid "Report Action"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_ir_actions_report
+msgid "Report Action"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_report__report_file
 msgid "Report File"
 msgstr ""
@@ -19920,6 +19929,11 @@ msgstr "Raportid"
 #: model:ir.model.fields,field_description:base.field_ir_model_fields__required
 #: model_terms:ir.ui.view,arch_db:base.view_model_fields_search
 msgid "Required"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_attachment__res_model_name
+msgid "Res Model Name"
 msgstr ""
 
 #. module: base
@@ -20045,6 +20059,23 @@ msgid "Rounding unit"
 msgstr ""
 
 #. module: base
+#: code:addons/base/models/ir_qweb_fields.py:161
+#, python-format
+msgid "Rounding precision"
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/ir_qweb_fields.py:512
+#, python-format
+msgid "Rounding unit"
+msgstr ""
+
+#. module: base
+#: model:ir.model,name:base.model_ir_rule
+msgid "Rule"
+msgstr "Reegel"
+
+#. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_rule_form
 msgid "Rule Definition (Domain Filter)"
 msgstr ""
@@ -20080,11 +20111,6 @@ msgstr "Run"
 #: model_terms:ir.ui.view,arch_db:base.ir_cron_view_form
 msgid "Run Manually"
 msgstr "Käivita käsitsi"
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_server_action_form
-msgid "Run this action manually."
-msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
@@ -20209,6 +20235,11 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_coupon_delivery
 msgid "Sale Coupon Delivery"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_sale_intrastat
+msgid "Sale Intrastat"
 msgstr ""
 
 #. module: base
@@ -20503,6 +20534,19 @@ msgstr ""
 "                                You can remove contacts from this list to avoid merging them."
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
+msgid ""
+"Selected contacts will be merged together.\n"
+"                                All documents linked to one of these contacts\n"
+"                                will be redirected to the destination contact.\n"
+"                                You can remove contacts from this list to avoid merging them."
+msgstr ""
+"Selected contacts will be merged together.\n"
+"                                All documents linked to one of these contacts\n"
+"                                will be redirected to the destination contact.\n"
+"                                You can remove contacts from this list to avoid merging them."
+
+#. module: base
 #: code:addons/base/models/res_partner.py:30
 #, python-format
 msgid ""
@@ -20554,6 +20598,11 @@ msgstr ""
 #: model:ir.module.module,summary:base.module_website_sale
 msgid "Sell your products online"
 msgstr ""
+
+#. module: base
+#: selection:ir.actions.server,state:0
+msgid "Send Email"
+msgstr "Saada kiri"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sign
@@ -20666,6 +20715,7 @@ msgstr ""
 
 #. module: base
 #: selection:ir.actions.server,usage:0
+#: model:ir.model,name:base.model_ir_actions_server
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_form
 #: model_terms:ir.ui.view,arch_db:base.view_server_action_search
 msgid "Server Action"
@@ -20832,6 +20882,11 @@ msgid "Signature templates from Documents"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_documents_sign
+msgid "Signature templates from Documents"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_auth_signup
 msgid "Signup"
 msgstr "Liitumine"
@@ -20880,6 +20935,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
 msgid "Skip these contacts"
 msgstr ""
+
+#. module: base
+#: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
+msgid "Skip these contacts"
+msgstr "Skip these contacts"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.base_partner_merge_automatic_wizard_form
@@ -21162,13 +21222,23 @@ msgid "Sticky memos, Collaborative"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,shortdesc:base.module_stock_barcode_mobile
-msgid "Stock Barcode in Mobile"
+#: model:ir.module.category,name:base.module_category_stock
+msgid "Stock"
+msgstr "Ladu"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_stock_intrastat
+msgid "Stock Intrastat"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_stock_barcode_mobile
-msgid "Stock Barcode scan in Mobile"
+#: model:ir.module.module,shortdesc:base.module_stock_account_enterprise
+msgid "Stock account enterprise"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_stock_enterprise
+msgid "Stock enterprise"
 msgstr ""
 
 #. module: base
@@ -21252,6 +21322,11 @@ msgstr "Stuudio"
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.edit_menu_access
 msgid "Submenus"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_hr_expense
+msgid "Submit, validate and reinvoice employee expenses"
 msgstr ""
 
 #. module: base
@@ -21386,6 +21461,11 @@ msgid "System Parameter"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_ir_config_parameter
+msgid "System Parameter"
+msgstr ""
+
+#. module: base
 #: model:ir.actions.act_window,name:base.ir_config_list_action
 #: model:ir.ui.menu,name:base.ir_config_menu
 #: model_terms:ir.ui.view,arch_db:base.view_ir_config_form
@@ -21418,7 +21498,7 @@ msgstr ""
 #. module: base
 #: selection:base.language.export,format:0
 msgid "TGZ Archive"
-msgstr ""
+msgstr "TGZ arhiiv"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.wizard_lang_export
@@ -21454,37 +21534,604 @@ msgstr "Sildi nimi"
 #: model:ir.model.fields,field_description:base.field_res_partner__category_id
 #: model:ir.model.fields,field_description:base.field_res_users__category_id
 msgid "Tags"
-msgstr ""
+msgstr "Sildid"
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "Tags..."
-msgstr ""
+msgstr "Sildid..."
 
 #. module: base
 #: model:res.country,name:base.tw
 msgid "Taiwan"
-msgstr ""
+msgstr "Taiwan"
 
 #. module: base
 #: model:res.country,name:base.tj
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tadžikistan"
 
 #. module: base
 #: model:res.country,name:base.tz
 msgid "Tanzania"
-msgstr ""
+msgstr "Tansaania"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_actions_act_window__target
 #: model:ir.model.fields,field_description:base.field_ir_actions_client__target
 msgid "Target Window"
-msgstr ""
+msgstr "Sihtaken"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_timesheet
 msgid "Task Logs"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_l10n_mx_tax_cash_basis
+msgid "Tax Cash Basis Entries at Payment Date"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_l10n_mx_tax_cash_basis
+msgid ""
+"Tax Cash Basis Entries at Payment Date\n"
+"======================================\n"
+"\n"
+"Allow to create the Journal Entries for Taxes at date of payment.\n"
+"The following tests cases pretend to enlight you on what is expected of each\n"
+"one according to Mexican requirements.\n"
+"\n"
+"Case Multi-currency (both invoice & payment) Payment before Invoice\n"
+"-------------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively receivable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in USD at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable          1160                1160    USD\n"
+"                Revenue                 1000       -1000    USD\n"
+"                Taxes to Collect         160        -160    USD\n"
+"\n"
+"        Payment issued two days ago in USD at a rate => 1MXN = 0.80 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Bank                1450                1160    USD\n"
+"                Receivable              1450       -1160    USD\n"
+"\n"
+"        This Generates a Exchange Rate Difference.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable           290                   0    USD\n"
+"                Gain Exchange rate       290           0    USD\n"
+"\n"
+"        And a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1250                1000    USD\n"
+"                Tax Base Account        1250       -1000    USD\n"
+"            Taxes to Collect     200                 160    USD\n"
+"                Taxes to Paid            200        -160    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT if it would be the case (not in this case): \n"
+"              * Tax Base Account MXN 1250.00\n"
+"            - Paid to SAT MXN 200.00\n"
+"            - Have a difference of MXN 40.00 for Taxes to Collect that I would\n"
+"              later have to issue as a Loss in Exchange Rate Difference\n"
+"\n"
+"            Loss Exchange rate    40                   0    USD\n"
+"                Taxes to Collect          40           0    USD\n"
+"\n"
+"\n"
+"Case Multi-currency (both invoice & payment) Payment after Invoice\n"
+"------------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively receivable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued two days ago in USD at a rate => 1MXN = 0.80 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable          1450                1160    USD\n"
+"                Revenue                 1250       -1000    USD\n"
+"                Taxes to Collect         200        -160    USD\n"
+"\n"
+"        Payment issued today in USD at a rate => 1 MXN = 1.25 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Bank                 928                1160    USD\n"
+"                Receivable               928       -1160    USD\n"
+"\n"
+"        This Generates a Exchange Rate Difference.\n"
+"        Booked like:\n"
+"\n"
+"            Loss Exchange rate   522                   0    USD\n"
+"                Receivable               522           0    USD\n"
+"\n"
+"        And a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account     800                1000    USD\n"
+"                Tax Base Account         800       -1000    USD\n"
+"            Taxes to Collect     128                 160    USD\n"
+"                Taxes to Paid            128        -160    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT if it would be the case (not in this case): \n"
+"              * Tax Base Account MXN 800.00\n"
+"            - Paid to SAT MXN 128.00\n"
+"            - Have a difference of MXN -72.00 for Taxes to Collect that I would\n"
+"              later have to issue as a Gain in Exchange Rate Difference\n"
+"\n"
+"            Taxes to Collect      72                   0    USD\n"
+"                Gain Exchange rate        72           0    USD\n"
+"\n"
+"\n"
+"Case Multi-currency (both invoice & payment) Payment same day than Invoice\n"
+"--------------------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively receivable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued two days ago in USD at a rate => 1MXN = 0.8 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable          1450                1160    USD\n"
+"                Revenue                 1250       -1000    USD\n"
+"                Taxes to Collect         200        -160    USD\n"
+"\n"
+"        Payment issued two days ago in USD at a rate => 1 MXN = 0.8 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Bank                1450                1160    USD\n"
+"                Receivable              1450       -1160    USD\n"
+"\n"
+"        This does not generates any Exchange Rate Difference.\n"
+"\n"
+"        But a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1250                1000    USD\n"
+"                Tax Base Account        1250       -1000    USD\n"
+"            Taxes to Collect     200                 160    USD\n"
+"                Taxes to Paid            200        -160    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT if it would be the case (not in this case): \n"
+"              * Tax Base Account MXN 1250.00\n"
+"            - Paid to SAT MXN 200.00\n"
+"            - Have no difference for Taxes to Collect\n"
+"\n"
+"\n"
+"Case Invoiced Yesterday (MXN) Payment Two Days Ago (USD)\n"
+"--------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively receivable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in MXN at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable          1160                   -      -\n"
+"                Revenue                 1000           -      -\n"
+"                Taxes to Collect         160           -      -\n"
+"\n"
+"        Payment issued two days ago in USD at a rate => 1 MXN = 0.80 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Bank                1160                 928    USD\n"
+"                Receivable              1160        -928    USD\n"
+"\n"
+"        This does not generates any Exchange Rate Difference.\n"
+"\n"
+"        But a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1000                   0      -\n"
+"                Tax Base Account        1000           0      -\n"
+"            Taxes to Collect     160                   0      -\n"
+"                Taxes to Paid            160           0      -\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT if it would be the case (not in this case):\n"
+"              * Tax Base Account MXN 1000.00\n"
+"            - Paid to SAT MXN 160.00\n"
+"            - Have no difference for Taxes to Collect\n"
+"\n"
+"\n"
+"Case Invoiced Yesterday (USD) Payment Today (MXN)\n"
+"-------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively receivable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in USD at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable          1160                1160    USD\n"
+"                Revenue                 1000       -1000    USD\n"
+"                Taxes to Collect         160        -160    USD\n"
+"\n"
+"        Payment issued today in MXN at a rate => 1 MXN = 1.25 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Bank                 928                   -      -\n"
+"                Receivable               928           -      -\n"
+"\n"
+"        This Generates a Exchange Rate Difference.\n"
+"        Booked like:\n"
+"\n"
+"            Loss Exchange rate   232                 232    USD\n"
+"                Receivable               232        -232    USD\n"
+"\n"
+"        And a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account     800                   0    USD\n"
+"                Tax Base Account         800           0    USD\n"
+"            Taxes to Collect     128                   0    USD  # (I'd expect the same value as in the invoice for amount_currency in tax: 160 USD) \n"
+"                Taxes to Paid            128           0    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT if it would be the case (not in this case): \n"
+"              * Tax Base Account MXN 800.00\n"
+"            - Paid to SAT MXN 128.00\n"
+"            - Have a difference of MXN -32.00 for Taxes to Collect that I would\n"
+"              later have to issue as a Gain in Exchange Rate Difference\n"
+"\n"
+"            Taxes to Collect      32                   0    USD\n"
+"                Gain Exchange rate        32           0    USD\n"
+"\n"
+"\n"
+"Case Invoiced Yesterday (MXN) Payment Today (MXN)\n"
+"-------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively receivable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in MXN at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable          1160                   -      -\n"
+"                Revenue                 1000           -      -\n"
+"                Taxes to Collect         160           -      -\n"
+"\n"
+"        Payment issued today in MXN at a rate => 1 MXN = 1.25 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Bank                1160                   -      -\n"
+"                Receivable              1160           -      -\n"
+"\n"
+"        This does not generates any Exchange Rate Difference.\n"
+"\n"
+"        But a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1000                   -      -\n"
+"                Tax Base Account        1000           -      -\n"
+"            Taxes to Collect     160                   -      -\n"
+"                Taxes to Paid            160           -      -\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT if it would be the case (not in this case): \n"
+"              * Tax Base Account MXN 1000.00\n"
+"            - Paid to SAT MXN 160.00\n"
+"            - Have no difference for Taxes to Collect\n"
+"\n"
+"\n"
+"Case Multi-currency (both invoice & payment) Payment before Invoice (Supplier)\n"
+"------------------------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively Payable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in USD at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Expenses            1000                1000    USD\n"
+"            Unpaid Taxes         160                 160    USD\n"
+"\n"
+"                Payable                 1160       -1160    USD\n"
+"\n"
+"        Payment issued two days ago in USD at a rate => 1MXN = 0.80 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Payable             1450                1160    USD\n"
+"                Bank                    1450       -1160    USD\n"
+"\n"
+"        This Generates a Exchange Rate Difference.\n"
+"        Booked like:\n"
+"\n"
+"            Loss Exchange rate   290                   0    USD\n"
+"                Payable                  290           0    USD\n"
+"\n"
+"        And a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1250                1000    USD\n"
+"                Tax Base Account        1250       -1000    USD\n"
+"            Creditable Tax       200                 160    USD\n"
+"                Unpaid Taxes             200        -160    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT: Tax Base Account MXN 1250.00\n"
+"            - Creditable Tax MXN 200.00\n"
+"            - Have a difference of MXN -40.00 for Unpaid Taxes that I would\n"
+"              later have to issue as a Loss in Exchange Rate Difference\n"
+"\n"
+"            Unpaid Taxes          40                   0    USD\n"
+"                Gain Exchange rate        40           0    USD\n"
+"\n"
+"\n"
+"Case Multi-currency (both invoice & payment) Payment after Invoice (Supplier)\n"
+"-----------------------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively Payable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued two days ago in USD at a rate => 1MXN = 0.80 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Expenses            1250                1000    USD\n"
+"            Unpaid Taxes         200                 160    USD\n"
+"\n"
+"                Payable                 1450       -1160    USD\n"
+"\n"
+"        Payment issued today in USD at a rate => 1 MXN = 1.25 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Payable              928                1160    USD\n"
+"                Bank                     928       -1160    USD\n"
+"\n"
+"        This Generates a Exchange Rate Difference.\n"
+"        Booked like:\n"
+"\n"
+"            Payable              522                   0    USD\n"
+"                Gain Exchange rate       522           0    USD\n"
+"\n"
+"        And a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account     800                1000    USD\n"
+"                Tax Base Account         800       -1000    USD\n"
+"            Creditable Tax       128                 160    USD\n"
+"                Unpaid Taxes             128        -160    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT: Tax Base Account MXN 800.00\n"
+"            - Creditable Tax MXN 128.00\n"
+"            - Have a difference of MXN 72.00 for Unpaid Taxes that I would\n"
+"              later have to issue as a Loss in Exchange Rate Difference\n"
+"\n"
+"            Loss Exchange rate    72                   0    USD\n"
+"                Unpaid Taxes              72           0    USD\n"
+"\n"
+"\n"
+"Case Multi-currency (both invoice & payment) Payment same day than Invoice (Supplier)\n"
+"-------------------------------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively Payable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued two days ago in USD at a rate => 1MXN = 0.8 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Expenses            1250                1000    USD\n"
+"            Unpaid Taxes         200                 160    USD\n"
+"\n"
+"                Payable                 1450       -1160    USD\n"
+"\n"
+"        Payment issued two days ago in USD at a rate => 1 MXN = 0.8 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Payable             1450                1160    USD\n"
+"                Bank                    1450       -1160    USD\n"
+"\n"
+"        This does not generates any Exchange Rate Difference.\n"
+"\n"
+"        But a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1250                1000    USD\n"
+"                Tax Base Account        1250       -1000    USD\n"
+"            Creditable Tax       200                 160    USD\n"
+"                Unpaid Taxes             200        -160    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT: Tax Base Account MXN 1250.00\n"
+"            - Creditable Tax MXN 200.00\n"
+"            - Have no difference for Unpaid Taxes\n"
+"\n"
+"\n"
+"Case Invoiced Yesterday (MXN) Payment Two Days Ago (USD) (Supplier)\n"
+"-------------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively Payable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in MXN at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Expenses            1000                   -      -\n"
+"            Unpaid Taxes         160                   -      -\n"
+"\n"
+"                Payable                 1160           -      -\n"
+"\n"
+"        Payment issued two days ago in USD at a rate => 1 MXN = 0.80 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Payable             1160                 928    USD\n"
+"                Bank                    1160        -928    USD\n"
+"\n"
+"        This does not generates any Exchange Rate Difference.\n"
+"\n"
+"        But a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1000                   0      -\n"
+"                Tax Base Account        1000           0      -\n"
+"            Creditable Tax       160                   0      -\n"
+"                Unpaid Taxes             160           0      -\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT: Tax Base Account MXN 1000.00\n"
+"            - Creditable Tax MXN 160.00\n"
+"            - Have no difference for Unpaid Taxes\n"
+"\n"
+"\n"
+"Case Invoiced Yesterday (USD) Payment Today (MXN) (Supplier)\n"
+"------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively Payable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in USD at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Expenses            1000                1000    USD\n"
+"            Unpaid Taxes         160                 160    USD\n"
+"\n"
+"                Payable                 1160       -1160    USD\n"
+"\n"
+"        Payment issued today in MXN at a rate => 1 MXN = 1.25 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Payable              928                   -      -\n"
+"                Bank                     928           -      -\n"
+"\n"
+"        This Generates a Exchange Rate Difference.\n"
+"        Booked like:\n"
+"\n"
+"            Payable              232                 232    USD\n"
+"                Gain Exchange rate       522        -232    USD\n"
+"\n"
+"        And a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account     800                   0    USD\n"
+"                Tax Base Account         800           0    USD\n"
+"            Creditable Tax       128                   0    USD  # (I'd expect the same value as in the invoice for amount_currency in tax: 160 USD) \n"
+"                Unpaid Taxes             128           0    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT: Tax Base Account MXN 800.00\n"
+"            - Creditable Tax MXN 128.00\n"
+"            - Have a difference of MXN 32.00 for Unpaid Taxes that I would\n"
+"              later have to issue as a Loss in Exchange Rate Difference\n"
+"\n"
+"            Loss Exchange rate    32                   0    USD\n"
+"                Unpaid Taxes              32           0    USD\n"
+"\n"
+"\n"
+"Case Invoiced Yesterday (MXN) Payment Today (MXN) (Supplier)\n"
+"------------------------------------------------------------\n"
+"\n"
+"        Test to validate tax effectively Payable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued yesterday in MXN at a rate => 1MXN = 1 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Expenses            1000                   -      -\n"
+"            Unpaid Taxes         160                   -      -\n"
+"\n"
+"                Payable                 1160           -      -\n"
+"\n"
+"        Payment issued today in MXN at a rate => 1 MXN = 1.25 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Payable             1160                   -      -\n"
+"                Bank                    1160           -      -\n"
+"\n"
+"        This does not generates any Exchange Rate Difference.\n"
+"\n"
+"        But a Tax Cash Basis Entry is generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account    1000                   -      -\n"
+"                Tax Base Account        1000           -      -\n"
+"            Creditable Tax       160                   -      -\n"
+"                Unpaid Taxes             160           -      -\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT: Tax Base Account MXN 1000.00\n"
+"            - Creditable Tax MXN 160.00\n"
+"            - Have no difference for Unpaid Taxes\n"
+"\n"
+"\n"
+"Case Invoiced Yesterday (MXN) Credit Note Today (MXN) (Customer)\n"
+"----------------------------------------------------------------\n"
+"        Test to validate tax effectively receivable\n"
+"\n"
+"        My company currency is MXN.\n"
+"\n"
+"        Invoice issued two days ago in USD at a rate => 1MXN = 0.80 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Receivable          1450                1160    USD\n"
+"                Revenue                 1250       -1000    USD\n"
+"                Taxes to Collect         200        -160    USD\n"
+"\n"
+"        Credit Note issued today in USD at a rate => 1 MXN = 1.25 USD.\n"
+"        Booked like:\n"
+"\n"
+"            Revenue              800                1000    USD\n"
+"            Taxes to Collect     128                 160    USD\n"
+"\n"
+"                Receivable               928       -1160    USD\n"
+"\n"
+"        This Generates a Exchange Rate Difference.\n"
+"        Booked like:\n"
+"\n"
+"            Loss Exchange rate   522                   0    USD\n"
+"                Receivable               522           0    USD\n"
+"\n"
+"        And two Tax Cash Basis Entry are generated.\n"
+"        Booked like:\n"
+"\n"
+"            Tax Base Account     800                1000    USD\n"
+"                Tax Base Account         800       -1000    USD\n"
+"            Taxes to Collect     128                 160    USD\n"
+"                Taxes to Paid            128        -160    USD\n"
+"\n"
+"            Tax Base Account     800                1000    USD\n"
+"                Tax Base Account         800       -1000    USD\n"
+"            Taxes to Paid        128                 160    USD\n"
+"                Taxes to Collect         128        -160    USD\n"
+"\n"
+"        What I expect from here:\n"
+"            - Base to report to DIOT if it would be the case (not in this case): \n"
+"              * Tax Base Account MXN 800.00 and MXN -800.00\n"
+"            - Paid to SAT MXN 0.00\n"
+"            - Have a difference of MXN -72.00 for Taxes to Collect that I would\n"
+"              later have to issue as a Gain in Exchange Rate Difference\n"
+"\n"
+"            Taxes to Collect      72                   0    USD\n"
+"                Gain Exchange rate        72           0    USD\n"
+"\n"
+"Credits\n"
+"=======\n"
+"\n"
+"**Contributors**\n"
+"\n"
+"* Nhomar Hernandez <nhomar@vauxoo.com> (Planner/Auditor)\n"
+"* Luis Torres <luis_t@vauxoo.com> (Auditor)\n"
+"* Humberto Arocha <luis_t@vauxoo.com> (Planner/Developer)\n"
 msgstr ""
 
 #. module: base
@@ -21500,8 +22147,15 @@ msgid "TaxCloud and Delivery - Ecommerce"
 msgstr ""
 
 #. module: base
-#: model:ir.module.module,summary:base.module_account_taxcloud
-msgid "TaxCloud make it easy for business to comply with sales tax law"
+#: model:ir.model.fields,field_description:base.field_res_company__vat
+#: model:ir.model.fields,field_description:base.field_res_partner__vat
+#: model:ir.model.fields,field_description:base.field_res_users__vat
+msgid "Tax ID"
+msgstr "KMKR nr"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_website_sale_taxcloud_delivery
+msgid "TaxCloud and Delivery - Ecommerce"
 msgstr ""
 
 #. module: base
@@ -21528,11 +22182,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.category,name:base.module_category_hidden
 #: model:ir.module.category,name:base.module_category_technical_settings
+#: model_terms:ir.ui.view,arch_db:base.user_groups_view
 msgid "Technical Settings"
 msgstr ""
 
 #. module: base
-#: code:addons/base/models/ir_translation.py:782
+#: code:addons/base/models/ir_translation.py:794
 #, python-format
 msgid "Technical Translations"
 msgstr "Tehnilised tõlked"
@@ -21540,11 +22195,6 @@ msgstr "Tehnilised tõlked"
 #. module: base
 #: model:ir.actions.report,name:base.ir_module_reference_print
 msgid "Technical guide"
-msgstr ""
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_company_document_template_form
-msgid "Template"
 msgstr ""
 
 #. module: base
@@ -21576,16 +22226,6 @@ msgstr ""
 #: model:ir.module.module,shortdesc:base.module_test_performance
 msgid "Test Performance"
 msgstr "Testi kiirust"
-
-#. module: base
-#: model:ir.module.module,summary:base.module_test_marketing_automation
-msgid "Test Suits for Automated Marketing Campaigns"
-msgstr ""
-
-#. module: base
-#: model:ir.module.module,shortdesc:base.module_test_testing_utilities
-msgid "Test testing utilities"
-msgstr ""
 
 #. module: base
 #: model:ir.module.module,summary:base.module_test_marketing_automation
@@ -21636,6 +22276,12 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_th_reports
 msgid "Thailand - Accounting Reports"
+msgstr ""
+
+#. module: base
+#: code:addons/base/models/res_users.py:386
+#, python-format
+msgid "The \"App Switcher\" action cannot be selected as home action."
 msgstr ""
 
 #. module: base
@@ -22205,7 +22851,17 @@ msgstr ""
 #. module: base
 #: model:ir.model.fields,field_description:base.field_res_lang__thousands_sep
 msgid "Thousands Separator"
-msgstr ""
+msgstr "Tuhande eraldaja"
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_attachment__thumbnail
+msgid "Thumbnail"
+msgstr "Pisipilt"
+
+#. module: base
+#: selection:res.lang,week_start:0
+msgid "Thursday"
+msgstr "Neljapäev"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment__thumbnail
@@ -22374,6 +23030,17 @@ msgid "Tool"
 msgstr ""
 
 #. module: base
+#: code:addons/base/models/res_users.py:790
+#, python-format
+msgid "Too many login failures, please wait a bit before trying again."
+msgstr ""
+
+#. module: base
+#: model:ir.module.category,name:base.module_category_tool
+msgid "Tool"
+msgstr ""
+
+#. module: base
 #: model:ir.module.category,name:base.module_category_tools
 msgid "Tools"
 msgstr ""
@@ -22487,6 +23154,11 @@ msgid "Translate website in one-click"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,summary:base.module_website_gengo
+msgid "Translate website in one-click"
+msgstr ""
+
+#. module: base
 #: selection:ir.translation,state:0
 msgid "Translated"
 msgstr ""
@@ -22569,6 +23241,11 @@ msgstr ""
 #: selection:res.lang,week_start:0
 msgid "Tuesday"
 msgstr ""
+
+#. module: base
+#: selection:res.lang,week_start:0
+msgid "Tuesday"
+msgstr "Teisipäev"
 
 #. module: base
 #: selection:res.lang,week_start:0
@@ -22986,6 +23663,11 @@ msgid "Upgrade Module"
 msgstr ""
 
 #. module: base
+#: model:ir.model,name:base.model_base_module_upgrade
+msgid "Upgrade Module"
+msgstr ""
+
+#. module: base
 #: model:ir.model.fields,field_description:base.field_ir_attachment__url
 msgid "Url"
 msgstr ""
@@ -23016,6 +23698,35 @@ msgstr "Kasutamine"
 #: code:addons/base/models/ir_fields.py:167
 #, python-format
 msgid "Use '1' for yes and '0' for no"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,help:base.field_res_partner__barcode
+#: model:ir.model.fields,help:base.field_res_users__barcode
+msgid "Use a barcode to identify this contact from the Point of Sale."
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_stock_barcode
+msgid "Use barcode scanners to process logistics operations"
+msgstr ""
+
+#. module: base
+#: model:ir.model.fields,field_description:base.field_ir_actions_server__usage
+#: model:ir.model.fields,field_description:base.field_ir_cron__usage
+#: model_terms:ir.ui.view,arch_db:base.view_server_action_search
+msgid "Usage"
+msgstr "Kasutamine"
+
+#. module: base
+#: code:addons/base/models/ir_fields.py:167
+#, python-format
+msgid "Use comma instead of the <br> tag to display the address"
+msgstr ""
+
+#. module: base
+#: model:ir.module.module,summary:base.module_website_sale_coupon
+msgid "Use coupon & promotion programs in your eCommerce store"
 msgstr ""
 
 #. module: base
@@ -23197,11 +23908,6 @@ msgstr ""
 #: model:ir.ui.menu,name:base.menu_users
 msgid "Users & Companies"
 msgstr "Kasutajad ja ettevõtted"
-
-#. module: base
-#: model:ir.model,name:base.model_res_users_log
-msgid "Users Log"
-msgstr ""
 
 #. module: base
 #: model:ir.model,name:base.model_res_users_log
@@ -23814,6 +24520,11 @@ msgid "Yemen"
 msgstr ""
 
 #. module: base
+#: model_terms:ir.ui.view,arch_db:base.demo_force_install_form
+msgid "Yes, I understand the risks"
+msgstr ""
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_account_yodlee
 msgid "Yodlee"
 msgstr "Yodlee"
@@ -24015,6 +24726,11 @@ msgid "Zebra printers integration for MRP"
 msgstr ""
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_mrp_zebra
+msgid "Zebra printers integration for MRP"
+msgstr ""
+
+#. module: base
 #: model:res.country,name:base.zw
 msgid "Zimbabwe"
 msgstr ""
@@ -24136,11 +24852,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:base.view_partner_form
 msgid "e.g. Mr."
 msgstr "nt. Hr"
-
-#. module: base
-#: model_terms:ir.ui.view,arch_db:base.view_company_document_template_form
-msgid "e.g. Opening hours, bank accounts (one per line)"
-msgstr ""
 
 #. module: base
 #: model_terms:ir.ui.view,arch_db:base.view_company_document_template_form
@@ -24284,13 +24995,13 @@ msgid "l10n_es_real_estates"
 msgstr ""
 
 #. module: base
-#: model_terms:ir.ui.view,arch_db:base.demo_failures_dialog
-msgid "module(s) failed to install and were disabled"
+#: selection:ir.model.fields,ttype:0
+msgid "monetary"
 msgstr ""
 
 #. module: base
-#: selection:ir.model.fields,ttype:0
-msgid "monetary"
+#: model_terms:ir.ui.view,arch_db:base.demo_failures_dialog
+msgid "module(s) failed to install and were disabled"
 msgstr ""
 
 #. module: base
@@ -24364,11 +25075,6 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_social_media
 msgid "social_media"
-msgstr ""
-
-#. module: base
-#: model:ir.module.category,name:base.module_category_stock
-msgid "stock"
 msgstr ""
 
 #. module: base

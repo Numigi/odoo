@@ -241,27 +241,6 @@ msgid "Last Updated on"
 msgstr "Última actualització el"
 
 #. module: note
-#: model:ir.model.fields,field_description:note.field_note_note____last_update
-#: model:ir.model.fields,field_description:note.field_note_stage____last_update
-#: model:ir.model.fields,field_description:note.field_note_tag____last_update
-msgid "Last Modified on"
-msgstr "Última modificació el "
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__write_uid
-#: model:ir.model.fields,field_description:note.field_note_stage__write_uid
-#: model:ir.model.fields,field_description:note.field_note_tag__write_uid
-msgid "Last Updated by"
-msgstr "Última actualització per"
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__write_date
-#: model:ir.model.fields,field_description:note.field_note_stage__write_date
-#: model:ir.model.fields,field_description:note.field_note_tag__write_date
-msgid "Last Updated on"
-msgstr "Última actualització el"
-
-#. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Late Activities"
 msgstr ""
@@ -315,21 +294,6 @@ msgstr "Resum de la següent activitat"
 #: model:ir.model.fields,field_description:note.field_note_note__activity_type_id
 msgid "Next Activity Type"
 msgstr "Tipus de la següent activitat"
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__activity_date_deadline
-msgid "Next Activity Deadline"
-msgstr ""
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__activity_summary
-msgid "Next Activity Summary"
-msgstr ""
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__activity_type_id
-msgid "Next Activity Type"
-msgstr ""
 
 #. module: note
 #: model:ir.model,name:note.model_note_note
@@ -519,11 +483,6 @@ msgstr ""
 "Sobrepassat: La data de venciment ja s'ha passat\n"
 "Avui: La data de l'activitat és avui\n"
 "Planificat: Activitats futures."
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_tag__name
-msgid "Tag Name"
-msgstr "Nom de l'etiqueta"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_tag__name

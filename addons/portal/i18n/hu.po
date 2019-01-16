@@ -340,6 +340,13 @@ msgid "Grant Portal Access"
 msgstr ""
 
 #. module: portal
+#: model:ir.actions.act_window,name:portal.partner_wizard_action
+#: model:ir.model,name:portal.model_portal_wizard
+#: model_terms:ir.ui.view,arch_db:portal.wizard_view
+msgid "Grant Portal Access"
+msgstr ""
+
+#. module: portal
 #: model:ir.model,name:portal.model_ir_http
 msgid "HTTP Routing"
 msgstr ""
@@ -406,6 +413,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:portal.field_portal_share__share_link
 msgid "Link"
 msgstr ""
+
+#. module: portal
+#: model:ir.model.fields,field_description:portal.field_portal_share__share_link
+msgid "Link"
+msgstr "Hivatkozás"
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_share__share_link
@@ -500,8 +512,21 @@ msgid "Powered by"
 msgstr "Támogatja"
 
 #. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.frontend_layout
+#: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
+msgid "Powered by"
+msgstr "Támogatja"
+
+#. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.pager
 msgid "Prev"
+msgstr ""
+
+#. module: portal
+#. openerp-web
+#: code:addons/portal/static/src/xml/portal_chatter.xml:84
+#, python-format
+msgid "Previous"
 msgstr ""
 
 #. module: portal
@@ -570,6 +595,12 @@ msgstr ""
 #: code:addons/portal/wizard/portal_wizard.py:100
 #, python-format
 msgid "Several contacts have the same email: "
+msgstr ""
+
+#. module: portal
+#: model:ir.actions.act_window,name:portal.portal_share_action
+#: model_terms:ir.ui.view,arch_db:portal.portal_share_wizard
+msgid "Share Document"
 msgstr ""
 
 #. module: portal
@@ -661,6 +692,11 @@ msgid "Toggle filters"
 msgstr ""
 
 #. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
+msgid "Toggle filters"
+msgstr ""
+
+#. module: portal
 #: model:ir.model.fields,field_description:portal.field_portal_wizard__user_ids
 msgid "Users"
 msgstr ""
@@ -668,6 +704,12 @@ msgstr ""
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "VAT Number"
+msgstr ""
+
+#. module: portal
+#: code:addons/portal/models/portal_mixin.py:83
+#, python-format
+msgid "View %s"
 msgstr ""
 
 #. module: portal
@@ -702,6 +744,18 @@ msgstr ""
 #: code:addons/portal/static/src/xml/portal_chatter.xml:31
 #, python-format
 msgid "Write a message..."
+msgstr ""
+
+#. module: portal
+#: code:addons/portal/wizard/portal_share.py:59
+#: code:addons/portal/wizard/portal_share.py:71
+#, python-format
+msgid "You are invited to access %s"
+msgstr ""
+
+#. module: portal
+#: model_terms:ir.ui.view,arch_db:portal.portal_share_template
+msgid "You have been invited to access the following document:"
 msgstr ""
 
 #. module: portal

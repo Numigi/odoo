@@ -306,9 +306,10 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.confirmation
-msgid "<span>Confirmed</span>"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:website_sale.option_collapse_products_categories
+#: model_terms:ir.ui.view,arch_db:website_sale.products_categories
+msgid "All Products"
+msgstr "Tots els Productes"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.address
@@ -318,9 +319,9 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.confirmation
-msgid "<span>Order</span>"
-msgstr ""
+#: model:ir.model.fields,help:website_sale.field_product_pricelist__selectable
+msgid "Allow the end user to choose this price list"
+msgstr "Permet a l'usuari escollir una llista de preus"
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.short_cart_summary
@@ -338,8 +339,8 @@ msgid "<strong>Add to Cart</strong>"
 msgstr "<strong>Afegir a la cistella</strong>"
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.confirmation
-msgid "<strong>Payment Information:</strong>"
+#: model:product.public.category,name:website_sale.public_category_bins
+msgid "Bins"
 msgstr ""
 
 #. module: website_sale
@@ -587,6 +588,11 @@ msgid "Bank Name"
 msgstr "Nom del Banc "
 
 #. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "Be aware!"
+msgstr ""
+
+#. module: website_sale
 #: model:res.country.group,name:website_sale.benelux
 msgid "BeNeLux"
 msgstr ""
@@ -620,9 +626,16 @@ msgid "Bins"
 msgstr ""
 
 #. module: website_sale
-#: model:product.public.category,name:website_sale.public_category_bins
-msgid "Bins"
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid ""
+"Boost your sales with two kinds of discount programs: promotions and coupon "
+"codes. Specific conditions can be set (products, customers, minimum purchase"
+" amount, period). Rewards can be discounts (% or amount) or free products."
 msgstr ""
+"Incrementa les teves vendes amb dos tipus de programes de descompte: "
+"promocions i vals descompte. Es pot fixar condicions específiques "
+"(productes, clients, import mínim, període). Les recompenses poden ser "
+"descomptes (% o import fixe) o productes gratuïts  "
 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.public_category_boxes
@@ -765,11 +778,6 @@ msgstr "Nom d'empresa"
 #: model:product.public.category,name:website_sale.Components
 msgid "Components"
 msgstr "Components"
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "Compute shipping cost and ship with Easypost"
-msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
@@ -1088,8 +1096,9 @@ msgid "Extra Info"
 msgstr "Informació extra"
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
-msgid "FedEx"
+#: code:addons/website_sale/models/digest.py:16
+#, python-format
+msgid "Do not have access, skip this data for user's digest email"
 msgstr ""
 
 #. module: website_sale
@@ -1141,6 +1150,8 @@ msgstr "Classes HTML"
 #: model:ir.model,name:website_sale.model_ir_http
 msgid "HTTP Routing"
 msgstr ""
+"Indica l'ordre de seqüència quan es mostra una llista de categories de "
+"producte."
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_sale_note
@@ -1151,6 +1162,14 @@ msgstr "Estic d'acord amb la"
 #: model_terms:ir.ui.view,arch_db:website_sale.reduction_code
 msgid "I have a promo code"
 msgstr ""
+
+#. module: website_sale
+#: model:ir.model.fields,field_description:website_sale.field_product_image__id
+#: model:ir.model.fields,field_description:website_sale.field_product_public_category__id
+#: model:ir.model.fields,field_description:website_sale.field_product_style__id
+#: model:ir.model.fields,field_description:website_sale.field_website_sale_payment_acquirer_onboarding_wizard__id
+msgid "ID"
+msgstr "ID"
 
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_product_image__id
@@ -1235,6 +1254,19 @@ msgstr ""
 #: code:addons/website_sale/models/sale_order.py:166
 #, python-format
 msgid "It is forbidden to modify a sales order which is not in draft status."
+msgstr ""
+
+#. module: website_sale
+#: code:addons/website_sale/models/sale_order.py:184
+#, python-format
+msgid "The given product does not exist therefore it cannot be added to cart."
+msgstr ""
+
+#. module: website_sale
+#: code:addons/website_sale/models/sale_order.py:198
+#, python-format
+msgid ""
+"The given combination does not exist therefore it cannot be added to cart."
 msgstr ""
 
 #. module: website_sale
@@ -1415,11 +1447,6 @@ msgid "No results found for \""
 msgstr ""
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.products
-msgid "No results found for \""
-msgstr ""
-
-#. module: website_sale
 #: selection:res.config.settings,sale_delivery_settings:0
 msgid "No shipping management on website"
 msgstr "No hi ha gestió d'enviament al lloc web"
@@ -1437,11 +1464,6 @@ msgstr "Sense fer"
 #. module: website_sale
 #: model:ir.model.fields,field_description:website_sale.field_crm_team__abandoned_carts_count
 msgid "Number of Abandoned Carts"
-msgstr ""
-
-#. module: website_sale
-#: model:ir.model.fields,help:website_sale.field_res_config_settings__cart_abandoned_delay
-msgid "Number of hours after which the cart is considered abandoned."
 msgstr ""
 
 #. module: website_sale
@@ -1491,15 +1513,10 @@ msgid "Open Source eCommerce"
 msgstr "Comerç electrònic de codi obert"
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.brand_promotion
-msgid "Open Source eCommerce"
-msgstr ""
-
-#. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:71
 #, python-format
-msgid "Open your website app here."
+msgid "Option:"
 msgstr ""
 
 #. module: website_sale
@@ -1555,11 +1572,6 @@ msgid "Order Total"
 msgstr ""
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.short_cart_summary
-msgid "Order Total"
-msgstr ""
-
-#. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:66
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:67
@@ -1581,9 +1593,21 @@ msgid "Orders Followup"
 msgstr ""
 
 #. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.res_config_settings_view_form
+msgid "Orders Followup"
+msgstr ""
+
+#. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.sale_order_action_to_invoice
 msgid "Orders To Invoice"
 msgstr ""
+
+#. module: website_sale
+#. openerp-web
+#: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:11
+#, python-format
+msgid "Orders to Invoice"
+msgstr "Comandes a facturar"
 
 #. module: website_sale
 #. openerp-web
@@ -1807,11 +1831,6 @@ msgstr "Preus de producte"
 #: model_terms:ir.ui.view,arch_db:website_sale.product_public_category_tree_view
 msgid "Product Public Categories"
 msgstr "Categories públiques de productes"
-
-#. module: website_sale
-#: model:ir.model,name:website_sale.model_product_style
-msgid "Product Style"
-msgstr ""
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_style
@@ -2435,11 +2454,6 @@ msgid "Unpublished"
 msgstr "No publicat"
 
 #. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.products_item
-msgid "Unpublished"
-msgstr ""
-
-#. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/xml/website_sale_dashboard.xml:74
 #, python-format
@@ -2579,6 +2593,13 @@ msgid ""
 msgstr ""
 
 #. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid ""
+"You are editing your <b>billing and shipping</b> addresses at the same time!<br/>\n"
+"                                            If you want to modify your shipping address, create a"
+msgstr ""
+
+#. module: website_sale
 #: model_terms:ir.actions.act_window,help:website_sale.sale_report_action_carts
 #: model_terms:ir.actions.act_window,help:website_sale.sale_report_action_dashboard
 msgid "You don't have any order from the website"
@@ -2632,11 +2653,6 @@ msgstr "La teva cistella és buida!"
 #: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
 msgid "Your payment has been authorized."
 msgstr "El seu pagament s'ha autoritzat."
-
-#. module: website_sale
-#: model_terms:ir.ui.view,arch_db:website_sale.payment_confirmation_status
-msgid "Your payment has been authorized."
-msgstr ""
 
 #. module: website_sale
 #: model_terms:ir.ui.view,arch_db:website_sale.cart
@@ -2717,6 +2733,11 @@ msgstr "kg"
 #: model_terms:ir.ui.view,arch_db:website_sale.product
 #: model_terms:ir.ui.view,arch_db:website_sale.products
 msgid "ml-2"
+msgstr ""
+
+#. module: website_sale
+#: model_terms:ir.ui.view,arch_db:website_sale.address
+msgid "new address"
 msgstr ""
 
 #. module: website_sale

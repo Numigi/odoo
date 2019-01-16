@@ -113,6 +113,11 @@ msgid "Event Registration Answer"
 msgstr ""
 
 #. module: website_event_questions
+#: model:ir.model,name:website_event_questions.model_event_registration_answer
+msgid "Event Registration Answer"
+msgstr ""
+
+#. module: website_event_questions
 #: model:ir.model.fields,field_description:website_event_questions.field_event_question__event_type_id
 msgid "Event Type"
 msgstr ""

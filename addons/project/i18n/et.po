@@ -575,19 +575,10 @@ msgstr "Tühistatud"
 #. openerp-web
 #: code:addons/project/static/src/js/tour.js:29
 #, python-format
-msgid ""
-"Choose a <b>project name</b>. (e.g. Website Launch, Product Development, "
-"Office Party, etc.)"
-msgstr ""
-"Choose a <b>project name</b>. (e.g. Website Launch, Product Development, "
-"Office Party, etc.)"
-
-#. module: project
-#. openerp-web
-#: code:addons/project/static/src/js/tour.js:61
-#, python-format
 msgid "Choose a <b>task name</b>. (e.g. Website Design, Purchase Goods etc.)"
 msgstr ""
+"Choose a <b>project name</b>. (e.g. Website Launch, Product Development, "
+"Office Party, etc.)"
 
 #. module: project
 #. openerp-web
@@ -668,14 +659,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.view_task_project_user_search
 #: model_terms:ir.ui.view,arch_db:project.view_task_search_form
 msgid "Company"
-msgstr ""
-
-#. module: project
-#: model:ir.model.fields,help:project.field_project_task__subtask_planned_hours
-msgid ""
-"Computed using sum of hours planned of all subtasks created from main task. "
-"Usually these hours are less or equal to the Planned Hours (of main task)."
-msgstr ""
+msgstr "Ettevõte"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__subtask_planned_hours
@@ -902,7 +886,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_kanban
 msgid "Delete"
-msgstr ""
+msgstr "Kustuta"
 
 #. module: project
 #. openerp-web
@@ -1217,6 +1201,11 @@ msgid "Happy"
 msgstr "Rahul"
 
 #. module: project
+#: model_terms:ir.ui.view,arch_db:project.portal_project_rating_progressbar
+msgid "Happy"
+msgstr "Rahul"
+
+#. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__percentage_satisfaction_project
 msgid "Happy % on Project"
 msgstr ""
@@ -1257,17 +1246,7 @@ msgstr ""
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.view_task_form2
 msgid "Hours"
-msgstr ""
-
-#. module: project
-#: model:ir.model.fields,help:project.field_project_project__rating_status
-msgid ""
-"How to get the customer's feedbacks?\n"
-"- Rating when changing stage: Email will be sent when a task/issue is pulled in another stage\n"
-"- Periodical Rating: Email will be sent periodically\n"
-"\n"
-"Don't forget to set up the mail templates on the stages for which you want to get the customer's feedbacks."
-msgstr ""
+msgstr "Tunnid"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__rating_status
@@ -1283,7 +1262,7 @@ msgstr ""
 #: code:addons/project/models/project.py:808
 #, python-format
 msgid "I take it"
-msgstr ""
+msgstr "Võta see"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__id
@@ -1292,13 +1271,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:project.field_project_task_type__id
 #: model:ir.model.fields,field_description:project.field_report_project_task_user__id
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_project__alias_parent_thread_id
 msgid ""
-"ID of the parent record holding the alias (example: project holding the task"
-" creation alias)"
+"How to get the customer's feedbacks?\n"
+"- Rating when changing stage: Email will be sent when a task/issue is pulled in another stage\n"
+"- Periodical Rating: Email will be sent periodically\n"
+"\n"
+"Don't forget to set up the mail templates on the stages for which you want to get the customer's feedbacks."
 msgstr ""
 "Algse kirje ülem ID, millele kuulub alias (nt: projekt, millele kuulub "
 "ülesande loomise alias)"
@@ -1436,7 +1418,7 @@ msgstr "Jälgija"
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.project_tags_search_view
 msgid "Issue Version"
-msgstr ""
+msgstr "Versioon"
 
 #. module: project
 #: model:ir.model.fields,help:project.field_project_task__planned_hours
@@ -1587,6 +1569,8 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.res_config_settings_view_form
 msgid "Log time on tasks"
 msgstr ""
+"Lets the company customize which Pad installation should be used to link to "
+"new pads (for example: http://etherpad.com/)."
 
 #. module: project
 #. openerp-web
@@ -1702,13 +1686,6 @@ msgstr ""
 #: model:project.task.type,name:project.project_stage_data_0
 #, python-format
 msgid "New"
-msgstr ""
-
-#. module: project
-#. openerp-web
-#: code:addons/project/static/src/js/project_task_kanban_examples.js:67
-#, python-format
-msgid "New Orders"
 msgstr ""
 
 #. module: project
@@ -1978,6 +1955,13 @@ msgid "Page Ideas"
 msgstr ""
 
 #. module: project
+#. openerp-web
+#: code:addons/project/static/src/js/project_task_kanban_examples.js:64
+#, python-format
+msgid "Page Ideas"
+msgstr ""
+
+#. module: project
 #: model:ir.model.fields,field_description:project.field_project_project__alias_parent_model_id
 msgid "Parent Model"
 msgstr ""
@@ -2092,13 +2076,11 @@ msgid "Project Manager"
 msgstr "Projektijuht"
 
 #. module: project
-#: model_terms:ir.ui.view,arch_db:project.edit_project
-#: model_terms:ir.ui.view,arch_db:project.project_project_view_form_simplified
-#: model_terms:ir.ui.view,arch_db:project.project_view_kanban
-#: model_terms:ir.ui.view,arch_db:project.view_project
-#: model_terms:ir.ui.view,arch_db:project.view_project_project_filter
-msgid "Project Name"
-msgstr ""
+#: model:ir.actions.act_window,name:project.rating_rating_action_view_project_rating
+#: model:ir.model.fields,field_description:project.field_project_task__rating_ids
+#: model_terms:ir.ui.view,arch_db:project.view_task_form2
+msgid "Rating"
+msgstr "Hinnang"
 
 #. module: project
 #: model_terms:ir.ui.view,arch_db:project.rating_index
@@ -2111,27 +2093,19 @@ msgid "Project Tags"
 msgstr ""
 
 #. module: project
-#: model_terms:ir.ui.view,arch_db:project.view_project_task_graph
-#: model_terms:ir.ui.view,arch_db:project.view_project_task_pivot
-msgid "Project Tasks"
-msgstr "Projekti ülesanded"
+#: model:ir.model.fields,field_description:project.field_project_task__rating_last_image
+msgid "Rating Last Image"
+msgstr ""
 
 #. module: project
 #: model:ir.actions.act_window,name:project.dblc_proj
 msgid "Project's tasks"
-msgstr ""
+msgstr "Projekti ülesanded"
 
 #. module: project
 #: model:ir.actions.server,name:project.ir_actions_server_project_sample
 msgid "Project: Activate Sample Project"
 msgstr "Projekt: aktiveeri näidisprojekt"
-
-#. module: project
-#: model:ir.actions.server,name:project.ir_cron_rating_project_ir_actions_server
-#: model:ir.cron,cron_name:project.ir_cron_rating_project
-#: model:ir.cron,name:project.ir_cron_rating_project
-msgid "Project: Send rating"
-msgstr ""
 
 #. module: project
 #: model:ir.actions.server,name:project.ir_cron_rating_project_ir_actions_server
@@ -2152,7 +2126,7 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:project.rating_index
 #: model_terms:ir.ui.view,arch_db:project.view_project
 msgid "Projects"
-msgstr ""
+msgstr "Projektid"
 
 #. module: project
 #: model:mail.channel,name:project.mail_channel_project_task
@@ -2299,7 +2273,7 @@ msgstr "Kirje seose ID"
 #. module: project
 #: selection:project.task,kanban_state:0
 msgid "Red"
-msgstr ""
+msgstr "Punane"
 
 #. module: project
 #: model:ir.model.fields,field_description:project.field_project_task_type__legend_blocked
@@ -2415,12 +2389,6 @@ msgstr "Search in Stages"
 #: model:ir.model.fields,field_description:project.field_project_task__access_token
 msgid "Security Token"
 msgstr "Turvamärgis"
-
-#. module: project
-#: model:ir.model.fields,field_description:project.field_project_project__access_token
-#: model:ir.model.fields,field_description:project.field_project_task__access_token
-msgid "Security Token"
-msgstr ""
 
 #. module: project
 #. openerp-web
@@ -2660,6 +2628,12 @@ msgstr ""
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_task_pipe
 msgid "Task Pipe"
+msgstr ""
+
+#. module: project
+#: model:mail.message.subtype,name:project.mt_project_task_rating
+#: model:mail.message.subtype,name:project.mt_task_rating
+msgid "Task Rating"
 msgstr ""
 
 #. module: project
@@ -3150,14 +3124,7 @@ msgstr "Working hours to close"
 #. module: project
 #: model:ir.filters,name:project.filter_task_report_workload
 msgid "Workload"
-msgstr ""
-
-#. module: project
-#. openerp-web
-#: code:addons/project/static/src/js/project_task_kanban_examples.js:39
-#, python-format
-msgid "Writing"
-msgstr ""
+msgstr "Töökoormus"
 
 #. module: project
 #. openerp-web

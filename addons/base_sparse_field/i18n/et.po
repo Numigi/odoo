@@ -71,6 +71,11 @@ msgid "Field Type"
 msgstr "Välja tüüp"
 
 #. module: base_sparse_field
+#: model:ir.model.fields,field_description:base_sparse_field.field_ir_model_fields__ttype
+msgid "Field Type"
+msgstr "Välja tüüp"
+
+#. module: base_sparse_field
 #: model:ir.model,name:base_sparse_field.model_ir_model_fields
 msgid "Fields"
 msgstr ""
@@ -147,11 +152,6 @@ msgstr "Seerianumbri väli"
 #, python-format
 msgid "Serialization field `%s` not found for sparse field `%s`!"
 msgstr "Seerianumbri välja `%s` ei leitud hõredale väljale `%s`!"
-
-#. module: base_sparse_field
-#: model:ir.model,name:base_sparse_field.model_sparse_fields_test
-msgid "Sparse fields Test"
-msgstr ""
 
 #. module: base_sparse_field
 #: model:ir.model,name:base_sparse_field.model_sparse_fields_test

@@ -66,6 +66,13 @@ msgid "Checking remaining credit ..."
 msgstr ""
 
 #. module: iap
+#. openerp-web
+#: code:addons/iap/static/src/xml/iap_templates.xml:28
+#, python-format
+msgid "Checking remaining credit ..."
+msgstr ""
+
+#. module: iap
 #: model:ir.model.fields,field_description:iap.field_iap_account__company_id
 msgid "Company"
 msgstr ""

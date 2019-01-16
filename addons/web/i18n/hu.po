@@ -8,14 +8,15 @@
 # krnkris, 2018
 # gezza <geza.nagy@oregional.hu>, 2018
 # Ákos Nagy <akos.nagy@oregional.hu>, 2018
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-08 06:49+0000\n"
+"POT-Creation-Date: 2018-12-13 17:53+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
-"Last-Translator: Ákos Nagy <akos.nagy@oregional.hu>, 2018\n"
+"Last-Translator: Tibor Kőnig <konig.tibor@evitalit.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -182,6 +183,20 @@ msgstr ""
 #: code:addons/web/static/src/xml/menu.xml:101
 #, python-format
 msgid "(Enterprise Edition)"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:101
+#, python-format
+msgid "(Enterprise Edition)"
+msgstr "(Vállalati kiadás)"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:298
+#, python-format
+msgid "(change)"
 msgstr ""
 
 #. module: web
@@ -515,6 +530,28 @@ msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:134
+#: code:addons/web/static/src/xml/menu.xml:137
+#: code:addons/web/static/src/xml/menu.xml:143
+#: code:addons/web/static/src/xml/menu.xml:146
+#: code:addons/web/static/src/xml/menu.xml:152
+#: code:addons/web/static/src/xml/menu.xml:155
+#: code:addons/web/static/src/xml/menu.xml:161
+#: code:addons/web/static/src/xml/menu.xml:164
+#: code:addons/web/static/src/xml/menu.xml:170
+#: code:addons/web/static/src/xml/menu.xml:173
+#: code:addons/web/static/src/xml/menu.xml:179
+#: code:addons/web/static/src/xml/menu.xml:182
+#: code:addons/web/static/src/xml/menu.xml:188
+#: code:addons/web/static/src/xml/menu.xml:191
+#: code:addons/web/static/src/xml/menu.xml:197
+#: code:addons/web/static/src/xml/menu.xml:200
+#, python-format
+msgid "Alt"
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/xml/base.xml:149
 #, python-format
 msgid "An error occurred"
@@ -656,6 +693,16 @@ msgstr "Avatár"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1536
+#: code:addons/web/static/src/xml/kanban.xml:161
+#: code:addons/web/static/src/xml/web_calendar.xml:53
+#: code:addons/web/static/src/xml/web_calendar.xml:56
+#, python-format
+msgid "Avatar"
+msgstr "Avatár"
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/xml/base.xml:515
 #, python-format
 msgid "Bar Chart"
@@ -665,6 +712,25 @@ msgstr ""
 #: model:ir.model,name:web.model_base
 msgid "Base"
 msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1143
+#, python-format
+msgid "Based On"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:250
+#, python-format
+msgid "Become Superuser"
+msgstr ""
+
+#. module: web
+#: model:ir.model,name:web.model_base
+msgid "Base"
+msgstr "Alap"
 
 #. module: web
 #. openerp-web
@@ -1038,6 +1104,13 @@ msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:159
+#, python-format
+msgid "Create a new record"
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/js/fields/relational_fields.js:534
 #, python-format
 msgid "Create and Edit..."
@@ -1141,6 +1214,14 @@ msgstr "Adatbázis lejárata:"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/xml/menu.xml:107
+#, python-format
+msgid "Database expiration:"
+msgstr "Adatbázis lejárata:"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/groupby_menu.js:52
 #: code:addons/web/static/src/xml/base.xml:558
 #: code:addons/web/static/src/xml/web_calendar.xml:80
 #, python-format
@@ -1172,6 +1253,13 @@ msgstr "Alapértelmezés:"
 #: code:addons/web/static/src/xml/kanban.xml:24
 #, python-format
 msgid "Delete"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:614
+#, python-format
+msgid "Delete node"
 msgstr ""
 
 #. module: web
@@ -1237,6 +1325,23 @@ msgstr "Megjelenített név"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/widgets/data_export.js:362
+#, python-format
+msgid "Discard a record modification"
+msgstr ""
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__display_name
+msgid "Display Name"
+msgstr "Megjelenített név"
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__view_id
+msgid "Document Template"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1546
 #, python-format
 msgid "Do you really want to delete this export template?"
 msgstr ""
@@ -1307,7 +1412,7 @@ msgstr "xls letöltése"
 #: code:addons/web/static/src/xml/base.xml:1556
 #, python-format
 msgid "Dropdown menu"
-msgstr ""
+msgstr "Legördülő menü"
 
 #. module: web
 #. openerp-web
@@ -1456,7 +1561,7 @@ msgstr "Exportálás"
 #: code:addons/web/static/src/js/widgets/data_export.js:209
 #, python-format
 msgid "Export"
-msgstr ""
+msgstr "Exportálás"
 
 #. module: web
 #. openerp-web
@@ -1590,6 +1695,13 @@ msgstr "Szűrők"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/views/search/filters_menu.js:67
+#, python-format
+msgid "Filters"
+msgstr "Szűrők"
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/xml/base.xml:544
 #, python-format
 msgid "Flip axis"
@@ -1647,6 +1759,22 @@ msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/views/search/filters_menu.js:179
+#, python-format
+msgid "From %s To %s"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:30
+#: code:addons/web/static/src/xml/base.xml:868
+#: code:addons/web/static/src/xml/kanban.xml:89
+#, python-format
+msgid "Fushia"
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1565
 #, python-format
 msgid "Get this feature and much more with Odoo Enterprise!"
@@ -1674,6 +1802,16 @@ msgstr ""
 #, python-format
 msgid "Graph"
 msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:31
+#: code:addons/web/static/src/xml/base.xml:869
+#: code:addons/web/static/src/xml/colorpicker.xml:31
+#: code:addons/web/static/src/xml/kanban.xml:90
+#, python-format
+msgid "Green"
+msgstr "Zöld"
 
 #. module: web
 #. openerp-web
@@ -1770,20 +1908,25 @@ msgstr "Azonosító"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:286
 #, python-format
-msgid "I am sure about this."
+msgid "Hue"
 msgstr ""
 
 #. module: web
 #: model:ir.model.fields,field_description:web.field_report_layout__id
 msgid "ID"
-msgstr ""
+msgstr "Azonosító"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1515
 #: code:addons/web/static/src/js/fields/basic_fields.js:1835
 #, python-format
-msgid "ID:"
+msgid "I am sure about this."
+msgstr ""
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__id
+msgid "ID"
 msgstr ""
 
 #. module: web
@@ -1863,41 +2006,8 @@ msgstr "Gyorsbillentyűk"
 #. module: web
 #: code:addons/web/controllers/main.py:840
 #, python-format
-msgid "Languages"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:9
-#, python-format
-msgid "Last 30 Days"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:10
-#, python-format
-msgid "Last 365 Days"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:8
-#, python-format
-msgid "Last 7 Days"
-msgstr ""
-
-#. module: web
-#: model:ir.model.fields,field_description:web.field_report_layout____last_update
-msgid "Last Modified on"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:18
-#, python-format
-msgid "Last Month"
-msgstr ""
+msgid "Keyboard Shortcuts"
+msgstr "Gyorsbillentyűk"
 
 #. module: web
 #. openerp-web
@@ -2004,43 +2114,33 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:516
 #, python-format
-msgid "Line Chart"
+msgid "Last 7 Days"
 msgstr ""
 
 #. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/list/list_view.js:21
-#, python-format
-msgid "List"
+#: model:ir.model.fields,field_description:web.field_report_layout____last_update
+msgid "Last Modified on"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/kanban.xml:42
 #, python-format
-msgid "Load more... ("
+msgid "Last Month"
 msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/chrome/loading.js:58
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:9
 #, python-format
-msgid "Loading"
+msgid "Last 30 Days"
 msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/chrome/loading.js:56
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:10
 #, python-format
-msgid "Loading (%d)"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1062
-#: code:addons/web/static/src/xml/base.xml:1466
-#, python-format
-msgid "Loading, please wait..."
+msgid "Last 365 Days"
 msgstr ""
 
 #. module: web
@@ -2058,18 +2158,13 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/relational_fields.js:230
 #: code:addons/web/static/src/xml/base.xml:1459
 #, python-format
-msgid "Loading..."
+msgid "Last 7 Days"
 msgstr ""
 
 #. module: web
-#: model_terms:ir.ui.view,arch_db:web.login
-msgid "Log in"
-msgstr ""
-
-#. module: web
-#: model_terms:ir.ui.view,arch_db:web.login
-msgid "Log in as superuser"
-msgstr ""
+#: model:ir.model.fields,field_description:web.field_report_layout____last_update
+msgid "Last Modified on"
+msgstr "Legutóbb frissítve"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login
@@ -2080,17 +2175,8 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1551
 #, python-format
-msgid "Log out"
-msgstr ""
-
-#. module: web
-#: model_terms:ir.ui.view,arch_db:web.external_layout_background
-#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
-#: model_terms:ir.ui.view,arch_db:web.external_layout_clean
-#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
-#: model_terms:ir.ui.view,arch_db:web.login_layout
-msgid "Logo"
-msgstr ""
+msgid "Last Month"
+msgstr "Előző hónap"
 
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
@@ -2105,15 +2191,8 @@ msgstr "Logó"
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/search_inputs.js:461
 #, python-format
-msgid "M2O search fields do not currently handle multiple default values"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/xml/menu.xml:127
-#, python-format
-msgid "Mac"
-msgstr ""
+msgid "Last Quarter"
+msgstr "Utolsó negyedév"
 
 #. module: web
 #. openerp-web
@@ -2138,43 +2217,43 @@ msgstr ""
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.login_layout
 msgid "Manage Databases"
-msgstr ""
+msgstr "Adatbázisok kezelése"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/tools/debug_manager.js:300
 #: code:addons/web/static/src/xml/base.xml:259
 #, python-format
-msgid "Manage Filters"
-msgstr ""
+msgid "Last Week"
+msgstr "Előző hét"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:639
 #, python-format
-msgid "Match"
-msgstr ""
+msgid "Last Year"
+msgstr "Utolsó év"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:646
 #, python-format
-msgid "Match records with"
-msgstr ""
+msgid "Latest Modification Date:"
+msgstr "Módosítva:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:644
 #, python-format
-msgid "Match records with the following rule:"
-msgstr ""
+msgid "Latest Modification by:"
+msgstr "Módosította:"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/core/misc.js:19
+#: code:addons/web/static/src/xml/base.xml:251
 #, python-format
-msgid "Maybe you should consider reloading the application by pressing F5..."
-msgstr ""
+msgid "Leave the Developer Tools"
+msgstr "Fejlesztői eszközök kikapcsolása"
 
 #. module: web
 #. openerp-web
@@ -2197,19 +2276,19 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/tools/debug_manager.js:390
 #, python-format
-msgid "Metadata (%s)"
+msgid "Lightness %"
 msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:107
+#: code:addons/web/static/src/xml/base.xml:516
 #, python-format
 msgid "Method:"
 msgstr "Módszer:"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/services/crash_manager.js:16
+#: code:addons/web/static/src/js/views/list/list_view.js:21
 #, python-format
 msgid "Missing Record"
 msgstr "Hiányzó rekord"
@@ -2225,23 +2304,23 @@ msgstr "Mobiltámogatás"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:358
 #, python-format
-msgid "Modified by :"
+msgid "Loading"
 msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:45
-#: code:addons/web/static/src/xml/base.xml:94
+#: code:addons/web/static/src/js/chrome/loading.js:56
 #, python-format
-msgid "Modifiers:"
+msgid "Loading (%d)"
 msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/views/search/groupby_menu.js:54
 #: code:addons/web/static/src/xml/base.xml:560
 #: code:addons/web/static/src/xml/web_calendar.xml:82
 #, python-format
-msgid "Month"
+msgid "Loading, please wait..."
 msgstr ""
 
 #. module: web
@@ -2256,7 +2335,7 @@ msgstr "Továbbiak"
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1415
 #, python-format
-msgid "Move Down"
+msgid "Loading..."
 msgstr ""
 
 #. module: web
@@ -2264,7 +2343,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:1414
 #, python-format
 msgid "Move Up"
-msgstr ""
+msgstr "Mozgatás felfelé"
 
 #. module: web
 #. openerp-web
@@ -2284,7 +2363,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1470
 #, python-format
-msgid "Name:"
+msgid "Log out"
 msgstr ""
 
 #. module: web
@@ -2292,14 +2371,16 @@ msgstr ""
 #: code:addons/web/static/src/js/views/basic/basic_model.js:686
 #, python-format
 msgid "New"
-msgstr ""
+msgstr "Új"
 
 #. module: web
-#. openerp-web
-#: code:addons/web/static/src/xml/base.xml:169
-#, python-format
-msgid "New Password"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:web.external_layout_background
+#: model_terms:ir.ui.view,arch_db:web.external_layout_boxed
+#: model_terms:ir.ui.view,arch_db:web.external_layout_clean
+#: model_terms:ir.ui.view,arch_db:web.external_layout_standard
+#: model_terms:ir.ui.view,arch_db:web.login_layout
+msgid "Logo"
+msgstr "Logó"
 
 #. module: web
 #. openerp-web
@@ -2321,7 +2402,7 @@ msgstr "Következő"
 #. openerp-web
 #: code:addons/web/static/src/js/views/search/search_inputs.js:338
 #, python-format
-msgid "No"
+msgid "Mac"
 msgstr ""
 
 #. module: web
@@ -2604,6 +2685,15 @@ msgid "Orange"
 msgstr ""
 
 #. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:23
+#: code:addons/web/static/src/xml/base.xml:861
+#: code:addons/web/static/src/xml/kanban.xml:82
+#, python-format
+msgid "Orange"
+msgstr ""
+
+#. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_background
 msgid ""
 "Page:\n"
@@ -2626,13 +2716,6 @@ msgstr ""
 #. module: web
 #: model_terms:ir.ui.view,arch_db:web.external_layout_standard
 msgid "Phone:"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/widgets/colorpicker.js:33
-#, python-format
-msgid "Pick a color"
 msgstr ""
 
 #. module: web
@@ -2808,6 +2891,38 @@ msgid "Previous Year"
 msgstr ""
 
 #. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__image
+msgid "Preview image src"
+msgstr ""
+
+#. module: web
+#: model:ir.model.fields,field_description:web.field_report_layout__pdf
+msgid "Preview pdf src"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:741
+#: code:addons/web/static/src/xml/web_calendar.xml:75
+#, python-format
+msgid "Previous"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:24
+#, python-format
+msgid "Previous Period"
+msgstr "Előző időszak"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:25
+#, python-format
+msgid "Previous Year"
+msgstr ""
+
+#. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome/sidebar.js:33
 #: code:addons/web/static/src/xml/report.xml:11
@@ -2822,19 +2937,11 @@ msgstr ""
 #: code:addons/web/static/src/xml/kanban.xml:91
 #, python-format
 msgid "Purple"
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/js/views/kanban/kanban_record.js:32
-#: code:addons/web/static/src/xml/base.xml:870
-#: code:addons/web/static/src/xml/kanban.xml:91
-#, python-format
-msgid "Purple"
 msgstr "Lila"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/views/search/groupby_menu.js:55
 #: code:addons/web/static/src/xml/base.xml:561
 #, python-format
 msgid "Quarter"
@@ -2931,12 +3038,31 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/xml/web_calendar.xml:65
 #, python-format
-msgid "Run Click Everywhere Test"
+msgid "Remove tag"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome/action_manager_report.js:112
+#, python-format
+msgid "Run Click Everywhere Test"
+msgstr ""
+
+#. module: web
+#: model:ir.model,name:web.model_report_layout
+msgid "Report Layout"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:223
+#, python-format
+msgid "Request timeout"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/fields/basic_fields.js:2048
 #, python-format
 msgid "Run JS Mobile Tests"
 msgstr ""
@@ -3018,9 +3144,58 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/views/view_dialogs.js:137
+#: code:addons/web/static/src/xml/base.xml:240
+#, python-format
+msgid "Run Click Everywhere Test"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:239
 #, python-format
 msgid "Save & Close"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:238
+#, python-format
+msgid "Run JS Tests"
+msgstr "JS tesztek futtatása"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1226
+#, python-format
+msgid "Save & New"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:27
+#: code:addons/web/static/src/xml/base.xml:865
+#: code:addons/web/static/src/xml/kanban.xml:86
+#, python-format
+msgid "Salmon pink"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/colorpicker.xml:45
+#, python-format
+msgid "Saturation %"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/view_dialogs.js:137
+#: code:addons/web/static/src/js/widgets/domain_selector_dialog.js:28
+#: code:addons/web/static/src/xml/base.xml:390
+#: code:addons/web/static/src/xml/base.xml:412
+#: code:addons/web/static/src/xml/base.xml:1375
+#: code:addons/web/static/src/xml/report.xml:17
+#, python-format
+msgid "Save As..."
 msgstr ""
 
 #. module: web
@@ -3034,19 +3209,12 @@ msgstr ""
 #. openerp-web
 #: code:addons/web/static/src/js/views/view_dialogs.js:146
 #, python-format
-msgid "Save & New"
+msgid "Save a record"
 msgstr ""
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/fields/basic_fields.js:1577
-#, python-format
-msgid "Save As..."
-msgstr ""
-
-#. module: web
-#. openerp-web
-#: code:addons/web/static/src/xml/menu.xml:132
 #, python-format
 msgid "Save a record"
 msgstr ""
@@ -3099,6 +3267,13 @@ msgstr ""
 #, python-format
 msgid "Search"
 msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1592
+#, python-format
+msgid "Search"
+msgstr "Keresés"
 
 #. module: web
 #. openerp-web
@@ -3217,6 +3392,13 @@ msgstr ""
 #, python-format
 msgid "Settings"
 msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:19
+#, python-format
+msgid "Settings"
+msgstr "Beállítások"
 
 #. module: web
 #. openerp-web
@@ -3407,6 +3589,15 @@ msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/services/crash_manager.js:224
+#, python-format
+msgid ""
+"The operation was interrupted. This usually means that the current operation"
+" is taking too much time."
+msgstr ""
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/js/views/basic/basic_controller.js:75
 #, python-format
 msgid ""
@@ -3471,6 +3662,41 @@ msgstr ""
 #: code:addons/web/static/src/js/views/search/time_range_menu_options.js:15
 #, python-format
 msgid "This Year"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:13
+#, python-format
+msgid "This Month"
+msgstr "Ebben a hónapban"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:14
+#, python-format
+msgid "This Quarter"
+msgstr "Ez a  negyedév"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:12
+#, python-format
+msgid "This Week"
+msgstr "Ezen a héten"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:15
+#, python-format
+msgid "This Year"
+msgstr "Tárgyév"
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/widgets/date_picker.js:181
+#, python-format
+msgid "This date is on the future. Make sure it is what you expected."
 msgstr ""
 
 #. module: web
@@ -3680,6 +3906,13 @@ msgstr "Kihajtás"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/xml/kanban.xml:17
+#, python-format
+msgid "Unfold"
+msgstr "Kihajtás"
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/js/chrome/abstract_web_client.js:202
 #, python-format
 msgid "Unknown CORS error"
@@ -3725,6 +3958,13 @@ msgstr ""
 #: code:addons/web/static/src/js/fields/upgrade_fields.js:69
 #, python-format
 msgid "Upgrade now"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1577
+#, python-format
+msgid "Upgrade to enterprise"
 msgstr ""
 
 #. module: web
@@ -3810,6 +4050,20 @@ msgstr "Felhasználók"
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1387
+#, python-format
+msgid "Use data in a spreadsheet (export all data)"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/xml/base.xml:1371
+#, python-format
+msgid "Users"
+msgstr "Felhasználók"
+
+#. module: web
+#. openerp-web
 #: code:addons/web/static/src/js/services/crash_manager.js:17
 #, python-format
 msgid "Validation Error"
@@ -3873,6 +4127,7 @@ msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/views/search/groupby_menu.js:53
 #: code:addons/web/static/src/xml/base.xml:559
 #: code:addons/web/static/src/xml/web_calendar.xml:81
 #, python-format
@@ -3929,9 +4184,19 @@ msgstr ""
 
 #. module: web
 #. openerp-web
+#: code:addons/web/static/src/js/views/search/groupby_menu.js:56
 #: code:addons/web/static/src/xml/base.xml:562
 #, python-format
 msgid "Year"
+msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/kanban/kanban_record.js:24
+#: code:addons/web/static/src/xml/base.xml:862
+#: code:addons/web/static/src/xml/kanban.xml:83
+#, python-format
+msgid "Yellow"
 msgstr ""
 
 #. module: web
@@ -3966,6 +4231,13 @@ msgstr ""
 #, python-format
 msgid "Yesterday"
 msgstr ""
+
+#. module: web
+#. openerp-web
+#: code:addons/web/static/src/js/views/search/time_range_menu_options.js:16
+#, python-format
+msgid "Yesterday"
+msgstr "Tegnap"
 
 #. module: web
 #. openerp-web

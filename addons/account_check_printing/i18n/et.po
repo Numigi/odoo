@@ -61,6 +61,11 @@ msgid "Account Chart Template"
 msgstr ""
 
 #. module: account_check_printing
+#: model:ir.model,name:account_check_printing.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: account_check_printing
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_margin_left
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_margin_right
 #: model:ir.model.fields,help:account_check_printing.field_res_company__account_check_printing_margin_top
@@ -119,6 +124,12 @@ msgstr ""
 #. module: account_check_printing
 #: model:ir.model.fields,field_description:account_check_printing.field_account_journal__check_sequence_id
 msgid "Check Sequence"
+msgstr ""
+
+#. module: account_check_printing
+#: model:ir.model.fields,field_description:account_check_printing.field_res_company__account_check_printing_margin_top
+#: model:ir.model.fields,field_description:account_check_printing.field_res_config_settings__account_check_printing_margin_top
+msgid "Check Top Margin"
 msgstr ""
 
 #. module: account_check_printing
@@ -343,6 +354,13 @@ msgstr ""
 msgid ""
 "Technical feature used to know whether check printing was enabled as payment"
 " method."
+msgstr ""
+
+#. module: account_check_printing
+#: model:ir.model.fields,help:account_check_printing.field_res_config_settings__country_code
+msgid ""
+"The ISO country code in two chars. \n"
+"You can use this field for quick search."
 msgstr ""
 
 #. module: account_check_printing

@@ -40,12 +40,6 @@ msgid "Campaign"
 msgstr "Campanya"
 
 #. module: sale_crm
-#: model:ir.model.fields,field_description:sale_crm.field_account_invoice__campaign_id
-#: model:ir.model.fields,field_description:sale_crm.field_sale_order__campaign_id
-msgid "Campaign"
-msgstr ""
-
-#. module: sale_crm
 #: model:ir.model,name:sale_crm.model_account_invoice
 msgid "Invoice"
 msgstr ""
@@ -75,22 +69,6 @@ msgstr "Màrqueting"
 #: model:ir.model.fields,field_description:sale_crm.field_sale_order__medium_id
 msgid "Medium"
 msgstr "Mitja"
-
-#. module: sale_crm
-#: model:ir.ui.menu,name:sale_crm.sale_order_menu_quotations_crm
-msgid "My Quotations"
-msgstr ""
-
-#. module: sale_crm
-#: model_terms:ir.ui.view,arch_db:sale_crm.sale_view_inherit123
-msgid "Marketing"
-msgstr "Màrqueting"
-
-#. module: sale_crm
-#: model:ir.model.fields,field_description:sale_crm.field_account_invoice__medium_id
-#: model:ir.model.fields,field_description:sale_crm.field_sale_order__medium_id
-msgid "Medium"
-msgstr ""
 
 #. module: sale_crm
 #: model:ir.ui.menu,name:sale_crm.sale_order_menu_quotations_crm
@@ -137,6 +115,11 @@ msgstr ""
 #: model:ir.model,name:sale_crm.model_sale_order
 msgid "Sale Order"
 msgstr ""
+
+#. module: sale_crm
+#: model:ir.model,name:sale_crm.model_sale_order
+msgid "Sale Order"
+msgstr "Comanda de venda"
 
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_sale_order

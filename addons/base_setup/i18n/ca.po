@@ -95,11 +95,6 @@ msgid "Auto-populate company data"
 msgstr ""
 
 #. module: base_setup
-#: model:ir.model.fields,field_description:base_setup.field_res_config_settings__module_partner_autocomplete
-msgid "Auto-populate company data"
-msgstr ""
-
-#. module: base_setup
 #: model_terms:ir.ui.view,arch_db:base_setup.res_config_settings_view_form
 msgid "Autocomplete company data (name, logo, address, etc.)"
 msgstr ""
@@ -336,11 +331,6 @@ msgstr ""
 "Comparteix els teus socis a totes les empreses definides en la instància..\n"
 " * Marcat : Els socis són visibles per a totes les companyies, fins i tot si l'empresa està definida al soci.\n"
 " * Desmarcat : Cada empresa pot veure només els seus socis (socis, on l'empresa es defineix). Els socis no relacionats amb una empresa són visibles per a totes les empreses."
-
-#. module: base_setup
-#: model:ir.model.fields,field_description:base_setup.field_res_config_settings__show_effect
-msgid "Show Effect"
-msgstr ""
 
 #. module: base_setup
 #: model:ir.model.fields,field_description:base_setup.field_res_config_settings__show_effect

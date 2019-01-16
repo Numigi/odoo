@@ -53,13 +53,6 @@ msgid "Expenses"
 msgstr "Despeses"
 
 #. module: sale_expense
-#: model:ir.actions.act_window,name:sale_expense.hr_expense_action_from_sale_order
-#: model:ir.model.fields,field_description:sale_expense.field_sale_order__expense_ids
-#: model_terms:ir.ui.view,arch_db:sale_expense.sale_order_form_view_inherit
-msgid "Expenses"
-msgstr "Despeses"
-
-#. module: sale_expense
 #: model_terms:ir.ui.view,arch_db:sale_expense.product_product_view_form_inherit_sale_expense
 msgid "Invoicing"
 msgstr "Facturació"
@@ -73,12 +66,6 @@ msgstr "Pressupost"
 #: model:ir.model.fields,field_description:sale_expense.field_hr_expense__sale_order_id
 msgid "Sale Order"
 msgstr "Comanda de venda"
-
-#. module: sale_expense
-#: model_terms:digest.tip,tip_description:sale_expense.digest_tip_sale_expense_0
-msgid ""
-"Take a snapshot of your expenses and submit your expenses by email.<br>"
-msgstr ""
 
 #. module: sale_expense
 #: model_terms:digest.tip,tip_description:sale_expense.digest_tip_sale_expense_0

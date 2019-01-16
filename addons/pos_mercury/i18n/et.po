@@ -88,6 +88,11 @@ msgid "Barcode Rule"
 msgstr "Triipkoodi reegel"
 
 #. module: pos_mercury
+#: model:ir.model,name:pos_mercury.model_barcode_rule
+msgid "Barcode Rule"
+msgstr "Triipkoodi reegel"
+
+#. module: pos_mercury
 #. openerp-web
 #: code:addons/pos_mercury/static/src/xml/pos_mercury.xml:45
 #, python-format

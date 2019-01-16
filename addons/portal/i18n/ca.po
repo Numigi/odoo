@@ -53,26 +53,6 @@ msgid "<span class=\"small mr-1 navbar-text\">Filter By:</span>"
 msgstr ""
 
 #. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_back_in_edit_mode
-msgid "<i class=\"fa fa-arrow-right\"/> Back to edit mode"
-msgstr ""
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_layout
-msgid "<i class=\"fa fa-pencil\"/> Edit"
-msgstr ""
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
-msgid "<span class=\"small mr-1 navbar-text\">Filter By:</span>"
-msgstr ""
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
-msgid "<span class=\"small mr-1 navbar-text\">Group By:</span>"
-msgstr ""
-
-#. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.portal_searchbar
 msgid "<span class=\"small mr-1 navbar-text\">Group By:</span>"
 msgstr ""
@@ -467,21 +447,6 @@ msgid "Odoo Logo"
 msgstr "Logo Odoo"
 
 #. module: portal
-#: model:ir.model.fields,field_description:portal.field_portal_share__note
-msgid "Note"
-msgstr ""
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.frontend_layout
-msgid "Odoo"
-msgstr ""
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
-msgid "Odoo Logo"
-msgstr ""
-
-#. module: portal
 #. openerp-web
 #: code:addons/portal/static/src/xml/portal_chatter.xml:39
 #, python-format
@@ -518,12 +483,6 @@ msgstr "Portal de configuració d'usuari"
 #: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
 msgid "Powered by"
 msgstr "Recolzat per"
-
-#. module: portal
-#: model_terms:ir.ui.view,arch_db:portal.frontend_layout
-#: model_terms:ir.ui.view,arch_db:portal.portal_record_sidebar
-msgid "Powered by"
-msgstr ""
 
 #. module: portal
 #: model_terms:ir.ui.view,arch_db:portal.pager
@@ -677,6 +636,12 @@ msgstr "Usuaris"
 #: model_terms:ir.ui.view,arch_db:portal.portal_my_details
 msgid "VAT Number"
 msgstr "NIF-IVA"
+
+#. module: portal
+#: code:addons/portal/models/portal_mixin.py:83
+#, python-format
+msgid "View %s"
+msgstr ""
 
 #. module: portal
 #: model:ir.model.fields,field_description:portal.field_account_analytic_account__website_message_ids

@@ -98,11 +98,6 @@ msgid "Column Name"
 msgstr ""
 
 #. module: base_import
-#: model:ir.model.fields,field_description:base_import.field_base_import_mapping__column_name
-msgid "Column Name"
-msgstr ""
-
-#. module: base_import
 #. openerp-web
 #: code:addons/base_import/static/src/js/import_action.js:211
 #: code:addons/base_import/static/src/js/import_action.js:228
@@ -619,11 +614,6 @@ msgstr "Recarregar fitxer"
 #: model:ir.model.fields,field_description:base_import.field_base_import_mapping__res_model
 msgid "Res Model"
 msgstr "Res Model"
-
-#. module: base_import
-#: model:ir.model.fields,field_description:base_import.field_base_import_mapping__res_model
-msgid "Res Model"
-msgstr ""
 
 #. module: base_import
 #. openerp-web

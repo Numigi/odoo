@@ -151,6 +151,11 @@ msgid "Available Carriers"
 msgstr ""
 
 #. module: delivery
+#: model:ir.model.fields,field_description:delivery.field_sale_order__available_carrier_ids
+msgid "Available Carriers"
+msgstr ""
+
+#. module: delivery
 #: selection:delivery.carrier,delivery_type:0
 msgid "Based on Rules"
 msgstr "Reeglipõhine hind"
@@ -178,12 +183,7 @@ msgstr "Tarnija"
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__company_id
 msgid "Company"
-msgstr ""
-
-#. module: delivery
-#: model_terms:ir.ui.view,arch_db:delivery.view_delivery_price_rule_form
-msgid "Condition"
-msgstr ""
+msgstr "Ettevõte"
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_res_config_settings
@@ -328,6 +328,11 @@ msgstr ""
 #: model:ir.model.fields,field_description:delivery.field_delivery_carrier__display_name
 #: model:ir.model.fields,field_description:delivery.field_delivery_price_rule__display_name
 msgid "Display Name"
+msgstr ""
+
+#. module: delivery
+#: model:ir.actions.act_window,name:delivery.act_delivery_trackers_url
+msgid "Display tracking links"
 msgstr ""
 
 #. module: delivery
@@ -810,11 +815,6 @@ msgid "Trackers URL"
 msgstr ""
 
 #. module: delivery
-#: model_terms:ir.ui.view,arch_db:delivery.delivery_tracking_url_warning_form
-msgid "Trackers URL"
-msgstr ""
-
-#. module: delivery
 #: model_terms:ir.ui.view,arch_db:delivery.view_picking_withcarrier_out_form
 msgid "Tracking"
 msgstr ""
@@ -837,7 +837,7 @@ msgstr ""
 #. module: delivery
 #: model:ir.model.fields,field_description:delivery.field_stock_picking__weight_uom_id
 msgid "Unit of Measure"
-msgstr ""
+msgstr "Mõõtühik"
 
 #. module: delivery
 #: model:ir.model.fields,help:delivery.field_stock_picking__weight_uom_id

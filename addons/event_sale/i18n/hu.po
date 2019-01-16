@@ -111,6 +111,16 @@ msgid "Edit Attendee Line on Sales Confirmation"
 msgstr ""
 
 #. module: event_sale
+#: model:ir.model,name:event_sale.model_registration_editor
+msgid "Edit Attendee Details on Sales Confirmation"
+msgstr ""
+
+#. module: event_sale
+#: model:ir.model,name:event_sale.model_registration_editor_line
+msgid "Edit Attendee Line on Sales Confirmation"
+msgstr ""
+
+#. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_registration_editor_line__editor_id
 msgid "Editor"
 msgstr ""
@@ -364,6 +374,11 @@ msgid "Sale Order"
 msgstr "Vásárlói megrendelés"
 
 #. module: event_sale
+#: model:ir.model,name:event_sale.model_sale_order
+msgid "Sale Order"
+msgstr "Vásárlói megrendelés"
+
+#. module: event_sale
 #: model:ir.model.fields,field_description:event_sale.field_event_event_ticket__deadline
 msgid "Sales End"
 msgstr ""
@@ -466,6 +481,12 @@ msgid "Unit(s)"
 msgstr "Egység(ek)"
 
 #. module: event_sale
+#: model:product.product,uom_name:event_sale.product_product_event
+#: model:product.template,uom_name:event_sale.product_product_event_product_template
+msgid "Unit(s)"
+msgstr "Egység(ek)"
+
+#. module: event_sale
 #: selection:event.event.ticket,seats_availability:0
 msgid "Unlimited"
 msgstr ""
@@ -475,6 +496,12 @@ msgstr ""
 #: model:event.event.ticket,name:event_sale.event_2_ticket_2
 msgid "VIP"
 msgstr ""
+
+#. module: event_sale
+#: model:event.event.ticket,name:event_sale.event_0_ticket_2
+#: model:event.event.ticket,name:event_sale.event_2_ticket_2
+msgid "VIP"
+msgstr "VIP"
 
 #. module: event_sale
 #: model:event.event.ticket,name:event_sale.event_0_ticket_2

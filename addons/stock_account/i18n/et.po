@@ -56,11 +56,6 @@ msgid "Accounting Date"
 msgstr "Raamatupidamiskande kuupäev"
 
 #. module: stock_account
-#: model:ir.model.fields,field_description:stock_account.field_stock_inventory__accounting_date
-msgid "Accounting Date"
-msgstr ""
-
-#. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_move_form_inherit
 msgid "Accounting Entries"
 msgstr "Raamatupidamiskanded"
@@ -92,11 +87,6 @@ msgstr "Automatiseeritud"
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Available Products"
 msgstr "Saadaval olevad tooted"
-
-#. module: stock_account
-#: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
-msgid "Available Products"
-msgstr ""
 
 #. module: stock_account
 #: selection:product.category,property_cost_method:0
@@ -135,11 +125,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
 msgid "Category"
 msgstr "Kategooria"
-
-#. module: stock_account
-#: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
-msgid "Category"
-msgstr ""
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_change_standard_price
@@ -235,13 +220,18 @@ msgstr "Loomise kuupäev"
 #: model:ir.model.fields,help:stock_account.field_stock_inventory__accounting_date
 msgid ""
 "Date at which the accounting entries will be created in case of automated "
-"inventory valuation. If empty, the inventoy date will be used."
+"inventory valuation. If empty, the inventory date will be used."
 msgstr ""
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_change_standard_price__display_name
 msgid "Display Name"
 msgstr ""
+
+#. module: stock_account
+#: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
+msgid "Exhausted Stock"
+msgstr "Ammendunud ladu"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
@@ -311,11 +301,6 @@ msgstr ""
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_account_invoice_line
 msgid "Invoice Line"
-msgstr ""
-
-#. module: stock_account
-#: model:ir.model,name:stock_account.model_account_move
-msgid "Journal Entries"
 msgstr ""
 
 #. module: stock_account
@@ -428,7 +413,7 @@ msgstr "Kogus"
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_move_tree_valuation_at_date
 msgid "Reference"
-msgstr ""
+msgstr "Viide"
 
 #. module: stock_account
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__remaining_qty
@@ -439,11 +424,6 @@ msgstr "Järelejäänud kogus"
 #: model:ir.model.fields,field_description:stock_account.field_stock_move__remaining_value
 msgid "Remaining Value"
 msgstr "Järelejäänud väärtus"
-
-#. module: stock_account
-#: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quantity_history
-msgid "Retrieve the inventory valuation"
-msgstr ""
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_stock_quantity_history
@@ -675,6 +655,12 @@ msgstr ""
 #, python-format
 msgid "Warning"
 msgstr ""
+
+#. module: stock_account
+#: code:addons/stock_account/models/product.py:404
+#, python-format
+msgid "Warning"
+msgstr "Hoiatus"
 
 #. module: stock_account
 #: code:addons/stock_account/models/product.py:404
