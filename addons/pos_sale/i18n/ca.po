@@ -37,7 +37,7 @@ msgstr "Taxa monetària"
 #: code:addons/pos_sale/models/crm_team.py:107
 #, python-format
 msgid "Dashboard"
-msgstr "Quadre de comandament"
+msgstr "Taulell"
 
 #. module: pos_sale
 #: selection:crm.team,dashboard_graph_group_pos:0
@@ -63,11 +63,6 @@ msgstr "Com el tauler gràfic d'aquest canal agruparà els resultats."
 #: selection:sale.report,state:0
 msgid "Invoiced"
 msgstr "Facturat"
-
-#. module: pos_sale
-#: selection:sale.report,state:0
-msgid "Invoiced"
-msgstr ""
 
 #. module: pos_sale
 #: selection:crm.team,dashboard_graph_group_pos:0
@@ -129,6 +124,16 @@ msgstr ""
 #: selection:sale.report,state:0
 msgid "Posted"
 msgstr ""
+
+#. module: pos_sale
+#: selection:sale.report,state:0
+msgid "Posted"
+msgstr "Fixat"
+
+#. module: pos_sale
+#: selection:sale.report,state:0
+msgid "Quotation Sent"
+msgstr "Pressupost enviat"
 
 #. module: pos_sale
 #: selection:sale.report,state:0

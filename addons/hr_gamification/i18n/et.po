@@ -154,11 +154,6 @@ msgid "Grant this employee his first badge"
 msgstr ""
 
 #. module: hr_gamification
-#: model_terms:ir.ui.view,arch_db:hr_gamification.hr_hr_employee_view_form
-msgid "Grant this employee his first badge"
-msgstr ""
-
-#. module: hr_gamification
 #: model_terms:ir.ui.view,arch_db:hr_gamification.hr_badge_form_view
 msgid "Granted"
 msgstr "Tunnustatud"
@@ -184,11 +179,6 @@ msgid "Related user name for the resource to manage its access."
 msgstr "Seotud kasutajanimi ressursi juurdepääsu haldamiseks."
 
 #. module: hr_gamification
-#: model:ir.model.fields,help:hr_gamification.field_gamification_badge_user_wizard__user_id
-msgid "Related user name for the resource to manage its access."
-msgstr ""
-
-#. module: hr_gamification
 #: model:ir.actions.act_window,name:hr_gamification.action_reward_wizard
 #: model_terms:ir.ui.view,arch_db:hr_gamification.view_badge_wizard_reward
 msgid "Reward Employee"
@@ -209,11 +199,6 @@ msgstr "Valitud töötaja ei vasta valitud kasutajale."
 #: model:ir.model.fields,field_description:hr_gamification.field_gamification_badge_user_wizard__user_id
 msgid "User"
 msgstr "Kasutaja"
-
-#. module: hr_gamification
-#: model:ir.model.fields,field_description:hr_gamification.field_gamification_badge_user_wizard__user_id
-msgid "User"
-msgstr ""
 
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_res_users

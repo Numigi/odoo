@@ -48,6 +48,14 @@ msgid ""
 msgstr ""
 
 #. module: project_timesheet_holidays
+#: code:addons/project_timesheet_holidays/models/hr_holidays.py:38
+#, python-format
+msgid ""
+"Both the internal project and task are required to generate timesheet for "
+"the leaves."
+msgstr ""
+
+#. module: project_timesheet_holidays
 #: model:ir.model,name:project_timesheet_holidays.model_res_company
 msgid "Companies"
 msgstr ""

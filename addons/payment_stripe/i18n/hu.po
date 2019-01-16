@@ -128,6 +128,11 @@ msgid "Payment Token"
 msgstr ""
 
 #. module: payment_stripe
+#: model:ir.model,name:payment_stripe.model_payment_token
+msgid "Payment Token"
+msgstr ""
+
+#. module: payment_stripe
 #: model:ir.model,name:payment_stripe.model_payment_transaction
 msgid "Payment Transaction"
 msgstr ""

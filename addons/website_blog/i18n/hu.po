@@ -7,6 +7,7 @@
 # gezza <geza.nagy@oregional.hu>, 2018
 # Ákos Nagy <akos.nagy@oregional.hu>, 2018
 # krnkris, 2018
+# Tibor Kőnig <konig.tibor@evitalit.hu>, 2018
 # 
 msgid ""
 msgstr ""
@@ -14,7 +15,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2018-10-08 06:49+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
-"Last-Translator: krnkris, 2018\n"
+"Last-Translator: Tibor Kőnig <konig.tibor@evitalit.hu>, 2018\n"
 "Language-Team: Hungarian (https://www.transifex.com/odoo/teams/41243/hu/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -249,6 +250,25 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid "Adding to industry leading technology"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_latest_posts_options
+msgid "All blogs"
+msgstr ""
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/s_latest_posts_frontend.js:59
+#, python-format
+msgid ""
+"An error occured with this latest posts block. If the problem persists, "
+"please consider deleting it and adding a new one"
+msgstr ""
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_blog_view_search
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Archived"
@@ -298,6 +318,25 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"As it comes, there is a default website based on Bootstrap\n"
+"                    3, the latest industry standard for rapid development of\n"
+"                    multi-device websites backed by Twitter, so can be directly\n"
+"                    integrated with many web tools and works across all devices\n"
+"                    by default."
+msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"At Odoo, we build tools to bring productivity to\n"
+"                    enterprises. As emails and information flows are one of\n"
+"                    the biggest wastes of time in companies, we have to fix\n"
+"                    this."
+msgstr ""
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
 msgid "Atom Feed"
 msgstr ""
@@ -306,7 +345,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_attachment_count
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_attachment_count
 msgid "Attachment Count"
-msgstr ""
+msgstr "Mellékletek száma"
 
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__author_id
@@ -425,6 +464,13 @@ msgstr ""
 "értékesítése."
 
 #. module: website_blog
+#: model:blog.post,subtitle:website_blog.blog_post_2
+msgid "Building your company's website and selling your products online easy."
+msgstr ""
+"Vállalata weboldalának elkészítése és termékeinek könnyű online "
+"értékesítése."
+
+#. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__category_id
 msgid "Category"
 msgstr ""
@@ -435,6 +481,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 #, python-format
 msgid "Change Cover"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_latest_posts_options
+msgid "Choose a blog"
 msgstr ""
 
 #. module: website_blog
@@ -620,6 +671,16 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Get Things Done: your inbox is a\n"
+"                        todo list. You should be able to process (not only\n"
+"                        read) the inbox and easily mark messages for future\n"
+"                        actions. Every inbox should be empty after having\n"
+"                        been processed; no more overload of information."
+msgstr ""
+
+#. module: website_blog
 #: model:blog.blog,subtitle:website_blog.blog_blog_1
 msgid "Get in touch with us"
 msgstr ""
@@ -654,6 +715,16 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "High"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"However, unlike other web content management systems, it\n"
+"                    fully integrates into the back-end database. This means\n"
+"                    that when you edit a product description, image or price,\n"
+"                    it updates the product database in real time, providing a\n"
+"                    true self-service window into the business."
 msgstr ""
 
 #. module: website_blog
@@ -753,6 +824,20 @@ msgid ""
 msgstr ""
 
 #. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__is_published
+msgid "Is published"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Keep control of what you want to receive or don't want\n"
+"                        to receive. People should never receive spam. You\n"
+"                        should follow/unfollow any kind of information in one\n"
+"                        click."
+msgstr ""
+
+#. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__write_uid
 #: model_terms:ir.ui.view,arch_db:website_blog.view_blog_post_search
 msgid "Last Contributor"
@@ -819,8 +904,29 @@ msgid "LinkedIn"
 msgstr "LinkedIn"
 
 #. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"Like many modern website editors, with Odoo you can edit\n"
+"                    content in-line, enabling you to see exactly what you are\n"
+"                    changing and ensure your changes suit the context."
+msgstr ""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Low"
+msgstr ""
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_main_attachment_id
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__message_main_attachment_id
+msgid "Main Attachment"
 msgstr ""
 
 #. module: website_blog
@@ -850,6 +956,27 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_blog__message_ids
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__message_ids
 msgid "Messages"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Messages \"for action\": they\n"
+"                                require your immediate attention and you need\n"
+"                                to process them all. This accounts for 10%\n"
+"                                of your daily emails. Use the \"To: me\" menu\n"
+"                                for these."
+msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"Messages \"for information\":\n"
+"                                you can pull them when you need some specific\n"
+"                                information; they are not required to be read\n"
+"                                every day.You receive only what you decided\n"
+"                                to follow.This accounts for 90% of your daily\n"
+"                                emails.Use the \"Inbox\" menu for these."
 msgstr ""
 
 #. module: website_blog
@@ -938,6 +1065,16 @@ msgid "Next year"
 msgstr ""
 
 #. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid "New Features Launched"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_history
+msgid "Next year"
+msgstr ""
+
+#. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "No Cover"
 msgstr ""
@@ -957,12 +1094,7 @@ msgstr "Nincs még blog bejegyzés."
 #. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__visits
 msgid "No of Views"
-msgstr ""
-
-#. module: website_blog
-#: model_terms:ir.ui.view,arch_db:website_blog.latest_blogs
-msgid "No tags defined!"
-msgstr ""
+msgstr "Nézetek száma"
 
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.latest_blogs
@@ -1021,6 +1153,19 @@ msgstr ""
 #: model:blog.post,website_meta_keywords:website_blog.blog_post_1
 msgid "Odoo, email"
 msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"Odoo claims to be 'the Open Source software that makes\n"
+"                    building your company's website and selling your products\n"
+"                    online easy'. So how true is this statement?"
+msgstr ""
+
+#. module: website_blog
+#: model:blog.post,website_meta_keywords:website_blog.blog_post_1
+msgid "Odoo, email"
+msgstr "Odoo , email"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -1118,8 +1263,19 @@ msgid "RSS"
 msgstr ""
 
 #. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
+msgid "RSS"
+msgstr ""
+
+#. module: website_blog
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__ranking
 msgid "Ranking"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.s_latest_posts_big_picture_template
+#: model_terms:ir.ui.view,arch_db:website_blog.s_latest_posts_list_template
+msgid "Read More"
 msgstr ""
 
 #. module: website_blog
@@ -1155,6 +1311,26 @@ msgstr ""
 #. module: website_blog
 #: model_terms:ir.ui.view,arch_db:website_blog.website_blog
 msgid "Red"
+msgstr ""
+
+#. module: website_blog
+#: model:ir.model.fields,help:website_blog.field_blog_blog__website_id
+#: model:ir.model.fields,help:website_blog.field_blog_post__website_id
+msgid "Restrict publishing to this website."
+msgstr ""
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__is_seo_optimized
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__is_seo_optimized
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__is_seo_optimized
+msgid "SEO optimized"
+msgstr ""
+
+#. module: website_blog
+#. openerp-web
+#: code:addons/website_blog/static/src/js/website_blog.editor.js:38
+#, python-format
+msgid "Select Blog"
 msgstr ""
 
 #. module: website_blog
@@ -1334,6 +1510,16 @@ msgid "The Future of Emails"
 msgstr "Email jövője"
 
 #. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid "The Communication Mechanism of Odoo"
+msgstr ""
+
+#. module: website_blog
+#: model:blog.post,name:website_blog.blog_post_1
+msgid "The Future of Emails"
+msgstr "Email jövője"
+
+#. module: website_blog
 #: model:ir.model.fields,help:website_blog.field_blog_post__post_date
 msgid ""
 "The blog post will be visible for your visitors as of this date on the "
@@ -1391,6 +1577,33 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
 msgid "Twitter"
 msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_2
+msgid ""
+"To add to an already comprehensive set of Odoo\n"
+"                features, a website content management system (CMS or WMS) has been developed and a beta release is\n"
+"                available from today, 31st January 2014."
+msgstr ""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+msgid "To blog content"
+msgstr ""
+
+#. module: website_blog
+#: model_terms:blog.post,content:website_blog.blog_post_1
+msgid ""
+"To disrupt emails, you need more than just another user\n"
+"                    interface. We need to rethink the whole communication flow."
+msgstr ""
+
+#. module: website_blog
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_complete
+#: model_terms:ir.ui.view,arch_db:website_blog.blog_post_short
+#: model_terms:ir.ui.view,arch_db:website_blog.opt_blog_rc_follow_us
+msgid "Twitter"
+msgstr "Twitter"
 
 #. module: website_blog
 #: model_terms:blog.post,content:website_blog.blog_post_2
@@ -1506,6 +1719,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_title
 #: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_title
 msgid "Website meta title"
+msgstr ""
+
+#. module: website_blog
+#: model:ir.model.fields,field_description:website_blog.field_blog_blog__website_meta_og_img
+#: model:ir.model.fields,field_description:website_blog.field_blog_post__website_meta_og_img
+#: model:ir.model.fields,field_description:website_blog.field_blog_tag__website_meta_og_img
+msgid "Website opengraph image"
 msgstr ""
 
 #. module: website_blog

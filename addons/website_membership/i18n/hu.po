@@ -48,6 +48,11 @@ msgid "Close"
 msgstr "Bezárás"
 
 #. module: website_membership
+#: model_terms:ir.ui.view,arch_db:website_membership.opt_index_google_map
+msgid "Close"
+msgstr "Bezárás"
+
+#. module: website_membership
 #: model_terms:ir.ui.view,arch_db:website_membership.index
 msgid "Find a business partner"
 msgstr ""
@@ -67,6 +72,11 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_membership.index
 #: model:website.menu,name:website_membership.menu_members
 msgid "Members"
+msgstr ""
+
+#. module: website_membership
+#: model:ir.model,name:website_membership.model_membership_membership_line
+msgid "Membership Line"
 msgstr ""
 
 #. module: website_membership

@@ -43,6 +43,8 @@ msgid ""
 "\"Add to\n"
 "                Dashboard\""
 msgstr ""
+"\"Lisa\n"
+"                töölauale\""
 
 #. module: board
 #. openerp-web

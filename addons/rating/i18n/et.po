@@ -190,11 +190,6 @@ msgid "No rating yet"
 msgstr ""
 
 #. module: rating
-#: model_terms:ir.actions.act_window,help:rating.action_view_rating
-msgid "No rating yet"
-msgstr ""
-
-#. module: rating
 #: model_terms:ir.ui.view,arch_db:rating.rating_rating_view_search
 #: selection:rating.rating,rating_text:0
 msgid "Not satisfied"

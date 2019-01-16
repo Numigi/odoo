@@ -52,11 +52,6 @@ msgid "Accounting Date"
 msgstr "Data comptable"
 
 #. module: stock_account
-#: model:ir.model.fields,field_description:stock_account.field_stock_inventory__accounting_date
-msgid "Accounting Date"
-msgstr "Data comptable"
-
-#. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_move_form_inherit
 msgid "Accounting Entries"
 msgstr "Assentaments comptabilitat"
@@ -123,11 +118,6 @@ msgstr ""
 "No es pot trobar un compte de sortida d'estoc del producte %s. Heu de "
 "definir un a la categoria de producte o a la ubicació abans de processar "
 "aquesta operació"
-
-#. module: stock_account
-#: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
-msgid "Category"
-msgstr "Categoria"
 
 #. module: stock_account
 #: model_terms:ir.ui.view,arch_db:stock_account.view_inventory_valuation_search
@@ -226,7 +216,7 @@ msgstr "Creat el"
 #: model:ir.model.fields,help:stock_account.field_stock_inventory__accounting_date
 msgid ""
 "Date at which the accounting entries will be created in case of automated "
-"inventory valuation. If empty, the inventoy date will be used."
+"inventory valuation. If empty, the inventory date will be used."
 msgstr ""
 
 #. module: stock_account

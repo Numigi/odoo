@@ -51,6 +51,11 @@ msgid "N/A"
 msgstr "Nem elérhető"
 
 #. module: website_event_sale
+#: model_terms:ir.ui.view,arch_db:website_event_sale.registration_complete_inherit_website_event_sale
+msgid "N/A"
+msgstr "Nem elérhető"
+
+#. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.index
 msgid "Only"
 msgstr ""
@@ -92,6 +97,16 @@ msgid "Sales Order Line"
 msgstr "Vásárlói megrendelés tételsor"
 
 #. module: website_event_sale
+#: model:ir.model,name:website_event_sale.model_sale_order
+msgid "Sale Order"
+msgstr "Vásárlói megrendelés"
+
+#. module: website_event_sale
+#: model:ir.model,name:website_event_sale.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "Vásárlói megrendelés tételsor"
+
+#. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.index
 msgid "Sold Out"
 msgstr ""
@@ -114,6 +129,11 @@ msgstr ""
 #: code:addons/website_event_sale/models/sale_order.py:39
 #, python-format
 msgid "The ticket doesn't match with this product."
+msgstr ""
+
+#. module: website_event_sale
+#: model_terms:ir.ui.view,arch_db:website_event_sale.registration_complete_inherit_website_event_sale
+msgid "Ticket"
 msgstr ""
 
 #. module: website_event_sale

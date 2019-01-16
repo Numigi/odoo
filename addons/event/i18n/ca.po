@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-08 06:49+0000\n"
+"POT-Creation-Date: 2018-12-19 08:20+0000\n"
 "PO-Revision-Date: 2018-08-24 09:17+0000\n"
 "Last-Translator: Manel Fernandez <manelfera@outlook.com>, 2018\n"
 "Language-Team: Catalan (https://www.transifex.com/odoo/teams/41243/ca/)\n"
@@ -344,6 +344,7 @@ msgid ""
 "</table>\n"
 "</td></tr>\n"
 "<!-- FOOTER BY -->\n"
+"% if object.company_id\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
@@ -355,6 +356,7 @@ msgid ""
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
+"% endif\n"
 "</table>\n"
 "            "
 msgstr ""
@@ -531,6 +533,7 @@ msgid ""
 "</table>\n"
 "</td></tr>\n"
 "<!-- FOOTER BY -->\n"
+"% if object.company_id\n"
 "<tr><td align=\"center\" style=\"min-width: 590px;\">\n"
 "    <table width=\"590\" border=\"0\" cellpadding=\"0\" cellspacing=\"0\" style=\"min-width: 590px; background-color: #F1F1F1; color: #454748; padding: 8px; border-collapse:separate;\">\n"
 "      <tr><td style=\"text-align: center; font-size: 14px;\">\n"
@@ -542,6 +545,7 @@ msgid ""
 "      </td></tr>\n"
 "    </table>\n"
 "</td></tr>\n"
+"% endif\n"
 "</table>\n"
 "            "
 msgstr ""
@@ -727,6 +731,11 @@ msgstr "Bootstrap CSS"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
+msgid "Bootstrap CSS"
+msgstr "Bootstrap CSS"
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
 msgid "Bring your own laptop."
 msgstr ""
 
@@ -739,6 +748,16 @@ msgstr ""
 #: model_terms:event.event,description:event.event_0
 msgid "Calling the ORM"
 msgstr ""
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Building a Full Application"
+msgstr "Crear una aplicació completa"
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Calling the ORM"
+msgstr "Cridar a l'ORM"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -941,6 +960,21 @@ msgid "Day 3"
 msgstr "Dia 3"
 
 #. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Day 1"
+msgstr "Dia 1"
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Day 2"
+msgstr "Dia 2"
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Day 3"
+msgstr "Dia 3"
+
+#. module: event
 #: selection:event.mail,interval_unit:0
 #: selection:event.type.mail,interval_unit:0
 msgid "Day(s)"
@@ -993,6 +1027,11 @@ msgid "Dive into Strings"
 msgstr "Navegar entre seqüències"
 
 #. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Dive into Strings"
+msgstr "Navegar entre seqüències"
+
+#. module: event
 #: selection:event.event,state:0
 msgid "Done"
 msgstr "Fet"
@@ -1008,6 +1047,9 @@ msgid ""
 "During this conference, our team will give a detailed overview of our "
 "business applications. You’ll know all the benefits of using it."
 msgstr ""
+"Durant aquesta conferència, el nostre equip li donarà un resum detallat de "
+"les nostres aplicacions de negoci. S'adonarà de tots els beneficis d"
+"'utilitzar-les."
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_registration__email
@@ -1120,6 +1162,24 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:event.view_event_registration_form
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Event Registration"
+msgstr ""
+
+#. module: event
+#: code:addons/event/models/event_mail.py:143
+#, python-format
+msgid ""
+"Event Scheduler for:\n"
+"                              - Event: %s (%s)\n"
+"                              - Scheduled: %s\n"
+"                              - Template: %s (%s)\n"
+"\n"
+"                            Failed with error:\n"
+"                              - %s\n"
+"\n"
+"                            You receive this email because you are:\n"
+"                              - the organizer of the event,\n"
+"                              - or the responsible of the event,\n"
+"                              - or the last writer of the template."
 msgstr ""
 
 #. module: event
@@ -1309,6 +1369,11 @@ msgid "Hello World"
 msgstr "Hola mon"
 
 #. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Hello World"
+msgstr "Hola mon"
+
+#. module: event
 #: selection:event.mail,interval_unit:0
 #: selection:event.type.mail,interval_unit:0
 msgid "Hour(s)"
@@ -1325,6 +1390,20 @@ msgid ""
 "I did not expect such a great learning experience. I feel like I can develop"
 " anything now."
 msgstr ""
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "How to Debug"
+msgstr "Com depurar"
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid ""
+"I did not expect such a great learning experience. I feel like I can develop"
+" anything now."
+msgstr ""
+"No esperava un aprenentatge tan bo. Seria capaç de desenvolupar qualsevol "
+"cosa ara."
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -1513,13 +1592,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_event__address_id
 #: model_terms:ir.ui.view,arch_db:event.view_event_type_form
 msgid "Location"
-msgstr ""
-
-#. module: event
-#: model_terms:ir.ui.view,arch_db:event.event_event_report_template_badge
-#: model_terms:ir.ui.view,arch_db:event.event_registration_report_template_badge
-msgid "Logo"
-msgstr ""
+msgstr "Ubicació"
 
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.event_event_report_template_badge
@@ -1578,6 +1651,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_registration__message_main_attachment_id
 msgid "Main Attachment"
 msgstr ""
+
+#. module: event
+#: model:ir.model.fields,field_description:event.field_event_event__message_main_attachment_id
+#: model:ir.model.fields,field_description:event.field_event_registration__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjunt principal"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_main_attachment_id
@@ -1680,6 +1759,12 @@ msgid "Number of Actions"
 msgstr "Nombre d'accions"
 
 #. module: event
+#: model:ir.model.fields,field_description:event.field_event_event__message_needaction_counter
+#: model:ir.model.fields,field_description:event.field_event_registration__message_needaction_counter
+msgid "Number of Actions"
+msgstr "Nombre d'accions"
+
+#. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__seats_expected
 msgid "Number of Expected Attendees"
 msgstr ""
@@ -1688,6 +1773,12 @@ msgstr ""
 #: model:ir.model.fields,field_description:event.field_event_event__seats_used
 msgid "Number of Participants"
 msgstr ""
+
+#. module: event
+#: model:ir.model.fields,field_description:event.field_event_event__message_has_error_counter
+#: model:ir.model.fields,field_description:event.field_event_registration__message_has_error_counter
+msgid "Number of error"
+msgstr "Nombre d'errors"
 
 #. module: event
 #: model:ir.model.fields,field_description:event.field_event_event__message_has_error_counter
@@ -1840,6 +1931,16 @@ msgid "Read Great Contents"
 msgstr "Llegeixi excel·lents continguts"
 
 #. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Python Objects"
+msgstr "Objectes python"
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Read Great Contents"
+msgstr "Llegeixi excel·lents continguts"
+
+#. module: event
 #: model:ir.model.fields,help:event.field_event_registration__origin
 msgid ""
 "Reference of the document that created the registration, for example a sales"
@@ -1872,7 +1973,6 @@ msgid "Registration Date"
 msgstr "Data del registre"
 
 #. module: event
-#: model:ir.model.fields,field_description:event.field_event_registration__date_open
 #: model_terms:ir.ui.view,arch_db:event.view_registration_search
 msgid "Registration ID"
 msgstr ""
@@ -1901,6 +2001,11 @@ msgstr ""
 #: model_terms:event.event,description:event.event_0
 msgid "Report Engine"
 msgstr ""
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Report Engine"
+msgstr "Report motor"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -2085,11 +2190,6 @@ msgstr ""
 #. module: event
 #: model_terms:event.event,description:event.event_0
 msgid "Training Center Module"
-msgstr ""
-
-#. module: event
-#: model_terms:event.event,description:event.event_0
-msgid "Training Center Module"
 msgstr "Mòdul centre d'entrenament"
 
 #. module: event
@@ -2124,6 +2224,11 @@ msgstr ""
 #: model_terms:event.event,description:event.event_0
 msgid "Underscore"
 msgstr ""
+
+#. module: event
+#: model_terms:event.event,description:event.event_0
+msgid "Underscore"
+msgstr "Subratllat"
 
 #. module: event
 #: model_terms:event.event,description:event.event_0
@@ -2168,6 +2273,11 @@ msgstr "Comptador de missatges no llegits"
 #. module: event
 #: model_terms:ir.ui.view,arch_db:event.view_event_search
 msgid "Upcoming events from today"
+msgstr ""
+
+#. module: event
+#: model_terms:ir.ui.view,arch_db:event.view_event_search
+msgid "Upcoming/Running"
 msgstr ""
 
 #. module: event

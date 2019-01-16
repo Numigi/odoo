@@ -289,15 +289,8 @@ msgstr "Jaga"
 #. openerp-web
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:95
 #, python-format
-msgid "Share the Love"
-msgstr ""
-
-#. module: web_settings_dashboard
-#. openerp-web
-#: code:addons/web_settings_dashboard/static/src/js/dashboard.js:116
-#, python-format
-msgid "The following email addresses already exist: %s."
-msgstr ""
+msgid "Share"
+msgstr "Jaga"
 
 #. module: web_settings_dashboard
 #. openerp-web
@@ -326,13 +319,6 @@ msgstr ""
 #: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:151
 #, python-format
 msgid "Translations"
-msgstr ""
-
-#. module: web_settings_dashboard
-#. openerp-web
-#: code:addons/web_settings_dashboard/static/src/xml/dashboard.xml:102
-#, python-format
-msgid "Twitter"
 msgstr ""
 
 #. module: web_settings_dashboard

@@ -57,6 +57,11 @@ msgid "Decimal Precision Test"
 msgstr ""
 
 #. module: decimal_precision
+#: model:ir.model,name:decimal_precision.model_decimal_precision_test
+msgid "Decimal Precision Test"
+msgstr ""
+
+#. module: decimal_precision
 #: model:ir.model.fields,field_description:decimal_precision.field_decimal_precision__digits
 msgid "Digits"
 msgstr ""

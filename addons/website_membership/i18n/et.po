@@ -76,6 +76,11 @@ msgid "Membership Line"
 msgstr ""
 
 #. module: website_membership
+#: model:ir.model,name:website_membership.model_membership_membership_line
+msgid "Membership Line"
+msgstr ""
+
+#. module: website_membership
 #: model_terms:ir.ui.view,arch_db:website_membership.index
 msgid "No result found."
 msgstr ""

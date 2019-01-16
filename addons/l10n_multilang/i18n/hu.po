@@ -61,6 +61,23 @@ msgstr ""
 "Egy ország adminisztrációs megyoszlása. Pl. Szöv. állam, Tagozat, Kanton"
 
 #. module: l10n_multilang
+#: model:ir.model,name:l10n_multilang.model_account_chart_template
+msgid "Account Chart Template"
+msgstr ""
+
+#. module: l10n_multilang
+#: model:ir.model,name:l10n_multilang.model_account_account_tag
+msgid "Account Tag"
+msgstr "Főkönyvi számla címke"
+
+#. module: l10n_multilang
+#: model:ir.model.fields,help:l10n_multilang.field_res_country_state__name
+msgid ""
+"Administrative divisions of a country. E.g. Fed. State, Departement, Canton"
+msgstr ""
+"Egy ország adminisztrációs megyoszlása. Pl. Szöv. állam, Tagozat, Kanton"
+
+#. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_analytic_account
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_analytic_account__name
 msgid "Analytic Account"
@@ -103,6 +120,16 @@ msgid "Install Language"
 msgstr "Nyelv telepítése"
 
 #. module: l10n_multilang
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_fiscal_position_template__name
+msgid "Fiscal Position Template"
+msgstr "Költségvetési ÁFA pozíció sablon"
+
+#. module: l10n_multilang
+#: model:ir.model,name:l10n_multilang.model_base_language_install
+msgid "Install Language"
+msgstr "Nyelv telepítése"
+
+#. module: l10n_multilang
 #: model:ir.model,name:l10n_multilang.model_account_journal
 msgid "Journal"
 msgstr ""
@@ -116,6 +143,21 @@ msgstr ""
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_tax__description
 msgid "Label on Invoices"
 msgstr ""
+
+#. module: l10n_multilang
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_journal__name
+msgid "Journal Name"
+msgstr "Napló neve"
+
+#. module: l10n_multilang
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_tax__description
+msgid "Label on Invoices"
+msgstr "Felirat a számlákon"
+
+#. module: l10n_multilang
+#: model:ir.model.fields,help:l10n_multilang.field_account_fiscal_position__note
+msgid "Legal mentions that have to be printed on the invoices."
+msgstr "Számviteli megjegyzések mejeket a számlára kell nyomtatni."
 
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_journal__name
@@ -157,6 +199,11 @@ msgid "State Name"
 msgstr "Állam neve"
 
 #. module: l10n_multilang
+#: model:ir.model.fields,field_description:l10n_multilang.field_res_country_state__name
+msgid "State Name"
+msgstr "Állam neve"
+
+#. module: l10n_multilang
 #: model:ir.model.fields,help:l10n_multilang.field_account_chart_template__spoken_languages
 msgid ""
 "State here the languages for which the translations of templates could be "
@@ -169,6 +216,12 @@ msgstr ""
 #: model:ir.model,name:l10n_multilang.model_account_tax
 msgid "Tax"
 msgstr ""
+
+#. module: l10n_multilang
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_tax__name
+#: model:ir.model.fields,field_description:l10n_multilang.field_account_tax_template__name
+msgid "Tax Name"
+msgstr "Adó megnevezése"
 
 #. module: l10n_multilang
 #: model:ir.model.fields,field_description:l10n_multilang.field_account_tax__name

@@ -133,7 +133,7 @@ msgstr "Moneda"
 #. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Dashboard"
-msgstr "Quadre de comandament"
+msgstr "Taulel"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__dashboard_button_name
@@ -202,21 +202,6 @@ msgid "Followers (Partners)"
 msgstr "Seguidors (Clients)"
 
 #. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team__message_follower_ids
-msgid "Followers"
-msgstr ""
-
-#. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team__message_channel_ids
-msgid "Followers (Channels)"
-msgstr ""
-
-#. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team__message_partner_ids
-msgid "Followers (Partners)"
-msgstr ""
-
-#. module: sales_team
 #: model_terms:ir.ui.view,arch_db:sales_team.crm_team_view_form
 msgid "Graph"
 msgstr "Diagrama"
@@ -281,9 +266,9 @@ msgid "Is Follower"
 msgstr "És seguidor"
 
 #. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team____last_update
-msgid "Last Modified on"
-msgstr "Última modificació el "
+#: model:ir.model.fields,field_description:sales_team.field_crm_team__message_is_follower
+msgid "Is Follower"
+msgstr "És seguidor"
 
 #. module: sales_team
 #: model:ir.model.fields,field_description:sales_team.field_crm_team____last_update
@@ -339,16 +324,6 @@ msgstr "Error d'entrega del missatge"
 #: model:ir.model.fields,field_description:sales_team.field_crm_team__message_ids
 msgid "Messages"
 msgstr "Missatges"
-
-#. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team__message_has_error
-msgid "Message Delivery error"
-msgstr ""
-
-#. module: sales_team
-#: model:ir.model.fields,field_description:sales_team.field_crm_team__message_ids
-msgid "Messages"
-msgstr ""
 
 #. module: sales_team
 #: selection:crm.team,dashboard_graph_group:0

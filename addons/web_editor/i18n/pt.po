@@ -625,13 +625,6 @@ msgstr ""
 #. openerp-web
 #: code:addons/web_editor/static/src/js/editor/rte.summernote.js:1046
 #, python-format
-msgid "Hide Youtube logo"
-msgstr "Ocultar logótipo do Youtube"
-
-#. module: web_editor
-#. openerp-web
-#: code:addons/web_editor/static/src/xml/editor.xml:215
-#, python-format
 msgid "Hide fullscreen button"
 msgstr ""
 

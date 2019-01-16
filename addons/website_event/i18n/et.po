@@ -78,13 +78,6 @@ msgid ""
 msgstr ""
 
 #. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.registration_template
-msgid ""
-"<em><i class=\"fa fa-plus-circle\" role=\"img\" aria-label=\"Create\" title=\"Create\"/>\n"
-"                    Configure and Launch Event Registration</em>"
-msgstr ""
-
-#. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_description_full
 msgid "<i class=\"fa fa-clock-o\"/> From"
 msgstr "<i class=\"fa fa-clock-o\"/> Alates"
@@ -346,13 +339,6 @@ msgid "Event Name"
 msgstr ""
 
 #. module: website_event
-#. openerp-web
-#: code:addons/website_event/static/src/js/website_event.editor.js:31
-#, python-format
-msgid "Event Name"
-msgstr ""
-
-#. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.404
 msgid "Event not found!"
 msgstr "Üritust ei leitud!"
@@ -471,10 +457,14 @@ msgid "No date has been specified for the event, no file will be generated."
 msgstr ""
 
 #. module: website_event
-#: code:addons/website_event/models/event.py:150
-#, python-format
-msgid "No date has been specified for the event, no file will be generated."
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:website_event.index
+msgid "No event found"
+msgstr "Ühtegi üritust ei leitud"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.brand_promotion
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.index
@@ -523,12 +513,6 @@ msgstr "Meie treeningud"
 #: model_terms:ir.ui.view,arch_db:website_event.index
 msgid "Participating"
 msgstr "Osalemine"
-
-#. module: website_event
-#: code:addons/website_event/controllers/main.py:60
-#, python-format
-msgid "Past Events"
-msgstr ""
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:60

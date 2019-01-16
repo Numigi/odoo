@@ -149,12 +149,6 @@ msgid "No local user found for LDAP login and not configured to create one"
 msgstr ""
 
 #. module: auth_ldap
-#: code:addons/auth_ldap/models/res_company_ldap.py:201
-#, python-format
-msgid "No local user found for LDAP login and not configured to create one"
-msgstr ""
-
-#. module: auth_ldap
 #: model_terms:ir.ui.view,arch_db:auth_ldap.view_ldap_installer_form
 msgid "Process Parameter"
 msgstr "Paràmetre del procés"

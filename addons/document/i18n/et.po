@@ -34,11 +34,6 @@ msgid "Attachment"
 msgstr "Manus"
 
 #. module: document
-#: model:ir.model,name:document.model_ir_attachment
-msgid "Attachment"
-msgstr ""
-
-#. module: document
 #. openerp-web
 #: code:addons/document/static/src/js/document.js:20
 #, python-format

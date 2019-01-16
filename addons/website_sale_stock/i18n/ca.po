@@ -182,18 +182,6 @@ msgid "Warning"
 msgstr "Avís"
 
 #. module: website_sale_stock
-#. openerp-web
-#: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:13
-#: code:addons/website_sale_stock/static/src/xml/website_sale_stock_product_availability.xml:22
-#: model:ir.model.fields,field_description:website_sale_stock.field_sale_order__warning_stock
-#: model:ir.model.fields,field_description:website_sale_stock.field_sale_order_line__warning_stock
-#: model_terms:ir.ui.view,arch_db:website_sale_stock.website_sale_stock_cart_lines
-#: model_terms:ir.ui.view,arch_db:website_sale_stock.website_sale_stock_payment
-#, python-format
-msgid "Warning"
-msgstr "Avís"
-
-#. module: website_sale_stock
 #: model:ir.model,name:website_sale_stock.model_website
 #: model:ir.model.fields,field_description:website_sale_stock.field_stock_picking__website_id
 msgid "Website"

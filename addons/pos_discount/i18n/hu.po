@@ -74,6 +74,11 @@ msgid "Point of Sale Configuration"
 msgstr "Értékesítési pont beállítása"
 
 #. module: pos_discount
+#: model:ir.model,name:pos_discount.model_pos_config
+msgid "Point of Sale Configuration"
+msgstr "Értékesítési pont beállítása"
+
+#. module: pos_discount
 #: model:ir.model.fields,help:pos_discount.field_pos_config__discount_pc
 msgid "The default discount percentage"
 msgstr ""

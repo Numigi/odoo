@@ -58,7 +58,7 @@ msgstr "Fitxer"
 #. module: website_sale_digital
 #: model:ir.model,name:website_sale_digital.model_account_invoice_line
 msgid "Invoice Line"
-msgstr ""
+msgstr "Línia de factura"
 
 #. module: website_sale_digital
 #: model:ir.model,name:website_sale_digital.model_product_product

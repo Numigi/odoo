@@ -314,6 +314,12 @@ msgid "Action Needed"
 msgstr "Cal fer alguna acció"
 
 #. module: website_slides
+#: model:ir.model.fields,field_description:website_slides.field_slide_channel__message_needaction
+#: model:ir.model.fields,field_description:website_slides.field_slide_slide__message_needaction
+msgid "Action Needed"
+msgstr "Cal fer alguna acció"
+
+#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Actions"
 msgstr "Accions"
@@ -735,11 +741,6 @@ msgid "Full Access"
 msgstr "Accés complert "
 
 #. module: website_slides
-#: model:ir.model.fields,field_description:website_slides.field_slide_channel__can_see_full
-msgid "Full Access"
-msgstr "Accés complert "
-
-#. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_channel_form
 msgid "General"
 msgstr "General"
@@ -803,11 +804,6 @@ msgstr "Si està marcat, els nous missatges requereixen la vostra atenció."
 #: model:ir.model.fields,help:website_slides.field_slide_slide__message_has_error
 msgid "If checked, some messages have a delivery error."
 msgstr "Si està marcat, alguns missatges tenen un error d'entrega."
-
-#. module: website_slides
-#: model:ir.model.fields,field_description:website_slides.field_slide_slide__image
-msgid "Image"
-msgstr "Imatge"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__image
@@ -975,11 +971,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slides_channel_header
 msgid "Newest"
 msgstr "Les Novetats"
-
-#. module: website_slides
-#: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
-msgid "Next slide"
-msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.embed_slide
@@ -1233,12 +1224,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_slides.slide_detail_view
 msgid "Related"
 msgstr "Relacionat"
-
-#. module: website_slides
-#: model:ir.model.fields,help:website_slides.field_slide_channel__website_id
-#: model:ir.model.fields,help:website_slides.field_slide_slide__website_id
-msgid "Restrict publishing to this website."
-msgstr ""
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel__website_id
@@ -1630,12 +1615,6 @@ msgstr "Visibilitat"
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_published
 msgid "Visible on current website"
 msgstr "Visible al lloc web actual"
-
-#. module: website_slides
-#: model:ir.model.fields,field_description:website_slides.field_slide_channel__website_published
-#: model:ir.model.fields,field_description:website_slides.field_slide_slide__website_published
-msgid "Visible on current website"
-msgstr ""
 
 #. module: website_slides
 #: model_terms:ir.ui.view,arch_db:website_slides.view_slide_slide_search

@@ -45,16 +45,6 @@ msgid "Accounting Assert Test"
 msgstr ""
 
 #. module: account_test
-#: model:ir.model,name:account_test.model_report_account_test_report_accounttest
-msgid "Account Test Report"
-msgstr ""
-
-#. module: account_test
-#: model:ir.model,name:account_test.model_accounting_assert_test
-msgid "Accounting Assert Test"
-msgstr ""
-
-#. module: account_test
 #: model:ir.actions.act_window,name:account_test.action_accounting_assert
 #: model:ir.actions.report,name:account_test.account_assert_test_report
 #: model:ir.ui.menu,name:account_test.menu_action_license

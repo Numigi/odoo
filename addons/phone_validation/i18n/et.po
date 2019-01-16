@@ -86,11 +86,6 @@ msgid "Phone Validation Mixin"
 msgstr ""
 
 #. module: phone_validation
-#: model:ir.model,name:phone_validation.model_phone_validation_mixin
-msgid "Phone Validation Mixin"
-msgstr ""
-
-#. module: phone_validation
 #: code:addons/phone_validation/tools/phone_validation.py:44
 #, python-format
 msgid ""

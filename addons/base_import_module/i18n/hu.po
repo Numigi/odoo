@@ -190,6 +190,11 @@ msgid "View"
 msgstr "Nézet"
 
 #. module: base_import_module
+#: model:ir.model,name:base_import_module.model_ir_ui_view
+msgid "View"
+msgstr "Nézet"
+
+#. module: base_import_module
 #: selection:base.import.module,state:0
 msgid "done"
 msgstr ""

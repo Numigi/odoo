@@ -489,21 +489,6 @@ msgid "Followers (Partners)"
 msgstr "Seguidors (Clients)"
 
 #. module: website_event_track
-#: model:ir.model.fields,field_description:website_event_track.field_event_track__message_follower_ids
-msgid "Followers"
-msgstr ""
-
-#. module: website_event_track
-#: model:ir.model.fields,field_description:website_event_track.field_event_track__message_channel_ids
-msgid "Followers (Channels)"
-msgstr ""
-
-#. module: website_event_track
-#: model:ir.model.fields,field_description:website_event_track.field_event_track__message_partner_ids
-msgid "Followers (Partners)"
-msgstr ""
-
-#. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Future Activities"
 msgstr ""
@@ -537,11 +522,6 @@ msgstr "Alta"
 #: selection:event.track,priority:0
 msgid "Highest"
 msgstr "El més alt"
-
-#. module: website_event_track
-#: model:event.track,name:website_event_track.event_track21
-msgid "House of World Cultures"
-msgstr ""
 
 #. module: website_event_track
 #: model:event.track,name:website_event_track.event_track21
@@ -687,6 +667,11 @@ msgstr "Última actualització el"
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Late Activities"
+msgstr ""
+
+#. module: website_event_track
+#: model:event.track,name:website_event_track.event_track12
+msgid "Latest trends"
 msgstr ""
 
 #. module: website_event_track
@@ -959,13 +944,6 @@ msgid "Sequence"
 msgstr "Seqüència"
 
 #. module: website_event_track
-#: model:ir.model.fields,field_description:website_event_track.field_event_sponsor__sequence
-#: model:ir.model.fields,field_description:website_event_track.field_event_sponsor_type__sequence
-#: model:ir.model.fields,field_description:website_event_track.field_event_track_stage__sequence
-msgid "Sequence"
-msgstr "Seqüència"
-
-#. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.view_event_track_search
 msgid "Show all records which has next action date is before today"
 msgstr ""
@@ -1079,20 +1057,6 @@ msgstr ""
 "Sobrepassat: La data de venciment ja s'ha passat\n"
 "Avui: La data de l'activitat és avui\n"
 "Planificat: Activitats futures."
-
-#. module: website_event_track
-#: model:event.track,name:website_event_track.event_track28
-msgid "Status & Strategy"
-msgstr ""
-
-#. module: website_event_track
-#: model:ir.model.fields,help:website_event_track.field_event_track__activity_state
-msgid ""
-"Status based on activities\n"
-"Overdue: Due date is already passed\n"
-"Today: Activity date is today\n"
-"Planned: Future activities."
-msgstr ""
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_proposal
@@ -1308,11 +1272,6 @@ msgstr "Missatges pendents de llegir"
 #: model:ir.model.fields,field_description:website_event_track.field_event_track__message_unread_counter
 msgid "Unread Messages Counter"
 msgstr "Comptador de missatges no llegits"
-
-#. module: website_event_track
-#: model:ir.model.fields,field_description:website_event_track.field_event_track__message_unread_counter
-msgid "Unread Messages Counter"
-msgstr ""
 
 #. module: website_event_track
 #: model_terms:ir.ui.view,arch_db:website_event_track.event_track_social

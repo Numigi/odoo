@@ -330,6 +330,8 @@ msgid ""
 "Classify and analyze your lead/opportunity categories like: Training, "
 "Service"
 msgstr ""
+"Classificar i analitzar les seves categories d'iniciatives/oportunitats com:"
+" formació, servei..."
 
 #. module: crm
 #. openerp-web
@@ -342,8 +344,12 @@ msgstr ""
 #. openerp-web
 #: code:addons/crm/static/src/js/tour.js:24
 #, python-format
-msgid "Click here to <b>add your opportunity</b>."
+msgid ""
+"Click here to <b>create your first opportunity</b> and add it to your "
+"pipeline."
 msgstr ""
+"Faci clic per <b>crear la teva primera oportunitat</b> i afegeix-lo al teu "
+"canal."
 
 #. module: crm
 #. openerp-web
@@ -476,6 +482,16 @@ msgid "Convert Lead to Opportunity (not in mass)"
 msgstr ""
 
 #. module: crm
+#: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
+msgid "Convert Lead to Opportunity (in mass)"
+msgstr ""
+
+#. module: crm
+#: model:ir.model,name:crm.model_crm_lead2opportunity_partner
+msgid "Convert Lead to Opportunity (not in mass)"
+msgstr ""
+
+#. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner_mass
 msgid "Convert to Opportunities"
 msgstr ""
@@ -499,13 +515,6 @@ msgstr ""
 #: model:ir.actions.act_window,name:crm.action_crm_lead2opportunity_partner
 #, python-format
 msgid "Convert to opportunity"
-msgstr ""
-
-#. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
-msgid ""
-"Convert visitors of your website into leads in the CRM. We do data "
-"enrichment based on their IP address."
 msgstr ""
 
 #. module: crm
@@ -550,7 +559,7 @@ msgstr ""
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.view_crm_lead2opportunity_partner
 msgid "Create Opportunity"
-msgstr ""
+msgstr "Crea oportunitat"
 
 #. module: crm
 #: selection:crm.lead2opportunity.partner,action:0
@@ -925,20 +934,15 @@ msgid "From %s : %s"
 msgstr "De %s : %s"
 
 #. module: crm
-#: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_oppor
-msgid "Followup"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
+msgid "Future Activities"
+msgstr "Activitats Futures"
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
 msgid ""
 "Generate leads from incoming emails and assign them\n"
 "                                    to a Sales Team manually"
-msgstr ""
-
-#. module: crm
-#: model:ir.model,name:crm.model_crm_lead_lost
-msgid "Get Lost Reason"
 msgstr ""
 
 #. module: crm
@@ -993,7 +997,7 @@ msgstr ""
 #. module: crm
 #: selection:crm.lead,priority:0
 msgid "High"
-msgstr ""
+msgstr "Alta"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team__dashboard_graph_group_pipeline
@@ -1325,6 +1329,11 @@ msgid "Main Attachment"
 msgstr "Adjunt principal"
 
 #. module: crm
+#: model:ir.model.fields,field_description:crm.field_crm_lead__message_main_attachment_id
+msgid "Main Attachment"
+msgstr "Adjunt principal"
+
+#. module: crm
 #: model:mail.activity.type,name:crm.mail_activity_demo_make_quote
 msgid "Make Quote"
 msgstr ""
@@ -1370,6 +1379,11 @@ msgid "Mark as Lost"
 msgstr ""
 
 #. module: crm
+#: model_terms:ir.ui.view,arch_db:crm.crm_case_form_view_leads
+msgid "Mark as Lost"
+msgstr ""
+
+#. module: crm
 #: model:ir.actions.server,name:crm.action_mark_as_lost
 msgid "Mark as lost"
 msgstr ""
@@ -1392,6 +1406,7 @@ msgstr "Mitja"
 #, python-format
 msgid "Meeting scheduled at '%s'<br> Subject: %s <br> Duration: %s hour(s)"
 msgstr ""
+"Reunió planificada el dia '%s'<br> Assumpte: %s <br> Duració: %s hora(es)"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.act_crm_opportunity_calendar_event_new
@@ -1515,6 +1530,11 @@ msgid "New Leads/Opportunities"
 msgstr ""
 
 #. module: crm
+#: model:ir.model.fields,field_description:crm.field_digest_digest__kpi_crm_lead_created
+msgid "New Leads/Opportunities"
+msgstr ""
+
+#. module: crm
 #: model:ir.actions.act_window,name:crm.action_opportunity_form
 msgid "New Opportunity"
 msgstr "Nova oportunitat"
@@ -1524,6 +1544,21 @@ msgstr "Nova oportunitat"
 #: model_terms:ir.ui.view,arch_db:crm.crm_lead_view_tree_activity
 msgid "Next Activities"
 msgstr ""
+
+#. module: crm
+#: model:ir.model.fields,field_description:crm.field_crm_lead__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Data límit de la següent activitat"
+
+#. module: crm
+#: model:ir.model.fields,field_description:crm.field_crm_lead__activity_summary
+msgid "Next Activity Summary"
+msgstr "Resum de la següent activitat"
+
+#. module: crm
+#: model:ir.model.fields,field_description:crm.field_crm_lead__activity_type_id
+msgid "Next Activity Type"
+msgstr "Tipus de la següent activitat"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead__activity_date_deadline
@@ -1617,6 +1652,8 @@ msgid ""
 "Odoo helps you keep track of your sales pipeline to follow\n"
 "                    up potential sales and better forecast your future revenues."
 msgstr ""
+"Odoo l'ajuda a seguir la pista a la seva estratègia de venda per perseguir "
+"vendes potencials o planificar millor els seus rendiments en el futur."
 
 #. module: crm
 #: model_terms:ir.ui.view,arch_db:crm.crm_team_salesteams_view_kanban
@@ -1715,6 +1752,12 @@ msgid "Opportunity Created"
 msgstr ""
 
 #. module: crm
+#: model:mail.message.subtype,name:crm.mt_lead_create
+#: model:mail.message.subtype,name:crm.mt_salesteam_lead
+msgid "Opportunity Created"
+msgstr ""
+
+#. module: crm
 #: model:mail.message.subtype,name:crm.mt_lead_lost
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_lost
 msgid "Opportunity Lost"
@@ -1734,12 +1777,7 @@ msgstr ""
 #: model:mail.message.subtype,name:crm.mt_lead_won
 #: model:mail.message.subtype,name:crm.mt_salesteam_lead_won
 msgid "Opportunity Won"
-msgstr ""
-
-#. module: crm
-#: model:mail.message.subtype,description:crm.mt_lead_create
-msgid "Opportunity created"
-msgstr ""
+msgstr "Oportunitat guanyada"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
@@ -1749,7 +1787,7 @@ msgstr ""
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_lost
 msgid "Opportunity lost"
-msgstr ""
+msgstr "Oportunitat perduda"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_won
@@ -2383,6 +2421,11 @@ msgid "Try Now"
 msgstr ""
 
 #. module: crm
+#: model_terms:digest.tip,tip_description:crm.digest_tip_crm_0
+msgid "Try Now"
+msgstr ""
+
+#. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_activity_report__lead_type
 #: model:ir.model.fields,field_description:crm.field_crm_lead__type
 msgid "Type"
@@ -2446,6 +2489,16 @@ msgid ""
 "                    opportunity or a customer. It can be a business card you received,\n"
 "                    a contact form filled in your website, or a file of unqualified\n"
 "                    prospects you import, etc."
+msgstr ""
+
+#. module: crm
+#: model_terms:ir.ui.view,arch_db:crm.res_config_settings_view_form
+msgid ""
+"Use leads if you need a qualification step before creating an opportunity or"
+" a customer. It can be a business card you received, a contact form filled "
+"in your website, or a file of unqualified prospects you import, etc. Once "
+"qualified, the lead can be converted into a business opportunity and/or a "
+"new customer in your address book."
 msgstr ""
 
 #. module: crm

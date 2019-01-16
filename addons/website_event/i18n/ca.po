@@ -35,13 +35,6 @@ msgid ""
 msgstr ""
 
 #. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.brand_promotion
-msgid ""
-".\n"
-"            Try the"
-msgstr ""
-
-#. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_template
 msgid "<b>End of Registration</b>"
 msgstr "<b>Final de Registre</b>"
@@ -74,13 +67,6 @@ msgid ""
 msgstr ""
 "<br/>\n"
 "                    <i class=\"fa fa-clock-o\"/> A"
-
-#. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.registration_template
-msgid ""
-"<em><i class=\"fa fa-plus-circle\" role=\"img\" aria-label=\"Create\" title=\"Create\"/>\n"
-"                    Configure and Launch Event Registration</em>"
-msgstr ""
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_template
@@ -275,11 +261,6 @@ msgstr "Tancar"
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
-msgid "Close"
-msgstr "Tancar"
-
-#. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.registration_attendee_details
 msgid "Continue"
 msgstr "Continuar"
 
@@ -359,13 +340,6 @@ msgstr "Ubicació de l'esdeveniment"
 #: model:ir.model.fields,field_description:website_event.field_event_event__menu_id
 msgid "Event Menu"
 msgstr "Menú de l'esdeveniment"
-
-#. module: website_event
-#. openerp-web
-#: code:addons/website_event/static/src/js/website_event.editor.js:31
-#, python-format
-msgid "Event Name"
-msgstr ""
 
 #. module: website_event
 #. openerp-web
@@ -495,10 +469,14 @@ msgid "No date has been specified for the event, no file will be generated."
 msgstr ""
 
 #. module: website_event
-#: code:addons/website_event/models/event.py:150
-#, python-format
-msgid "No date has been specified for the event, no file will be generated."
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:website_event.index
+msgid "No event found"
+msgstr "No s'ha trobat cap esdeveniment"
+
+#. module: website_event
+#: model_terms:ir.ui.view,arch_db:website_event.brand_promotion
+msgid "Odoo"
+msgstr "Odoo"
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.index
@@ -555,12 +533,6 @@ msgid "Past Events"
 msgstr ""
 
 #. module: website_event
-#: code:addons/website_event/controllers/main.py:60
-#, python-format
-msgid "Past Events"
-msgstr ""
-
-#. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.registration_complete
 msgid "Phone"
 msgstr "Telèfon"
@@ -581,23 +553,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.brand_promotion
 msgid "Powered by"
 msgstr "Recolzat per"
-
-#. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_inherit_website
-msgid "Preview Badges"
-msgstr ""
-
-#. module: website_event
-#. openerp-web
-#: code:addons/website_event/static/src/js/website_event.js:55
-#, python-format
-msgid "Please select at least one ticket."
-msgstr ""
-
-#. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.brand_promotion
-msgid "Powered by"
-msgstr ""
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.event_event_view_form_inherit_website
@@ -740,11 +695,6 @@ msgstr ""
 #: model_terms:ir.ui.view,arch_db:website_event.registration_complete
 msgid "Your registration"
 msgstr "El teu registre"
-
-#. module: website_event
-#: model_terms:ir.ui.view,arch_db:website_event.brand_promotion
-msgid "open source website builder"
-msgstr ""
 
 #. module: website_event
 #: model_terms:ir.ui.view,arch_db:website_event.brand_promotion

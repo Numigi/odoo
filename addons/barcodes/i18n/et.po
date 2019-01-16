@@ -146,7 +146,7 @@ msgstr "Kasiir"
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_res_company
 msgid "Companies"
-msgstr ""
+msgstr "Ettevõtted"
 
 #. module: barcodes
 #: model:ir.model,name:barcodes.model_res_company

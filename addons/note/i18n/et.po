@@ -126,14 +126,53 @@ msgid "Add new note"
 msgstr ""
 
 #. module: note
+#: model:ir.model.fields,field_description:note.field_note_note__activity_ids
+msgid "Activities"
+msgstr "Tegevused"
+
+#. module: note
+#: model:ir.model,name:note.model_mail_activity
+msgid "Activity"
+msgstr "Tegevus"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note__activity_state
+msgid "Activity State"
+msgstr "Tegevuse staatus"
+
+#. module: note
+#: model:ir.model,name:note.model_mail_activity_type
+msgid "Activity Type"
+msgstr "Tegevuse tüüp"
+
+#. module: note
+#: model_terms:ir.actions.act_window,help:note.action_note_note
+msgid "Add a new personal note"
+msgstr ""
+
+#. module: note
+#: model_terms:ir.actions.act_window,help:note.note_tag_action
+msgid "Add a new tag"
+msgstr ""
+
+#. module: note
+#. openerp-web
+#: code:addons/note/static/src/xml/systray.xml:14
+#, python-format
+msgid "Add a note"
+msgstr ""
+
+#. module: note
+#. openerp-web
+#: code:addons/note/static/src/xml/systray.xml:6
+#, python-format
+msgid "Add new note"
+msgstr ""
+
+#. module: note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Archive"
 msgstr "Arhiveeri"
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__message_attachment_count
-msgid "Attachment Count"
-msgstr ""
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note__message_attachment_count
@@ -210,6 +249,11 @@ msgid "Dropdown menu"
 msgstr ""
 
 #. module: note
+#: model_terms:ir.ui.view,arch_db:note.view_note_note_kanban
+msgid "Dropdown menu"
+msgstr ""
+
+#. module: note
 #: model:ir.model.fields,field_description:note.field_note_stage__fold
 msgid "Folded by Default"
 msgstr ""
@@ -270,6 +314,16 @@ msgstr ""
 #: model:ir.model.fields,field_description:note.field_note_note__message_is_follower
 msgid "Is Follower"
 msgstr ""
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_note__message_unread
+msgid "If checked new messages require your attention."
+msgstr "Kui kontrollitud, siis uued sõnumid nõuavad Su tähelepanu."
+
+#. module: note
+#: model:ir.model.fields,help:note.field_note_note__message_needaction
+msgid "If checked, new messages require your attention."
+msgstr "Kui kontrollitud, siis uued sõnumid nõuavad Su tähelepanu."
 
 #. module: note
 #: model:ir.model.fields,help:note.field_note_note__message_unread
@@ -383,6 +437,21 @@ msgid "Next Activity Type"
 msgstr "Järgmise tegevuse tüüp"
 
 #. module: note
+#: model:ir.model.fields,field_description:note.field_note_note__activity_date_deadline
+msgid "Next Activity Deadline"
+msgstr "Järgmise tegevuse kuupäev"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note__activity_summary
+msgid "Next Activity Summary"
+msgstr "Järgmise tegevuse kokkuvõte"
+
+#. module: note
+#: model:ir.model.fields,field_description:note.field_note_note__activity_type_id
+msgid "Next Activity Type"
+msgstr "Järgmise tegevuse tüüp"
+
+#. module: note
 #: model:ir.model,name:note.model_note_note
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_filter
 #: model_terms:ir.ui.view,arch_db:note.view_note_note_form
@@ -424,26 +493,6 @@ msgstr ""
 msgid ""
 "Notes are private, unless you share them by inviting follower on a note.\n"
 "            (Useful for meeting minutes)."
-msgstr ""
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__message_needaction_counter
-msgid "Number of Actions"
-msgstr ""
-
-#. module: note
-#: model:ir.model.fields,field_description:note.field_note_note__message_has_error_counter
-msgid "Number of error"
-msgstr ""
-
-#. module: note
-#: model:ir.model.fields,help:note.field_note_note__message_needaction_counter
-msgid "Number of messages which requires an action"
-msgstr ""
-
-#. module: note
-#: model:ir.model.fields,help:note.field_note_note__message_has_error_counter
-msgid "Number of messages with delivery error"
 msgstr ""
 
 #. module: note
@@ -538,6 +587,13 @@ msgstr ""
 #: model:ir.model.fields,field_description:note.field_note_note__sequence
 #: model:ir.model.fields,field_description:note.field_note_stage__sequence
 msgid "Sequence"
+msgstr ""
+
+#. module: note
+#. openerp-web
+#: code:addons/note/static/src/xml/systray.xml:18
+#, python-format
+msgid "Set date and time"
 msgstr ""
 
 #. module: note

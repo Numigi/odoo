@@ -77,11 +77,6 @@ msgid "Add a new member"
 msgstr ""
 
 #. module: membership
-#: model_terms:ir.actions.act_window,help:membership.action_membership_members
-msgid "Add a new member"
-msgstr ""
-
-#. module: membership
 #: model_terms:ir.ui.view,arch_db:membership.view_res_partner_member_filter
 msgid "All Members"
 msgstr "Tots els socis"
@@ -463,6 +458,11 @@ msgstr "Quota de soci"
 #: model:ir.model,name:membership.model_membership_invoice
 #: model_terms:ir.ui.view,arch_db:membership.view_membership_invoice_view
 msgid "Membership Invoice"
+msgstr ""
+
+#. module: membership
+#: model:ir.model,name:membership.model_membership_membership_line
+msgid "Membership Line"
 msgstr ""
 
 #. module: membership

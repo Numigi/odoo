@@ -327,11 +327,6 @@ msgid "Translation"
 msgstr "Tradução"
 
 #. module: base_gengo
-#: model:ir.model,name:base_gengo.model_ir_translation
-msgid "Translation"
-msgstr "Tradução"
-
-#. module: base_gengo
 #: selection:ir.translation,gengo_translation:0
 msgid "Translation By Machine"
 msgstr "Tradução de máquina"

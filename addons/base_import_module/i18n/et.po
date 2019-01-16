@@ -156,6 +156,12 @@ msgid "Only zip files are supported."
 msgstr ""
 
 #. module: base_import_module
+#: code:addons/base_import_module/models/ir_module.py:115
+#, python-format
+msgid "Only zip files are supported."
+msgstr ""
+
+#. module: base_import_module
 #: model_terms:ir.ui.view,arch_db:base_import_module.view_base_module_import
 msgid "Open Modules"
 msgstr ""
@@ -192,6 +198,11 @@ msgstr ""
 #: model:ir.model,name:base_import_module.model_ir_ui_view
 msgid "View"
 msgstr ""
+
+#. module: base_import_module
+#: model:ir.model,name:base_import_module.model_ir_ui_view
+msgid "View"
+msgstr "Vaade"
 
 #. module: base_import_module
 #: model:ir.model,name:base_import_module.model_ir_ui_view

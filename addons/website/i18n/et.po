@@ -7,19 +7,19 @@
 # Egon Raamat <egon@avalah.ee>, 2018
 # Marek Pontus, 2018
 # Martin Trigaux, 2018
-# Arma Gedonsky <armagedonsky@hot.ee>, 2018
 # Eneli Õigus <enelioigus@gmail.com>, 2018
 # Martin Aavastik <martin@avalah.ee>, 2018
 # Helen Sulaoja <helen@avalah.ee>, 2018
 # Rivo Zängov <eraser@eraser.ee>, 2018
+# Arma Gedonsky <armagedonsky@hot.ee>, 2018
 # 
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 12.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-10-08 06:48+0000\n"
+"POT-Creation-Date: 2018-12-19 08:20+0000\n"
 "PO-Revision-Date: 2018-08-24 09:33+0000\n"
-"Last-Translator: Rivo Zängov <eraser@eraser.ee>, 2018\n"
+"Last-Translator: Arma Gedonsky <armagedonsky@hot.ee>, 2018\n"
 "Language-Team: Estonian (https://www.transifex.com/odoo/teams/41243/et/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -132,13 +132,13 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "1/5"
-msgstr ""
+msgid "10s"
+msgstr "10s"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "100%"
-msgstr ""
+msgid "12"
+msgstr "12"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
@@ -195,11 +195,6 @@ msgstr "3s"
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "4/5"
 msgstr "4/5"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "4/5"
-msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.403
@@ -495,6 +490,11 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
+msgid "<i class=\"fa fa-minus\"/>Remove Tab"
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-minus\"/>Thickness"
 msgstr ""
 
@@ -511,6 +511,13 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "<i class=\"fa fa-picture-o\"/>Background Image"
+msgstr ""
+"<i class=\"fa fa-plus-circle\"/>\n"
+"                Lisa keel ..."
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippet_options
+msgid "<i class=\"fa fa-plus\"/>Add Tab"
 msgstr ""
 
 #. module: website
@@ -717,6 +724,10 @@ msgid ""
 "A CDN helps you serve your website’s content with high availability and high"
 " performance to any visitor wherever they are located."
 msgstr ""
+"Koodiserveri toimingut saab teostada internetilehel, kasutades spetsiaalset "
+"kontrollerit. Internetilehe aadress on <base>/website/action/<website_path>."
+" Aktiveerige see väli, et kasutaja saaks teha seda toimingut. Kui väli on "
+"mitteaktiivne, siis toimingut ei saa internetilehe kaudu käivitada."
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_text_image
@@ -921,11 +932,6 @@ msgstr ""
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__arch_fs
 msgid "Arch Filename"
-msgstr ""
-
-#. module: website
-#: model:ir.model.fields,help:website.field_res_config_settings__specific_user_account
-msgid "Are newly created user accounts website specific"
 msgstr ""
 
 #. module: website
@@ -1234,6 +1240,11 @@ msgid "Company team"
 msgstr ""
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_company_team
+msgid "Company team"
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_comparisons
 msgid "Complete CRM for any size team"
 msgstr ""
@@ -1435,6 +1446,17 @@ msgid "Data"
 msgstr "Andmed"
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippet_options
+msgid "Dashed"
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model_terms:website.page,arch_db:website.bs_debug_page
+msgid "Data"
+msgstr "Andmed"
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Default"
@@ -1485,13 +1507,6 @@ msgstr "Kustuta blokid"
 #, python-format
 msgid "Delete Page"
 msgstr "Kustuta lehekülg"
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/xml/website.contentMenu.xml:17
-#, python-format
-msgid "Delete menu"
-msgstr ""
 
 #. module: website
 #. openerp-web
@@ -1710,11 +1725,6 @@ msgid "Edit Styles"
 msgstr ""
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.s_features_grid
-msgid "Edit Styles"
-msgstr ""
-
-#. module: website
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
 msgid "Edit Top Menu"
 msgstr ""
@@ -1813,7 +1823,7 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__xml_id
 #: model:ir.model.fields,field_description:website.field_website_page__xml_id
 msgid "External ID"
-msgstr ""
+msgstr "Väline ID"
 
 #. module: website
 #. openerp-web
@@ -1839,25 +1849,6 @@ msgstr "Facebooki konto"
 #: code:addons/website/static/src/js/editor/snippets.options.js:557
 #, python-format
 msgid "Facebook Page"
-msgstr ""
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/js/editor/snippets.options.js:557
-#, python-format
-msgid "Facebook Page"
-msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.snippet_options
-msgid "Fade"
-msgstr ""
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/js/menu/new_content.js:26
-#, python-format
-msgid "Failed to install \"%s\""
 msgstr ""
 
 #. module: website
@@ -2148,6 +2139,13 @@ msgstr ""
 
 #. module: website
 #. openerp-web
+#: code:addons/website/static/src/xml/website.seo.xml:106
+#, python-format
+msgid "H1"
+msgstr ""
+
+#. module: website
+#. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:107
 #, python-format
 msgid "H2"
@@ -2323,6 +2321,23 @@ msgstr ""
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.snippet_options
 msgid "Icon"
+msgstr "Ikoon"
+
+#. module: website
+#: model:ir.model.fields,help:website.field_website__specific_user_account
+msgid "If True, new accounts will be associated to the current website"
+msgstr ""
+
+#. module: website
+#: model:ir.model.fields,help:website.field_res_config_settings__social_default_image
+#: model:ir.model.fields,help:website.field_website__social_default_image
+#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "If set, replaces the company logo as the default social share image."
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.snippet_options
+msgid "Icon"
 msgstr ""
 
 #. module: website
@@ -2383,8 +2398,13 @@ msgstr "Indekseeritud"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
-msgid "Instagram"
-msgstr ""
+msgid "Install new language"
+msgstr "Paigalda uus keel"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.show_website_info
+msgid "Installed Applications"
+msgstr "Paigaldatud rakendused"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_page__inherit_id
@@ -2412,7 +2432,7 @@ msgstr "Paigalda"
 #. module: website
 #: model:ir.model,name:website.model_base_language_install
 msgid "Install Language"
-msgstr ""
+msgstr "Paigalda keel"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
@@ -2423,23 +2443,6 @@ msgstr "Paigalda uus keel"
 #: model_terms:ir.ui.view,arch_db:website.show_website_info
 msgid "Installed Applications"
 msgstr "Paigaldatud rakendused"
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.show_website_info
-msgid "Installed Modules"
-msgstr ""
-
-#. module: website
-#: model:ir.model.fields,help:website.field_website__theme_id
-msgid "Installed theme"
-msgstr ""
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/js/menu/new_content.js:29
-#, python-format
-msgid "Installing \"%s\""
-msgstr ""
 
 #. module: website
 #. openerp-web
@@ -2687,6 +2690,17 @@ msgid "Link button"
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_res_config_settings__module_website_links
+msgid "Link Trackers"
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model_terms:website.page,arch_db:website.bs_debug_page
+msgid "Link button"
+msgstr ""
+
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:40
 #, python-format
@@ -2724,6 +2738,13 @@ msgstr "Kohalikud üritused"
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website__menu_id
 msgid "Main Menu"
+msgstr ""
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.editor.xml:31
+#, python-format
+msgid "Main colors"
 msgstr ""
 
 #. module: website
@@ -2940,6 +2961,11 @@ msgid "Navbar"
 msgstr ""
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "New"
+msgstr "Uus"
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.user_navbar
 msgid "New Blog Post"
 msgstr ""
@@ -2993,8 +3019,23 @@ msgid "New Slide"
 msgstr ""
 
 #. module: website
+#: model_terms:ir.ui.view,arch_db:website.user_navbar
+msgid "New Product"
+msgstr "Uus toode"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.user_navbar
+msgid "New Slide"
+msgstr ""
+
+#. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu__new_window
 msgid "New Window"
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.user_navbar
+msgid "New page"
 msgstr ""
 
 #. module: website
@@ -3344,7 +3385,7 @@ msgstr "Eelmine"
 #: code:addons/website/static/src/xml/website.seo.xml:143
 #, python-format
 msgid "Previous"
-msgstr ""
+msgstr "Eelmine"
 
 #. module: website
 #. openerp-web
@@ -3395,13 +3436,6 @@ msgstr ""
 #, python-format
 msgid "Publish"
 msgstr "Avalda"
-
-#. module: website
-#. openerp-web
-#: code:addons/website/static/src/xml/website.pageProperties.xml:137
-#, python-format
-msgid "Publish date"
-msgstr ""
 
 #. module: website
 #. openerp-web
@@ -3592,14 +3626,7 @@ msgstr ""
 #: code:addons/website/static/src/js/menu/seo.js:618
 #, python-format
 msgid "Save"
-msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:website.website_search_box
-#: model_terms:website.page,arch_db:website.bs_debug_page
-msgid "Search"
-msgstr ""
+msgstr "Salvesta"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
@@ -3611,12 +3638,7 @@ msgstr "Otsi"
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.menu_search
 msgid "Search Menus"
-msgstr ""
-
-#. module: website
-#: model_terms:ir.ui.view,arch_db:website.view_redirect_search
-msgid "Search Redirect"
-msgstr ""
+msgstr "Otsingumenüüd"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.view_redirect_search
@@ -3625,13 +3647,16 @@ msgstr ""
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_search_box
-msgid "Search..."
+#: model_terms:website.page,arch_db:website.bs_debug_page
+msgid "Search"
 msgstr ""
 
 #. module: website
-#: model_terms:ir.ui.view,arch_db:website.s_features
-msgid "Second Feature"
-msgstr ""
+#: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model_terms:ir.ui.view,arch_db:website.website_search_box
+#: model_terms:website.page,arch_db:website.bs_debug_page
+msgid "Search"
+msgstr "Otsi"
 
 #. module: website
 #: model_terms:ir.ui.view,arch_db:website.s_features_grid
@@ -3647,7 +3672,7 @@ msgstr ""
 #. openerp-web
 #: code:addons/website/static/src/js/menu/content.js:429
 #, python-format
-msgid "Select an image for social share"
+msgid "Select a Menu"
 msgstr ""
 
 #. module: website
@@ -3993,9 +4018,9 @@ msgstr ""
 
 #. module: website
 #. openerp-web
-#: code:addons/website/static/src/js/menu/new_content.js:27
+#: code:addons/website/static/src/xml/website.seo.xml:93
 #, python-format
-msgid "The installation of an App is already in progress."
+msgid "The language of the keyword and related keywords."
 msgstr ""
 
 #. module: website
@@ -4070,6 +4095,19 @@ msgstr ""
 #: model:ir.model.fields,help:website.field_res_config_settings__website_default_lang_code
 #: model:ir.model.fields,help:website.field_website__default_lang_code
 msgid "This field is used to set/get locales for user"
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.bs_debug_page_ir_ui_view
+#: model_terms:website.page,arch_db:website.bs_debug_page
+msgid "This is a \""
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.s_banner
+msgid ""
+"This is a simple hero unit, a simple jumbotron-style component <br/>for "
+"calling extra attention to featured content or information."
 msgstr ""
 
 #. module: website
@@ -4179,6 +4217,12 @@ msgstr ""
 #: code:addons/website/static/src/js/menu/content.js:424
 #, python-format
 msgid "Top Menu"
+msgstr ""
+
+#. module: website
+#: code:addons/website/models/website.py:177
+#, python-format
+msgid "Top Menu for Website %s"
 msgstr ""
 
 #. module: website
@@ -4338,6 +4382,36 @@ msgstr ""
 #: code:addons/website/static/src/js/backend/button.js:37
 #: model_terms:ir.ui.view,arch_db:website.publish_management
 #: model_terms:ir.ui.view,arch_db:website.publish_short
+#, python-format
+msgid "Unpublished"
+msgstr "Avaldamata"
+
+#. module: website
+#: model:ir.model.fields,field_description:website.field_website_menu__url
+#: model_terms:ir.ui.view,arch_db:website.list_website_pages
+msgid "Url"
+msgstr "URL"
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Use Google Map on your website ("
+msgstr ""
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.facebook_page.xml:35
+#, python-format
+msgid "Use Small Header"
+msgstr ""
+
+#. module: website
+#: model_terms:ir.ui.view,arch_db:website.res_config_settings_view_form
+msgid "Use a CDN to optimize the availability of your website's content"
+msgstr ""
+
+#. module: website
+#. openerp-web
+#: code:addons/website/static/src/xml/website.pageProperties.xml:101
 #, python-format
 msgid "Unpublished"
 msgstr "Avaldamata"
@@ -4601,6 +4675,12 @@ msgid "Website Page"
 msgstr ""
 
 #. module: website
+#: model:ir.model.fields,field_description:website.field_ir_ui_view__first_page_id
+#: model:ir.model.fields,field_description:website.field_website_page__first_page_id
+msgid "Website Page"
+msgstr ""
+
+#. module: website
 #: model_terms:ir.ui.view,arch_db:website.website_pages_form_view
 msgid "Website Page Settings"
 msgstr ""
@@ -4615,11 +4695,6 @@ msgstr ""
 #: model:ir.model.fields,field_description:website.field_ir_actions_server__website_path
 msgid "Website Path"
 msgstr "Veebilehe teekond"
-
-#. module: website
-#: model:ir.model,name:website.model_website_published_mixin
-msgid "Website Published Mixin"
-msgstr ""
 
 #. module: website
 #: model:ir.model,name:website.model_website_published_mixin

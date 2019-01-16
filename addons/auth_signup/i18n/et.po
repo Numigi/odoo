@@ -357,16 +357,6 @@ msgid "Config Settings"
 msgstr ""
 
 #. module: auth_signup
-#: model_terms:ir.ui.view,arch_db:auth_signup.res_users_view_form
-msgid "Close"
-msgstr ""
-
-#. module: auth_signup
-#: model:ir.model,name:auth_signup.model_res_config_settings
-msgid "Config Settings"
-msgstr ""
-
-#. module: auth_signup
 #: model_terms:ir.ui.view,arch_db:auth_signup.reset_password
 msgid "Confirm"
 msgstr ""
@@ -574,20 +564,6 @@ msgstr "Kasutaja mall, mis luuakse uutele kasutajatele registreerimisel"
 #, python-format
 msgid "The form was not properly filled in."
 msgstr "Vorm ei ole täidetud nõuetekohaselt"
-
-#. module: auth_signup
-#: code:addons/auth_signup/models/res_users.py:127
-#, python-format
-msgid "This is his first connection. Wish him welcome"
-msgstr ""
-
-#. module: auth_signup
-#: model_terms:ir.ui.view,arch_db:auth_signup.res_config_settings_view_form
-msgid ""
-"To send invitations in B2B mode, open a contact or select several ones in "
-"list view and click on 'Portal Access Management' option in the dropdown "
-"menu *Action*."
-msgstr ""
 
 #. module: auth_signup
 #: code:addons/auth_signup/models/res_users.py:127

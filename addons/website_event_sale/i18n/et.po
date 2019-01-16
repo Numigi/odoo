@@ -49,16 +49,6 @@ msgid "N/A"
 msgstr ""
 
 #. module: website_event_sale
-#: model:ir.model.fields,field_description:website_event_sale.field_product_product__event_ticket_ids
-msgid "Event Tickets"
-msgstr ""
-
-#. module: website_event_sale
-#: model_terms:ir.ui.view,arch_db:website_event_sale.registration_complete_inherit_website_event_sale
-msgid "N/A"
-msgstr ""
-
-#. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.index
 msgid "Only"
 msgstr "Ainult"
@@ -90,16 +80,6 @@ msgid "Sales Order Line"
 msgstr "Müügitellimuse rida"
 
 #. module: website_event_sale
-#: model:ir.model,name:website_event_sale.model_sale_order
-msgid "Sale Order"
-msgstr ""
-
-#. module: website_event_sale
-#: model:ir.model,name:website_event_sale.model_sale_order_line
-msgid "Sales Order Line"
-msgstr ""
-
-#. module: website_event_sale
 #: model_terms:ir.ui.view,arch_db:website_event_sale.index
 msgid "Sold Out"
 msgstr "Välja müüdud"
@@ -128,11 +108,6 @@ msgstr "Pilet ei kattu selle tootega."
 #: model_terms:ir.ui.view,arch_db:website_event_sale.registration_complete_inherit_website_event_sale
 msgid "Ticket"
 msgstr "Pilet"
-
-#. module: website_event_sale
-#: model_terms:ir.ui.view,arch_db:website_event_sale.registration_complete_inherit_website_event_sale
-msgid "Ticket"
-msgstr ""
 
 #. module: website_event_sale
 #: model:ir.model,name:website_event_sale.model_website

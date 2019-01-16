@@ -80,6 +80,11 @@ msgid "Do not link to a customer"
 msgstr "Ära seo kliendiga"
 
 #. module: crm_project
+#: selection:crm.lead.convert2task,action:0
+msgid "Do not link to a customer"
+msgstr "Ära seo kliendiga"
+
+#. module: crm_project
 #: model:ir.model.fields,field_description:crm_project.field_crm_lead_convert2task__id
 msgid "ID"
 msgstr ""

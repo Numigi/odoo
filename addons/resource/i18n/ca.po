@@ -290,6 +290,11 @@ msgid "Morning"
 msgstr "Matí"
 
 #. module: resource
+#: selection:resource.calendar.attendance,day_period:0
+msgid "Morning"
+msgstr "Matí"
+
+#. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_calendar__name
 #: model:ir.model.fields,field_description:resource.field_resource_calendar_attendance__name
 #: model:ir.model.fields,field_description:resource.field_resource_resource__name
@@ -344,6 +349,11 @@ msgid "Resource Leaves Detail"
 msgstr "Detall d'absències de recursos"
 
 #. module: resource
+#: model:ir.model,name:resource.model_resource_calendar_leaves
+msgid "Resource Leaves Detail"
+msgstr "Detall d'absències de recursos"
+
+#. module: resource
 #: model:ir.model,name:resource.model_resource_mixin
 msgid "Resource Mixin"
 msgstr ""
@@ -351,11 +361,6 @@ msgstr ""
 #. module: resource
 #: model:ir.model.fields,field_description:resource.field_resource_resource__resource_type
 msgid "Resource Type"
-msgstr ""
-
-#. module: resource
-#: model:ir.model,name:resource.model_resource_calendar
-msgid "Resource Working Time"
 msgstr ""
 
 #. module: resource
@@ -463,12 +468,6 @@ msgid "The start date of the leave must be earlier end date."
 msgstr ""
 
 #. module: resource
-#: code:addons/resource/models/resource.py:519
-#, python-format
-msgid "The start date of the leave must be earlier end date."
-msgstr ""
-
-#. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar__tz
 #: model:ir.model.fields,help:resource.field_resource_mixin__tz
 #: model:ir.model.fields,help:resource.field_resource_resource__tz
@@ -503,6 +502,11 @@ msgstr ""
 #: code:addons/resource/models/resource.py:163
 #, python-format
 msgid "Thursday Morning"
+msgstr ""
+
+#. module: resource
+#: model:ir.model.fields,field_description:resource.field_resource_calendar_leaves__time_type
+msgid "Time Type"
 msgstr ""
 
 #. module: resource
@@ -583,6 +587,14 @@ msgstr ""
 msgid ""
 "Whether this should be computed as a holiday or as work time (eg: formation)"
 msgstr ""
+
+#. module: resource
+#: model:ir.model.fields,help:resource.field_resource_calendar_leaves__time_type
+msgid ""
+"Whether this should be computed as a holiday or as work time (eg: formation)"
+msgstr ""
+"Indica si s'ha de comptar com vacances o temps de treball (exemple: "
+"formació)"
 
 #. module: resource
 #: model:ir.model.fields,help:resource.field_resource_calendar_leaves__time_type

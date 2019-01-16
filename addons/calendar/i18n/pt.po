@@ -977,11 +977,6 @@ msgid "Messages"
 msgstr "Mensagens"
 
 #. module: calendar
-#: model:ir.model.fields,field_description:calendar.field_calendar_event__message_ids
-msgid "Messages"
-msgstr "Mensagens"
-
-#. module: calendar
 #: selection:calendar.alarm,interval:0
 msgid "Minute(s)"
 msgstr "Minuto(s)"
